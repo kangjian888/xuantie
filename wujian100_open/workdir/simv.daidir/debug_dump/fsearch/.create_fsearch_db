@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/export/SoftWare/Synopsys/vcs/T-2022.06/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib:/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin/vcsfind_create_index.exe  -z  "/home/master/xuantie/wujian100_open/workdir/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" "/home/master/xuantie/wujian100_open/workdir/simv.daidir/debug_dump/fsearch/./idents_Ac3hyQ.xml.gz" -o "/home/master/xuantie/wujian100_open/workdir/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/master/xuantie/wujian100_open/workdir/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/master/xuantie/wujian100_open/workdir/simv.daidir/debug_dump/fsearch/fsearch.db"

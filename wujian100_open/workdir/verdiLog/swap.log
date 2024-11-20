@@ -1,0 +1,54 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 409600 bytes [need 400K bytes if disable swap]
+
+used block: 15 [memory(15) file(0)]
+                 [ 8K(10) 64K(5) { total 400K bytes } ]
+overhead: (9589) bytes for (15) blocks [Average: (639) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 5(times) 207K(bytes) [32K bytes compressed data from file]
+access => 732352(times) 5749M(bytes)
+          [hit ratio: 99.9993%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/master/xuantie/wujian100_open/workdir/verdiLog)
+used swap file number: (7)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (8)
+closeHead: (1)
+closeTail: (7)
+openCnt: (6)
+fid(7): fd(1073741828) fileName(/home/master/xuantie/wujian100_open/workdir/simv.daidir/kdb.elab++/work.lib++/tim.v.tdc)
+	size(26626) lastModTime(1731852006) curModTime(1731852006)
+	mode(rb)	hot(0) cool(6) pos(0)
+fid(6): fd(1073741827) fileName(/home/master/xuantie/wujian100_open/workdir/simv.daidir/kdb.elab++/work.lib++/tim3.v.tdc)
+	size(6521) lastModTime(1731852006) curModTime(1731852006)
+	mode(rb)	hot(7) cool(5) pos(0)
+fid(5): fd(1073741826) fileName(/home/master/xuantie/wujian100_open/workdir/simv.daidir/kdb.elab++/work.lib++/tim1.v.tdc)
+	size(6507) lastModTime(1731852006) curModTime(1731852006)
+	mode(rb)	hot(6) cool(3) pos(0)
+fid(4): fd(0) fileName(/home/master/xuantie/wujian100_open/workdir/simv.daidir/kdb.elab++/work.lib++/wujian100_open_top.v.tdc)
+	size(41966) lastModTime(1731852006) curModTime(1731852006)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(3): fd(1073741825) fileName(/home/master/xuantie/wujian100_open/workdir/simv.daidir/kdb.elab++/work.lib++/core_top.v.tdc)
+	size(21570) lastModTime(1731852005) curModTime(1731852005)
+	mode(rb)	hot(5) cool(2) pos(0)
+fid(2): fd(24) fileName(/home/master/xuantie/wujian100_open/workdir/verdiLog/_swap_0001#-1771385089#74714)
+	size(0) lastModTime(0) curModTime(1731852026)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/master/xuantie/wujian100_open/workdir/simv.daidir/kdb.elab++/work.lib++/tb.v.tdc)
+	size(11421) lastModTime(1731852005) curModTime(1731852005)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x1a8f0a50) pre(0x1a8e2370) next((nil))
+version(200506)
+date(Apr 25 2022 02:34:42)

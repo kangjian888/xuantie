@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1731852004.900259100, "rt":12.61, "ut":7.50, "st":0.50}}
+{"vcselab":{"timestamp_begin":1731852017.559616084, "rt":0.56, "ut":0.37, "st":0.06}}
+{"link":{"timestamp_begin":1731852018.160122470, "rt":0.20, "ut":0.08, "st":0.07}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1731852004.094014122}
+{"VCS_COMP_START_TIME": 1731852004.094014122}
+{"VCS_COMP_END_TIME": 1731852019.848811542}
+{"VCS_USER_OPTIONS": "+v2k -Mupdate -sverilog -kdb +nospecify +notimingchecks -timescale=1ns/100ps /home/master/xuantie/wujian100_open//tb/tb.v /home/master/xuantie/wujian100_open//workdir/ +incdir+../workdir+../soc/params+../tb +libext+.v+.sv+.inc+.h -R -v ../tb/tb.v -v ../tb/busmnt.v -v ../tb/virtual_counter.v -y ../tb/ -v ../soc/sim_lib/PAD_DIG_IO.v ../soc/sim_lib/PAD_OSC_IO.v ../soc/sim_lib/STD_CELL.v ../soc/sim_lib/fpga_byte_spram.v ../soc/sim_lib/fpga_spram.v -v ../soc/E902_20191018.v ../soc/ahb_matrix_top.v ../soc/aou_top.v ../soc/apb0.v ../soc/apb0_sub_top.v ../soc/apb1.v ../soc/apb1_sub_top.v ../soc/clkgen.v ../soc/common.v ../soc/core_top.v ../soc/dmac.v ../soc/dummy.v ../soc/gpio0.v ../soc/ls_sub_top.v ../soc/matrix.v ../soc/pdu_top.v ../soc/pwm.v ../soc/retu_top.v ../soc/rtc.v ../soc/sms.v ../soc/smu_top.v ../soc/tim.v ../soc/tim1.v ../soc/tim2.v ../soc/tim3.v ../soc/tim4.v ../soc/tim5.v ../soc/tim6.v ../soc/tim7.v ../soc/usi0.v ../soc/usi1.v ../soc/wdt.v ../soc/wujian100_open_top.v -full64 -debug_access+all"}
+{"vcs1": {"peak_mem": 481544}}
+{"stitch_vcselab": {"peak_mem": 235832}}

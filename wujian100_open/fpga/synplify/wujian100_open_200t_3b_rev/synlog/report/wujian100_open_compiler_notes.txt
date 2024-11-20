@@ -1,0 +1,285 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":466:63:466:75|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":555:37:555:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":557:41:557:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":568:41:568:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":933:36:933:48|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":965:37:965:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":986:37:986:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1007:37:1007:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1029:37:1029:49|Read a parallel_case directive.
+@N: CG334 :"/home/master/xuantie/wujian100_open/soc/matrix.v":224:12:224:24|Read directive translate_off.
+@N: CG333 :"/home/master/xuantie/wujian100_open/soc/matrix.v":237:12:237:23|Read directive translate_on.
+@N: CG334 :"/home/master/xuantie/wujian100_open/soc/matrix.v":452:12:452:24|Read directive translate_off.
+@N: CG333 :"/home/master/xuantie/wujian100_open/soc/matrix.v":465:12:465:23|Read directive translate_on.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1066:56:1066:68|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2839:42:2839:54|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2866:41:2866:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2916:42:2916:54|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2981:40:2981:52|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3071:41:3071:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3555:50:3555:62|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3581:38:3581:50|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3616:41:3616:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3669:37:3669:49|Read a parallel_case directive.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/clkgen.v":11:7:11:19|Synthesizing module pmu_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":166:7:166:16|Synthesizing module gpio_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":525:7:525:15|Synthesizing module gpio_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":1134:7:1134:14|Synthesizing module gpio_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":19:7:19:11|Synthesizing module gpio0 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":89:7:89:19|Synthesizing module gpio0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/common.v":43:7:43:20|Synthesizing module gated_clk_cell in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":700:7:700:19|Synthesizing module rtc_pdu_apbif in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/rtc.v":979:17:979:23|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":371:7:371:18|Synthesizing module rtc_cdr_sync in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":481:7:481:18|Synthesizing module rtc_clr_sync in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":1014:7:1014:17|Synthesizing module rtc_pdu_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":564:7:564:13|Synthesizing module rtc_cnt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":619:7:619:12|Synthesizing module rtc_ig in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":431:7:431:17|Synthesizing module rtc_clk_div in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":135:7:135:19|Synthesizing module rtc_aou_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":241:7:241:17|Synthesizing module rtc_aou_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":21:7:21:18|Synthesizing module rtc0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/aou_top.v":11:7:11:13|Synthesizing module aou_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":31794:7:31794:25|Synthesizing module ahb_matrix_7_12_dec in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1859:7:1859:25|Synthesizing module ahb_matrix_7_12_arb in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34729:7:34729:26|Synthesizing module ahb_matrix_7_12_main in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":73:7:73:20|Synthesizing module ahbm_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":36:7:36:19|Synthesizing module ahb_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":631:7:631:15|Synthesizing module bmux_ctrl in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1059:21:1059:29|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15929:7:15929:12|Synthesizing module gbregc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3587:7:3587:13|Synthesizing module chregc0 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7759:7:7759:13|Synthesizing module chregc1 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8355:7:8355:13|Synthesizing module chregc2 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8951:7:8951:13|Synthesizing module chregc3 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9547:7:9547:13|Synthesizing module chregc4 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10143:7:10143:13|Synthesizing module chregc5 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10739:7:10739:13|Synthesizing module chregc6 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11335:7:11335:13|Synthesizing module chregc7 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11931:7:11931:13|Synthesizing module chregc8 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12527:7:12527:13|Synthesizing module chregc9 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4183:7:4183:14|Synthesizing module chregc10 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4779:7:4779:14|Synthesizing module chregc11 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5375:7:5375:14|Synthesizing module chregc12 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5971:7:5971:14|Synthesizing module chregc13 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6567:7:6567:14|Synthesizing module chregc14 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7163:7:7163:14|Synthesizing module chregc15 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16237:7:16237:14|Synthesizing module reg_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3549:7:3549:18|Synthesizing module chntrg_latch in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16224:7:16224:16|Synthesizing module hpchn_decd in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11:7:11:14|Synthesizing module arb_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15225:7:15225:10|Synthesizing module fsmc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1077:7:1077:13|Synthesizing module ch_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":13123:7:13123:14|Synthesizing module dmac_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":11:7:11:20|Synthesizing module ahb_matrix_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":467:7:467:28|Synthesizing module ahb_matrix_1_6_sub_dec in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":239:7:239:16|Synthesizing module afifo_77x2 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/matrix.v":303:4:303:9|Found RAM mem, depth=2, width=77
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":11:7:11:16|Synthesizing module afifo_35x2 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/matrix.v":75:4:75:9|Found RAM mem, depth=2, width=35
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1386:7:1386:24|Synthesizing module ahb_matrix_1_6_sub in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":11:7:11:16|Synthesizing module ls_sub_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":83:7:83:21|Synthesizing module apb0_state_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":11:7:11:19|Synthesizing module apb0_leaf_mux in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":357:8:357:20|Synthesizing module csky_apb0_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":92:7:92:18|Synthesizing module timers_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":432:7:432:16|Synthesizing module timers_frc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":535:7:535:16|Synthesizing module timers_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":672:7:672:13|Synthesizing module tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":11:7:11:18|Synthesizing module tim0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim2.v":94:7:94:18|Synthesizing module tim2_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim2.v":11:7:11:18|Synthesizing module tim2_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim4.v":93:7:93:18|Synthesizing module tim4_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim4.v":11:7:11:18|Synthesizing module tim4_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim6.v":93:7:93:18|Synthesizing module tim6_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim6.v":11:7:11:18|Synthesizing module tim6_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3335:7:3335:10|Synthesizing module uart in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3568:32:3568:38|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":602:7:602:10|Synthesizing module i2cm in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1625:7:1625:10|Synthesizing module i2cs in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2134:7:2134:13|Synthesizing module i2c_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2625:7:2625:9|Synthesizing module spi in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2399:7:2399:14|Synthesizing module sdata_if in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":39:7:39:12|Synthesizing module apb_if in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3107:7:3107:21|Synthesizing module sync_fifo_16x16 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3212:0:3212:5|Found RAM mem_fifo, depth=16, width=16
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3916:7:3916:13|Synthesizing module usi_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3765:7:3765:18|Synthesizing module usi0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi1.v":162:7:162:18|Synthesizing module usi2_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":11:7:11:19|Synthesizing module apb_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":11:7:11:13|Synthesizing module wdt_biu in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":242:7:242:17|Synthesizing module wdt_regfile in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":43:7:43:13|Synthesizing module wdt_cnt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":165:7:165:14|Synthesizing module wdt_isrg in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":116:7:116:14|Synthesizing module wdt_isrc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":588:7:588:9|Synthesizing module wdt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":519:7:519:17|Synthesizing module wdt_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/common.v":11:7:11:14|Synthesizing module clk_mux2 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":4772:7:4772:13|Synthesizing module pwm_gen in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":3113:7:3113:14|Synthesizing module pwm_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1147:7:1147:15|Synthesizing module pwm_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":64:7:64:9|Synthesizing module pwm in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5314:7:5314:17|Synthesizing module pwm_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":11:7:11:18|Synthesizing module apb0_sub_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":83:7:83:21|Synthesizing module apb1_state_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":11:7:11:19|Synthesizing module apb1_leaf_mux in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":357:8:357:20|Synthesizing module csky_apb1_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim1.v":92:7:92:18|Synthesizing module tim1_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim1.v":11:7:11:18|Synthesizing module tim1_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim3.v":93:7:93:18|Synthesizing module tim3_tim_top in library work.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9615:0:9615:5|Register bit ibus_prot_reg[0] is always 0.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9319:17:9319:25|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9356:21:9356:33|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13006:15:13006:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":15396:19:15396:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6579:15:6579:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6670:14:6670:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6867:12:6867:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6877:12:6877:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6885:12:6885:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6909:11:6909:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6923:12:6923:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":945:25:945:41|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":955:24:955:39|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1360:20:1360:31|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1387:21:1387:33|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20683:11:20683:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20737:14:20737:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20838:11:20838:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20860:14:20860:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21646:25:21646:41|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21657:14:21657:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22281:19:22281:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22282:22:22282:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22302:16:22302:18|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22303:14:22303:16|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22304:20:22304:25|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22305:16:22305:18|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22342:14:22342:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22352:11:22352:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22362:14:22362:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22385:14:22385:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22396:11:22396:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22407:14:22407:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22418:14:22418:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22429:11:22429:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22445:16:22445:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21478:14:21478:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21512:14:21512:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21523:11:21523:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21533:14:21533:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21572:11:21572:13|Removing redundant assignment.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20180:0:20180:5|Register bit xx_tcip_grant is always 0.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2448:18:2448:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2475:19:2475:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5497:14:5497:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5498:19:5498:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5508:18:5508:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5522:18:5522:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5599:19:5599:29|Removing redundant assignment.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v":35:0:35:5|Found RAM mem, depth=16384, width=8
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/sms.v":223:16:223:24|Input mem_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":117:16:117:25|Input bist0_mode is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":124:16:124:35|Input hmain0_cpu_m1_hrdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":125:16:125:35|Input hmain0_cpu_m1_hready is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":126:16:126:34|Input hmain0_cpu_m1_hresp is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":149:16:149:22|Input scan_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2338:15:2338:29|Input ctl_xx_prot_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2340:15:2340:30|Input int_sec_updt_val is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1972:16:1972:31|Input ctrl_arb_int_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1974:16:1974:35|Input ctrl_arb_prio10_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1975:16:1975:35|Input ctrl_arb_prio11_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1976:16:1976:35|Input ctrl_arb_prio12_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1977:16:1977:35|Input ctrl_arb_prio13_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1978:16:1978:35|Input ctrl_arb_prio14_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1979:16:1979:35|Input ctrl_arb_prio15_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1987:16:1987:34|Input ctrl_arb_prio8_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1988:16:1988:34|Input ctrl_arb_prio9_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20252:16:20252:35|Input bmu_tcipif_ibus_addr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20254:16:20254:36|Input bmu_tcipif_ibus_write is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21271:16:21271:21|Input A18551 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21272:16:21272:19|Input A151 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21273:16:21273:21|Input A18550 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21741:16:21741:31|Input cp0_had_int_exit is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21759:16:21759:41|Input iu_had_retire_with_had_int is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21769:16:21769:30|Input tcipif_had_addr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21771:16:21771:31|Input tcipif_had_wdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21772:16:21772:31|Input tcipif_had_write is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21601:15:21601:31|Input pad_had_jdb_req_b is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20940:16:20940:35|Input iu_had_chgflw_dst_pc is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20941:16:20941:32|Input iu_had_chgflw_vld is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":510:16:510:22|Input cpu_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6755:16:6755:29|Input iu_yy_xx_dbgon is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6270:16:6270:31|Input sysio_cp0_bigend is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6271:16:6271:33|Input sysio_cp0_clkratio is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6272:16:6272:34|Input sysio_cp0_endian_v2 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12583:16:12583:35|Input iu_hs_split_ex_stall is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12584:16:12584:33|Input iu_ifu_spcu_int_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":14877:16:14877:35|Input had_iu_bkpt_trace_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":8450:16:8450:41|Input ifctrl_ibuf_inst_pipe_down is unused.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9323:0:9323:5|Register bit entry_inst[16] is always 0.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":54:16:54:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":62:16:62:30|Input tipc_usi1_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim7.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim7.v":44:16:44:30|Input tipc_tim7_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim5.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim5.v":44:16:44:30|Input tipc_tim5_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim3.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim3.v":44:16:44:30|Input tipc_tim3_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim1.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim1.v":44:16:44:30|Input tipc_tim1_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/apb1.v":94:42:94:55|Input i_slave_hburst is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5401:16:5401:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5407:16:5407:29|Input tipc_pwm_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/wdt.v":537:16:537:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/wdt.v":543:16:543:29|Input tipc_wdt_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":23:16:23:20|Input paddr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":24:16:24:19|Input pclk is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":25:16:25:22|Input penable is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":26:16:26:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":27:16:27:19|Input psel is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":28:16:28:21|Input pwdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":29:16:29:21|Input pwrite is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":30:16:30:22|Input presetn is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":205:16:205:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":213:16:213:30|Input tipc_usi2_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3808:16:3808:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3816:16:3816:30|Input tipc_usi0_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim6.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim6.v":44:16:44:30|Input tipc_tim6_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim4.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim4.v":44:16:44:30|Input tipc_tim4_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim2.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim2.v":44:16:44:30|Input tipc_tim2_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":44:16:44:30|Input tipc_tim0_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":573:48:573:56|Input scan_mode is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/apb0.v":94:42:94:55|Input i_slave_hburst is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7210:16:7210:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6614:16:6614:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6018:16:6018:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5422:16:5422:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4826:16:4826:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4230:16:4230:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12574:16:12574:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11978:16:11978:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11382:16:11382:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10786:16:10786:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10190:16:10190:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9594:16:9594:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8998:16:8998:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8402:16:8402:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7806:16:7806:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3634:16:3634:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16042:16:16042:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":51:16:51:20|Input haddr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":52:16:52:19|Input hclk is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":53:16:53:20|Input hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":54:16:54:21|Input hrst_b is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":55:16:55:19|Input hsel is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":56:16:56:20|Input hsize is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":57:16:57:21|Input htrans is unused.
+@N|Running in 64-bit mode
+

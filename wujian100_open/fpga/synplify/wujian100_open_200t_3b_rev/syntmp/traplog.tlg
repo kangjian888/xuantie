@@ -1,0 +1,20 @@
+@N: CD630 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/gentmp4998LJN6IY":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0moIJBa":10:7:10:13|Synthesizing work.seq_srl.static_srl.
+@W: CD326 :"syng0moIJBa":140:12:140:15|Port q31 of entity unisim.srlc32e is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim.vhd":29840:10:29840:16|Synthesizing unisim.srlc32e.syn_black_box.
+Post processing for unisim.srlc32e.syn_black_box
+@W: CD638 :"syng0moIJBa":107:7:107:15|Signal tmp_array_1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"syng0moIJBa":108:7:108:17|Signal tmp_d_array_1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"syng0moIJBa":109:7:109:14|Signal tmp_addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"syng0moIJBa":110:7:110:18|Signal tmp_out_addr is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.seq_srl.static_srl
+Running optimization stage 1 on SEQ_SRL .......
+@W: CL240 :"syng0moIJBa":108:7:108:17|Signal tmp_d_array_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"syng0moIJBa":107:7:107:15|Signal tmp_array_1 is floating; a simulation mismatch is possible.
+Post processing for work.top.gen
+Running optimization stage 1 on top .......
+Running optimization stage 2 on SEQ_SRL .......
+@N: CL159 :"syng0moIJBa":18:6:18:10|Input RADDR is unused.
+@N: CL159 :"syng0moIJBa":22:6:22:10|Input A_RST is unused.
+@N: CL159 :"syng0moIJBa":23:6:23:10|Input S_RST is unused.
+Running optimization stage 2 on top .......

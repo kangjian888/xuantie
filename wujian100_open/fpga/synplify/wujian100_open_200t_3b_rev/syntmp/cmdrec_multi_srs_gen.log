@@ -1,0 +1,8 @@
+/export/SoftWare/Synopsys/fpga/Q-2020.03/bin/syn_nfilter  -link  -top  wujian100_open_top  -multisrs  /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synwork/wujian100_open_comp.srs  -osyn  /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synwork/wujian100_open_mult.srs  -log  /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synlog/wujian100_open_multi_srs_gen.srr 
+relcom:/export/SoftWare/Synopsys/fpga/Q-2020.03/bin/syn_nfilter -link -top wujian100_open_top -multisrs ../synwork/wujian100_open_comp.srs -osyn ../synwork/wujian100_open_mult.srs -log ../synlog/wujian100_open_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/wujian100_open_comp.srs|io:i|time:1731935093|size:1190350|exec:0|csum:918590F2177D3C6092AE9335BA62E155
+file:../synwork/wujian100_open_mult.srs|io:o|time:1731935095|size:19193|exec:0|csum:
+file:../synlog/wujian100_open_multi_srs_gen.srr|io:o|time:1731935095|size:1137|exec:0|csum:
+file:/export/SoftWare/Synopsys/fpga/Q-2020.03/linux_a_64/syn_nfilter|io:i|time:1582930706|size:12408736|exec:1|csum:CD04F4CF7FE39E9F57F0EF6D1B267724
+file:/export/SoftWare/Synopsys/fpga/Q-2020.03/bin/syn_nfilter|io:i|time:1582930458|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

@@ -1,0 +1,39 @@
+@P:  Worst Slack : 16.210
+@P:  CLKDIV - Estimated Frequency : 43.0 MHz
+@P:  CLKDIV - Requested Frequency : 5.0 MHz
+@P:  CLKDIV - Estimated Period : 23.237
+@P:  CLKDIV - Requested Period : 200.000
+@P:  CLKDIV - Slack : 44.191
+@P:  I_RTC_EXT_CLK - Estimated Frequency : NA
+@P:  I_RTC_EXT_CLK - Requested Frequency : 1.0 MHz
+@P:  I_RTC_EXT_CLK - Estimated Period : NA
+@P:  I_RTC_EXT_CLK - Requested Period : 1000.000
+@P:  I_RTC_EXT_CLK - Slack : NA
+@P:  PAD_JTAG_TCLK - Estimated Frequency : 286.4 MHz
+@P:  PAD_JTAG_TCLK - Requested Frequency : 2.0 MHz
+@P:  PAD_JTAG_TCLK - Estimated Period : 3.491
+@P:  PAD_JTAG_TCLK - Requested Period : 500.000
+@P:  PAD_JTAG_TCLK - Slack : 248.254
+@P:  PIN_EHS - Estimated Frequency : 29.6 MHz
+@P:  PIN_EHS - Requested Frequency : 20.0 MHz
+@P:  PIN_EHS - Estimated Period : 33.790
+@P:  PIN_EHS - Requested Period : 50.000
+@P:  PIN_EHS - Slack : 16.210
+@P:  RTC_CLK_DIV - Estimated Frequency : 226.3 MHz
+@P:  RTC_CLK_DIV - Requested Frequency : 0.5 MHz
+@P:  RTC_CLK_DIV - Estimated Period : 4.419
+@P:  RTC_CLK_DIV - Requested Period : 2000.000
+@P:  RTC_CLK_DIV - Slack : 1995.581
+@P:  wujian100_open_top|PAD_JTAG_TCLK - Estimated Frequency : NA
+@P:  wujian100_open_top|PAD_JTAG_TCLK - Requested Frequency : 1.0 MHz
+@P:  wujian100_open_top|PAD_JTAG_TCLK - Estimated Period : NA
+@P:  wujian100_open_top|PAD_JTAG_TCLK - Requested Period : 1000.000
+@P:  wujian100_open_top|PAD_JTAG_TCLK - Slack : NA
+@P: wujian100_open_top Part : xc7a200tfbg484-2l
+@P: wujian100_open_top I/O primitives : 62
+@P: wujian100_open_top I/O Register bits : 0
+@P: wujian100_open_top Register bits (Non I/O) : 13387 (4%)
+@P: wujian100_open_top Simple Dual Port Rams (RAM32M) : 18
+@P: wujian100_open_top Block Rams : 64 of 365 (17%)
+@P: wujian100_open_top Total Luts : 25171 of 134600 (18%)
+@P:  CPU Time : 0h:02m:59s

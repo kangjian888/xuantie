@@ -1,0 +1,66 @@
+Command Line: /export/SoftWare/Synopsys/verdi/T-2022.06/platform/LINUXAMD64/bin/Novas -dbdir ./simv.daidir -ssf vg_dump.fsdb
+uname(Linux icpc 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+type= DS_SIGNAL element= 10 field= 2
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_haddr[31:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_hburst[2:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_hprot[3:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_hsize[2:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_htrans[1:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_hwdata[31:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG cpu_hmain0_m0_hwrite
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG hmain0_cpu_m0_hrdata[31:0]
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG hmain0_cpu_m0_hready
+-----
+second field= signal
+VERILOG wujian100_open_tb
+VERILOG x_wujian100_open_top
+VERILOG x_cpu_top
+VERILOG hmain0_cpu_m0_hresp[1:0]
+-----
+second field= signal
+type= DS_STRING
+cpu_hmain0_m0_haddr[31:0] cpu_hmain0_m0_hburst[2:0] cpu_hmain0_m0_hprot[3:0] cpu_hmain0_m0_hsize[2:0] cpu_hmain0_m0_htrans[1:0] cpu_hmain0_m0_hwdata[31:0] cpu_hmain0_m0_hwrite hmain0_cpu_m0_hrdata[31:0] hmain0_cpu_m0_hready hmain0_cpu_m0_hresp[1:0]
+au time 81943.014887 278.908489 47.126429 delta 275898368 275898368 total 801075200 801075200

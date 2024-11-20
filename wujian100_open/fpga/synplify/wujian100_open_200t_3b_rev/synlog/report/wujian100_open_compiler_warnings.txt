@@ -1,0 +1,201 @@
+@W: CS141 :"/home/master/xuantie/wujian100_open/soc/common.v":28:28:28:36|Unrecognized synthesis directive infer_mux. Verify the correct directive name.
+@W: CG1337 :"/home/master/xuantie/wujian100_open/soc/apb0.v":140:8:140:14|Net pslverr is not declared.
+@W: CG1337 :"/home/master/xuantie/wujian100_open/soc/apb1.v":140:8:140:14|Net pslverr is not declared.
+@W: CG133 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":659:8:659:8|Object i is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/soc/common.v":63:7:63:21|Object clk_en_af_latch is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3927:0:3927:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8099:0:8099:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8695:0:8695:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9291:0:9291:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9887:0:9887:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10483:0:10483:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11079:0:11079:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11675:0:11675:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12271:0:12271:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12867:0:12867:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4523:0:4523:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5119:0:5119:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5715:0:5715:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6311:0:6311:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6907:0:6907:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL207 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7503:0:7503:5|All reachable assignments to we_prot assign 1, register removed by optimization.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/matrix.v":355:3:355:8|Pruning unused register rd_data_q[76:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/matrix.v":330:3:330:8|Pruning unused register empty_q. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/matrix.v":127:3:127:8|Pruning unused register rd_data_q[34:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/matrix.v":102:3:102:8|Pruning unused register empty_q. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/tim.v":340:0:340:5|Pruning unused register timer1_int_ff1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/tim.v":340:0:340:5|Pruning unused register timer1_int_ff2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/tim.v":340:0:340:5|Pruning unused register timer2_int_ff1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/tim.v":340:0:340:5|Pruning unused register timer2_int_ff2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/tim.v":508:0:508:5|Pruning unused register extend2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/tim.v":508:0:508:5|Pruning unused register extend3. Make sure that there are no unused intermediate registers.
+@W: CG360 :"/home/master/xuantie/wujian100_open/soc/tim.v":591:46:591:59|Removing wire bus_load_value, as there is no assignment to it.
+@W: CL265 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2563:0:2563:5|Removing unused bit 3 of sd1_in_d[3:0]. Either assign all bits or reduce the width of the signal.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Optimizing register bit prdata[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/master/xuantie/wujian100_open/soc/usi0.v":390:0:390:5|Pruning register bits 31 to 24 of prdata[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3262:0:3262:5|Pruning unused register full_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/wdt.v":108:0:108:5|Pruning unused register extend. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/wdt.v":92:0:92:5|Pruning unused register ext_rise_edge. Make sure that there are no unused intermediate registers.
+@W: CG133 :"/home/master/xuantie/wujian100_open/soc/wdt.v":188:28:188:40|Object prev_zero_cnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/wdt.v":205:0:205:5|Pruning unused register extend. Make sure that there are no unused intermediate registers.
+@W: CG360 :"/home/master/xuantie/wujian100_open/soc/wdt.v":622:35:622:41|Removing wire byte_en, as there is no assignment to it.
+@W: CG360 :"/home/master/xuantie/wujian100_open/soc/wdt.v":638:35:638:44|Removing wire wdt_clk_en, as there is no assignment to it.
+@W: CG360 :"/home/master/xuantie/wujian100_open/soc/wdt.v":640:35:640:39|Removing wire pause, as there is no assignment to it.
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 1 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 2 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 3 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 4 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 5 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 6 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 7 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 14 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 15 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 22 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1763:16:1763:25|No assignment to bit 23 of int_pwmic1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1764:16:1764:25|No assignment to bit 6 of int_pwmic2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1764:16:1764:25|No assignment to bit 7 of int_pwmic2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1764:16:1764:25|No assignment to bit 14 of int_pwmic2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1764:16:1764:25|No assignment to bit 15 of int_pwmic2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 1 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 2 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 3 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 4 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 5 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 6 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 7 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 14 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 15 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 22 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1765:16:1765:28|No assignment to bit 23 of int_pwminten1
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1766:16:1766:28|No assignment to bit 6 of int_pwminten2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1766:16:1766:28|No assignment to bit 7 of int_pwminten2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1766:16:1766:28|No assignment to bit 14 of int_pwminten2
+@W: CG134 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1766:16:1766:28|No assignment to bit 15 of int_pwminten2
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9615:0:9615:5|Pruning register bit 0 of ibus_prot_reg[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12997:0:12997:5|Pruning unused register mad_neg. Make sure that there are no unused intermediate registers.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13100:0:13100:5|Optimizing register bit cur_st[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13100:0:13100:5|Pruning register bit 2 of cur_st[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17243:0:17243:5|Optimizing register bit cur_state[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17243:0:17243:5|Pruning register bit 3 of cur_state[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL113 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6880:0:6880:5|Feedback mux created for signal mprv. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6880:0:6880:5|All reachable assignments to mprv assign 0, register removed by optimization
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6887:0:6887:5|Optimizing register bit pm[0] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6887:0:6887:5|Optimizing register bit pm[1] to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6887:0:6887:5|Pruning unused register pm[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":964:0:964:5|Optimizing register bit cross_cur_st[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":964:0:964:5|Pruning register bit 2 of cross_cur_st[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL265 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22108:0:22108:5|Removing unused bit 1 of A1861e[1:0]. Either assign all bits or reduce the width of the signal.
+@W: CL271 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Pruning unused bits 5 to 4 of nlbits_7[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Optimizing register bit nmbits[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Optimizing register bit nmbits[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Optimizing register bit nlbits[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Optimizing register bit nlbits[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Pruning unused register nmbits[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL279 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2209:0:2209:5|Pruning register bits 3 to 2 of nlbits[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL168 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3275:13:3275:31|Removing instance x_cr_clic_kid_dummy because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"/home/master/xuantie/wujian100_open/soc/core_top.v":466:0:466:5|Pruning unused register cpu_pmu_srst_b. Make sure that there are no unused intermediate registers.
+@W: CL279 :"/home/master/xuantie/wujian100_open/soc/sms.v":316:0:316:5|Pruning register bits 15 to 2 of harb_xx_haddr_r[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG1283 :"/home/master/xuantie/wujian100_open/soc/sms.v":602:43:602:54|Type of parameter MEMDEPTH on the instance x_fpga_spram is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v":33:40:33:57|Type of parameter MEMDEPTH on the instance x_fpga_byte0_spram is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v":42:40:42:57|Type of parameter MEMDEPTH on the instance x_fpga_byte1_spram is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v":51:40:51:57|Type of parameter MEMDEPTH on the instance x_fpga_byte2_spram is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v":60:40:60:57|Type of parameter MEMDEPTH on the instance x_fpga_byte3_spram is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/sms.v":214:16:214:28|Input port bits 31 to 16 of harb_xx_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/sms.v":217:16:217:29|Input port bit 0 of harb_xx_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5370:16:5370:34|Input port bits 15 to 8 of tcipif_coretim_addr[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5370:16:5370:34|Input port bits 1 to 0 of tcipif_coretim_addr[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5372:16:5372:35|Input port bits 31 to 24 of tcipif_coretim_wdata[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2341:15:2341:31|Input port bits 4 to 0 of intcfg_updt_value[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2277:0:2277:5|Pruning register bits 9 to 7 of clic_pad_int_id[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2277:0:2277:5|Pruning register bits 4 to 1 of clic_pad_int_il[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2277:0:2277:5|Pruning register bit 1 of clic_pad_int_priv[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1989:16:1989:39|Input port bits 7 to 3 of ctrl_xx_cliccfg_updt_val[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2635:17:2635:32|Input port bits 15 to 12 of tcipif_clic_addr[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21740:16:21740:33|Input port bits 31 to 28 of cp0_had_cpuid_idx0[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21740:16:21740:33|Input port bits 25 to 0 of cp0_had_cpuid_idx0[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21743:16:21743:34|Input port bits 31 to 30 of cp0_had_mcause_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21743:16:21743:34|Input port bits 25 to 24 of cp0_had_mcause_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21743:16:21743:34|Input port bits 15 to 0 of cp0_had_mcause_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21763:16:21763:34|Input port bit 0 of iu_had_xx_retire_pc[31:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20958:16:20958:21|Input port bits 8 to 5 of A18553[8:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6142:0:6142:5|Pruning register bit 1 of lpmd_b[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6765:16:6765:27|Input port bits 29 to 28 of iui_oreg_rs1[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6765:16:6765:27|Input port bits 26 to 24 of iui_oreg_rs1[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6765:16:6765:27|Input port bits 15 to 10 of iui_oreg_rs1[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":14115:16:14115:34|Input port bit 0 of ifu_iu_xx_ibus_data[31:0] is unused
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":10931:16:10931:32|Input port bit 0 of lsu_iu_branch_rst[31:0] is unused
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12674:17:12674:30|Input port bit 31 of lsu_iu_mad_buf[31:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13465:16:13465:42|Input port bits 20 to 17 of randclk_oper_gpr_mod_en_w32[20:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13465:16:13465:42|Input port bit 2 of randclk_oper_gpr_mod_en_w32[20:0] is unused
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13465:16:13465:42|Input port bit 0 of randclk_oper_gpr_mod_en_w32[20:0] is unused
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":11490:16:11490:34|Input port bit 0 of branch_pcgen_add_pc[30:0] is unused
+@W: CL260 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9323:0:9323:5|Pruning register bit 16 of entry_inst[16:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim7.v":115:16:115:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim5.v":116:16:116:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim3.v":115:16:115:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim1.v":114:16:114:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/apb1.v":92:42:92:55|Input port bit 0 of i_slave_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/apb1.v":95:42:95:54|Input port bits 3 to 2 of i_slave_hprot[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1460:16:1460:20|Input port bits 31 to 12 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1460:16:1460:20|Input port bits 1 to 0 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/wdt.v":534:16:534:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/wdt.v":254:45:254:51|Input port bits 31 to 8 of ipwdata[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/wdt.v":19:43:19:47|Input port bits 1 to 0 of paddr[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/usi0.v":161:16:161:20|Input port bits 31 to 12 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/usi0.v":164:16:164:21|Input port bits 31 to 24 of pwdata[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1664:16:1664:26|Input port bit 2 of i2c_intr_en[3:0] is unused
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/usi0.v":654:16:654:26|Input port bit 3 of i2c_intr_en[4:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim6.v":115:16:115:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim4.v":115:16:115:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim2.v":116:16:116:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/tim.v":694:16:694:20|Input port bits 31 to 8 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/apb0.v":92:42:92:55|Input port bit 0 of i_slave_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/apb0.v":95:42:95:54|Input port bits 3 to 2 of i_slave_hprot[3:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/matrix.v":557:16:557:23|Input port bit 0 of m_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7209:16:7209:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7212:16:7212:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6613:16:6613:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6616:16:6616:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6017:16:6017:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6020:16:6020:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5421:16:5421:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5424:16:5424:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4825:16:4825:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4828:16:4828:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4229:16:4229:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4232:16:4232:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12573:16:12573:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12576:16:12576:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11977:16:11977:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11980:16:11980:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11381:16:11381:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11384:16:11384:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10785:16:10785:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10788:16:10788:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10189:16:10189:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10192:16:10192:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9593:16:9593:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9596:16:9596:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8997:16:8997:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9000:16:9000:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8401:16:8401:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8404:16:8404:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7805:16:7805:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7808:16:7808:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3633:16:3633:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3636:16:3636:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16041:16:16041:22|Input port bits 31 to 10 of s_haddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16044:16:16044:23|Input port bit 0 of s_htrans[1:0] is unused
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16045:16:16045:23|Input port bits 31 to 1 of s_hwdata[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/rtc.v":729:16:729:20|Input port bits 31 to 6 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/rtc.v":729:16:729:20|Input port bits 1 to 0 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":37:16:37:20|Input port bits 31 to 7 of paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":194:31:194:35|Input port bits 1 to 0 of paddr[6:0] are unused. Assign logic for all port bits or change the input port size.
+

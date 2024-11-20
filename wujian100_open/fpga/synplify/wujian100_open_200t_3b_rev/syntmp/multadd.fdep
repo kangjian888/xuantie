@@ -1,0 +1,25 @@
+#OPTIONS:"|-modgen|-top|DSP48E1|-I|/export/SoftWare/Synopsys/fpga/Q-2020.03/lib|-devicelib|/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.param"
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/linux_a_64/c_ver":1583123929
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim.v":1582930609
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/hypermods.v":1582930644
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/umr_capim.v":1582930663
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/synip/hcei/zceistubs.v":1582930580
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/scemi_objects.v":1582930644
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/scemi_pipes.svh":1582930644
+#CUR:"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":1731982593
+#CUR:"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.param":1731982593
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work DSP48 0
+module work DSP48E 0
+module work DSP48A 0
+module work DSP48E1 0
+module work DSP48A1 0
+module work DSP48E2 0
+module work DSP58 0

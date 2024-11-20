@@ -1,0 +1,270 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R)
+Build: Q-2020.03
+Install: /export/SoftWare/Synopsys/fpga/Q-2020.03
+OS: CentOS Linux 7 (Core)
+Hostname: icpc
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Implementation : wujian100_open_200t_3b_rev
+Synopsys HDL compiler and linker, Version comp202003syn, Build 035R, Built Mar  1 2020 20:29:57, @990157
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 48
+FID:  path (timestamp)
+0        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/synip/hcei/zceistubs.v (2020-02-29 06:56:20)
+1        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/hypermods.v (2020-02-29 06:57:24)
+2        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/scemi_objects.v (2020-02-29 06:57:24)
+3        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/scemi_pipes.svh (2020-02-29 06:57:24)
+4        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/umr_capim.v (2020-02-29 06:57:43)
+5        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim_retarget.v (2020-02-29 06:56:48)
+6        /export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim_vivado.v (2020-02-29 06:56:48)
+7        /home/master/xuantie/wujian100_open/fpga/wujian100_open_fpga_top.v (2024-11-17 17:08:47)
+8        /home/master/xuantie/wujian100_open/soc/E902_20191018.v (2024-11-17 17:08:47)
+9        /home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v (2024-11-17 17:08:47)
+10       /home/master/xuantie/wujian100_open/soc/aou_top.v (2024-11-17 17:08:47)
+11       /home/master/xuantie/wujian100_open/soc/apb0.v (2024-11-17 17:08:47)
+12       /home/master/xuantie/wujian100_open/soc/apb0_sub_top.v (2024-11-17 17:08:47)
+13       /home/master/xuantie/wujian100_open/soc/apb1.v (2024-11-17 17:08:47)
+14       /home/master/xuantie/wujian100_open/soc/apb1_sub_top.v (2024-11-17 17:08:47)
+15       /home/master/xuantie/wujian100_open/soc/clkgen.v (2024-11-17 17:08:47)
+16       /home/master/xuantie/wujian100_open/soc/common.v (2024-11-17 17:08:47)
+17       /home/master/xuantie/wujian100_open/soc/core_top.v (2024-11-17 17:08:47)
+18       /home/master/xuantie/wujian100_open/soc/dmac.v (2024-11-17 17:08:47)
+19       /home/master/xuantie/wujian100_open/soc/dummy.v (2024-11-17 17:08:47)
+20       /home/master/xuantie/wujian100_open/soc/gpio0.v (2024-11-17 17:08:47)
+21       /home/master/xuantie/wujian100_open/soc/ls_sub_top.v (2024-11-17 17:08:47)
+22       /home/master/xuantie/wujian100_open/soc/matrix.v (2024-11-17 17:08:47)
+23       /home/master/xuantie/wujian100_open/soc/params/apb0_params.v (2024-11-17 17:08:47)
+24       /home/master/xuantie/wujian100_open/soc/params/apb1_params.v (2024-11-17 17:08:47)
+25       /home/master/xuantie/wujian100_open/soc/params/timers_params.v (2024-11-17 17:08:47)
+26       /home/master/xuantie/wujian100_open/soc/params/wdt_params.v (2024-11-17 17:08:47)
+27       /home/master/xuantie/wujian100_open/soc/pdu_top.v (2024-11-17 17:08:47)
+28       /home/master/xuantie/wujian100_open/soc/pwm.v (2024-11-17 17:08:47)
+29       /home/master/xuantie/wujian100_open/soc/retu_top.v (2024-11-17 17:08:47)
+30       /home/master/xuantie/wujian100_open/soc/rtc.v (2024-11-17 17:08:47)
+31       /home/master/xuantie/wujian100_open/soc/sim_lib/PAD_DIG_IO.v (2024-11-17 17:08:47)
+32       /home/master/xuantie/wujian100_open/soc/sim_lib/PAD_OSC_IO.v (2024-11-17 17:08:47)
+33       /home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v (2024-11-17 17:08:47)
+34       /home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v (2024-11-17 17:08:47)
+35       /home/master/xuantie/wujian100_open/soc/sms.v (2024-11-17 17:08:47)
+36       /home/master/xuantie/wujian100_open/soc/smu_top.v (2024-11-17 17:08:47)
+37       /home/master/xuantie/wujian100_open/soc/tim.v (2024-11-17 17:08:47)
+38       /home/master/xuantie/wujian100_open/soc/tim1.v (2024-11-17 17:08:47)
+39       /home/master/xuantie/wujian100_open/soc/tim2.v (2024-11-17 17:08:47)
+40       /home/master/xuantie/wujian100_open/soc/tim3.v (2024-11-17 17:08:47)
+41       /home/master/xuantie/wujian100_open/soc/tim4.v (2024-11-17 17:08:47)
+42       /home/master/xuantie/wujian100_open/soc/tim5.v (2024-11-17 17:08:47)
+43       /home/master/xuantie/wujian100_open/soc/tim6.v (2024-11-17 17:08:47)
+44       /home/master/xuantie/wujian100_open/soc/tim7.v (2024-11-17 17:08:47)
+45       /home/master/xuantie/wujian100_open/soc/usi0.v (2024-11-17 17:08:47)
+46       /home/master/xuantie/wujian100_open/soc/usi1.v (2024-11-17 17:08:47)
+47       /home/master/xuantie/wujian100_open/soc/wdt.v (2024-11-17 17:08:47)
+
+*******************************************************************
+Unchanged modules: 189
+MID:  lib.cell.view
+0        work.A10a.verilog
+1        work.A15.verilog
+2        work.A15e.verilog
+3        work.A1862c.verilog
+4        work.A1864d.verilog
+5        work.A1867b.verilog
+6        work.A186a0.verilog
+7        work.A45.verilog
+8        work.A7f.verilog
+9        work.E902_20191018.verilog
+10       work.PAD_DIG_IO.verilog
+11       work.PAD_OSC_IO.verilog
+12       work.afifo_35x2.verilog
+13       work.afifo_77x2.verilog
+14       work.ahb_dummy_top.verilog
+15       work.ahb_matrix_1_6_sub.verilog
+16       work.ahb_matrix_1_6_sub_dec.verilog
+17       work.ahb_matrix_7_12_arb.verilog
+18       work.ahb_matrix_7_12_dec.verilog
+19       work.ahb_matrix_7_12_main.verilog
+20       work.ahb_matrix_top.verilog
+21       work.ahbm_dummy_top.verilog
+22       work.aou_top.verilog
+23       work.apb0_leaf_mux.verilog
+24       work.apb0_state_ctrl.verilog
+25       work.apb0_sub_top.verilog
+26       work.apb1_leaf_mux.verilog
+27       work.apb1_state_ctrl.verilog
+28       work.apb1_sub_top.verilog
+29       work.apb_dummy_top.verilog
+30       work.apb_if.verilog
+31       work.arb_ctrl.verilog
+32       work.bmux_ctrl.verilog
+33       work.ch_ctrl.verilog
+34       work.chntrg_latch.verilog
+35       work.chregc0.verilog
+36       work.chregc1.verilog
+37       work.chregc10.verilog
+38       work.chregc11.verilog
+39       work.chregc12.verilog
+40       work.chregc13.verilog
+41       work.chregc14.verilog
+42       work.chregc15.verilog
+43       work.chregc2.verilog
+44       work.chregc3.verilog
+45       work.chregc4.verilog
+46       work.chregc5.verilog
+47       work.chregc6.verilog
+48       work.chregc7.verilog
+49       work.chregc8.verilog
+50       work.chregc9.verilog
+51       work.clk_mux2.verilog
+52       work.core_top.verilog
+53       work.cr_ahbl_if.verilog
+54       work.cr_ahbl_req_arb.verilog
+55       work.cr_bmu_dbus_if.verilog
+56       work.cr_bmu_ibus_if.verilog
+57       work.cr_bmu_top.verilog
+58       work.cr_clic_arb.verilog
+59       work.cr_clic_kid.verilog
+60       work.cr_clic_reg_if.verilog
+61       work.cr_clic_top.verilog
+62       work.cr_clk_top.verilog
+63       work.cr_clkrst_top.verilog
+64       work.cr_core.verilog
+65       work.cr_core_top.verilog
+66       work.cr_coretim_top.verilog
+67       work.cr_cp0_iui.verilog
+68       work.cr_cp0_lpmd.verilog
+69       work.cr_cp0_oreg.verilog
+70       work.cr_cp0_randclk.verilog
+71       work.cr_cp0_status.verilog
+72       work.cr_cp0_top.verilog
+73       work.cr_had_top.verilog
+74       work.cr_iahbl_top.verilog
+75       work.cr_ifu_ibuf.verilog
+76       work.cr_ifu_ibuf_entry.verilog
+77       work.cr_ifu_ibusif.verilog
+78       work.cr_ifu_ifctrl.verilog
+79       work.cr_ifu_ifdp.verilog
+80       work.cr_ifu_randclk.verilog
+81       work.cr_ifu_top.verilog
+82       work.cr_iu_alu.verilog
+83       work.cr_iu_branch.verilog
+84       work.cr_iu_ctrl.verilog
+85       work.cr_iu_decd.verilog
+86       work.cr_iu_gated_clk_reg.verilog
+87       work.cr_iu_gated_clk_reg_timing.verilog
+88       work.cr_iu_hs_split.verilog
+89       work.cr_iu_mad.verilog
+90       work.cr_iu_oper.verilog
+91       work.cr_iu_oper_gpr.verilog
+92       work.cr_iu_pcgen.verilog
+93       work.cr_iu_randclk.verilog
+94       work.cr_iu_rbus.verilog
+95       work.cr_iu_retire.verilog
+96       work.cr_iu_special.verilog
+97       work.cr_iu_top.verilog
+98       work.cr_iu_vector.verilog
+99       work.cr_iu_wb.verilog
+100      work.cr_lsu_ctrl.verilog
+101      work.cr_lsu_dp.verilog
+102      work.cr_lsu_randclk.verilog
+103      work.cr_lsu_top.verilog
+104      work.cr_lsu_unalign.verilog
+105      work.cr_pwrm_top_dummy.verilog
+106      work.cr_rst_top.verilog
+107      work.cr_sahbl_top.verilog
+108      work.cr_sys_io.verilog
+109      work.cr_tcipif_behavior_bus.verilog
+110      work.cr_tcipif_dummy_bus.verilog
+111      work.cr_tcipif_top.verilog
+112      work.csky_apb0_top.verilog
+113      work.csky_apb1_top.verilog
+114      work.dmac_top.verilog
+115      work.fpga_byte_spram.verilog
+116      work.fpga_spram.verilog
+117      work.fsmc.verilog
+118      work.gated_clk_cell.verilog
+119      work.gbregc.verilog
+120      work.gpio0.verilog
+121      work.gpio0_sec_top.verilog
+122      work.gpio_apbif.verilog
+123      work.gpio_ctrl.verilog
+124      work.gpio_top.verilog
+125      work.hpchn_decd.verilog
+126      work.i2c_top.verilog
+127      work.i2cm.verilog
+128      work.i2cs.verilog
+129      work.ls_sub_top.verilog
+130      work.pdu_top.verilog
+131      work.pmu_dummy_top.verilog
+132      work.pwm.verilog
+133      work.pwm_apbif.verilog
+134      work.pwm_ctrl.verilog
+135      work.pwm_gen.verilog
+136      work.pwm_sec_top.verilog
+137      work.reg_ctrl.verilog
+138      work.retu_top.verilog
+139      work.rtc0_sec_top.verilog
+140      work.rtc_aou_apbif.verilog
+141      work.rtc_aou_top.verilog
+142      work.rtc_cdr_sync.verilog
+143      work.rtc_clk_div.verilog
+144      work.rtc_clr_sync.verilog
+145      work.rtc_cnt.verilog
+146      work.rtc_ig.verilog
+147      work.rtc_pdu_apbif.verilog
+148      work.rtc_pdu_top.verilog
+149      work.sdata_if.verilog
+150      work.sms_bank_64k_top.verilog
+151      work.sms_sms_ahbs_bk2.verilog
+152      work.sms_sram_bk2.verilog
+153      work.sms_top.verilog
+154      work.smu_top.verilog
+155      work.spi.verilog
+156      work.sync_fifo_16x16.verilog
+157      work.tim0_sec_top.verilog
+158      work.tim1_sec_top.verilog
+159      work.tim1_tim_top.verilog
+160      work.tim2_sec_top.verilog
+161      work.tim2_tim_top.verilog
+162      work.tim3_sec_top.verilog
+163      work.tim3_tim_top.verilog
+164      work.tim4_sec_top.verilog
+165      work.tim4_tim_top.verilog
+166      work.tim5_sec_top.verilog
+167      work.tim5_tim_top.verilog
+168      work.tim6_sec_top.verilog
+169      work.tim6_tim_top.verilog
+170      work.tim7_sec_top.verilog
+171      work.tim7_tim_top.verilog
+172      work.tim_top.verilog
+173      work.timers_apbif.verilog
+174      work.timers_frc.verilog
+175      work.timers_top.verilog
+176      work.uart.verilog
+177      work.usi0_sec_top.verilog
+178      work.usi1_sec_top.verilog
+179      work.usi2_sec_top.verilog
+180      work.usi_top.verilog
+181      work.wdt.verilog
+182      work.wdt_biu.verilog
+183      work.wdt_cnt.verilog
+184      work.wdt_isrc.verilog
+185      work.wdt_isrg.verilog
+186      work.wdt_regfile.verilog
+187      work.wdt_sec_top.verilog
+188      work.wujian100_open_top.verilog

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synlog/wujian100_open_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CLKDIV</data>
+<data>5.0 MHz</data>
+<data>43.0 MHz</data>
+<data>44.191</data>
+</row>
+<row>
+<data>I_RTC_EXT_CLK</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>PAD_JTAG_TCLK</data>
+<data>2.0 MHz</data>
+<data>286.4 MHz</data>
+<data>248.254</data>
+</row>
+<row>
+<data>PIN_EHS</data>
+<data>20.0 MHz</data>
+<data>29.6 MHz</data>
+<data>16.210</data>
+</row>
+<row>
+<data>RTC_CLK_DIV</data>
+<data>0.5 MHz</data>
+<data>226.3 MHz</data>
+<data>1995.581</data>
+</row>
+<row>
+<data>wujian100_open_top|PAD_JTAG_TCLK</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

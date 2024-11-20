@@ -1,0 +1,64 @@
+---------------------------------------
+Resource Usage Report for wujian100_open_top 
+
+Mapping to part: xc7a200tfbg484-2l
+Cell usage:
+RAM32M         18 uses
+CARRY4          1361 uses
+DSP48E1         1 use
+FD              11 uses
+FDC             4413 uses
+FDCE            6892 uses
+FDE             935 uses
+FDP             686 uses
+FDPE            448 uses
+FDP_1           1 use
+FDS             1 use
+GND             379 uses
+MUXF7           35 uses
+MUXF8           8 uses
+RAMB36E1        64 uses
+VCC             379 uses
+XORCY           103 uses
+LUT1            421 uses
+LUT2            2364 uses
+LUT3            1927 uses
+LUT4            4195 uses
+LUT5            4011 uses
+LUT6            14243 uses
+LUT6_2          133 uses
+
+I/O ports: 62
+I/O primitives: 62
+IBUF           2 uses
+IBUFG          2 uses
+IOBUF          51 uses
+OBUF           1 use
+OBUFT          6 uses
+
+BUFG           4 uses
+SRL primitives:
+SRL16E         3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   13387 of 269200 (4%)
+
+RAM/ROM usage summary
+Simple Dual Port Rams (RAM32M): 18
+Occupied Block RAM sites (RAMB36) : 64 of 365 (17%)
+
+
+DSP48s: 1 of 740 (0%)
+
+Global Clock Buffers: 4 of 32 (12%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 25171 (18%)
+
+Distribution of All Consumed LUTs = SRL + RAM + LUT1 + LUT2 + LUT3 + LUT4 + LUT5 + LUT6 + LUT6_2- SOFT_HLUTNM/2 
+Distribution of All Consumed Luts 25171 = 3 + 72 + 421 + 2364 + 1927 + 4195 + 4011 + 14243 + 133- 4396/2 
+
+
+ Number of unique control sets:              286
+

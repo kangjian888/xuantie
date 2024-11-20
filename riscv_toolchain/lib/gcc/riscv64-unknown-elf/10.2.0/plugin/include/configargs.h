@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/build/../source/riscv/riscv-gcc/configure --target=riscv64-unknown-elf --with-gmp=/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/lib-for-gcc-x86_64-linux/ --with-mpfr=/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/lib-for-gcc-x86_64-linux/ --with-mpc=/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/lib-for-gcc-x86_64-linux/ --with-libexpat-prefix=/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/lib-for-gcc-x86_64-linux/ --with-pkgversion='T-HEAD RISCV Tools V2.0.1 B20210512' --enable-libgcctf --prefix=/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/install --disable-shared --disable-threads --enable-languages=c,c++ --with-system-zlib --enable-tls --with-newlib --with-sysroot=/ldhome/software/toolsbuild/slave2/workspace/Toolchain/release-riscv-0/install/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=../../source/riscv/riscv-gcc --enable-multilib --with-abi=lp64d --with-arch=rv64gcxthead 'CFLAGS_FOR_TARGET=-Os   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os   -mcmodel=medany'";
+static const char thread_model[] = "single";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "lp64d" }, { "arch", "rv64gcxthead" } };

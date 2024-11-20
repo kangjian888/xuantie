@@ -1,0 +1,78 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1920 477 233 204
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/master/xuantie/wujian100_open/workdir/vg_dump.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 844682.375514 873814.035929
+cursor 202750.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 8
+; marker line index
+markerPos 13
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/master/xuantie/wujian100_open/workdir/vg_dump.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /wujian100_open_tb/x_wujian100_open_top/x_cpu_top/cpu_hmain0_m0_haddr[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_hmain0_m0_hburst[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_hmain0_m0_hprot[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_hmain0_m0_hsize[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_hmain0_m0_htrans[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope cpu_hmain0_m0_hwdata[31:0]
+addSignal -h 15 -holdScope cpu_hmain0_m0_hwrite
+addSignal -h 15 -UNSIGNED -HEX -holdScope hmain0_cpu_m0_hrdata[31:0]
+addSignal -h 15 -holdScope hmain0_cpu_m0_hready
+addSignal -h 15 -UNSIGNED -HEX -holdScope hmain0_cpu_m0_hresp[1:0]
+addGroup "G4"
+addSignal -h 15 -UNSIGNED -HEX /wujian100_open_tb/x_wujian100_open_top/x_pdu_top/x_sub_apb0_top/x_tim0_sec_top/intr[1:0]
+addSignal -h 15 -holdScope pclk
+addSignal -h 15 -UNSIGNED -HEX -holdScope paddr[31:0]
+addSignal -h 15 -holdScope psel
+addSignal -h 15 -holdScope penable
+addSignal -h 15 -UNSIGNED -HEX -holdScope pprot[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope prdata[31:0]
+addSignal -h 15 -holdScope presetn
+addSignal -h 15 -UNSIGNED -HEX -holdScope pwdata[31:0]
+addSignal -h 15 -holdScope pwrite
+addSignal -h 15 -holdScope tim1_etb_trig
+addSignal -h 15 -holdScope tim2_etb_trig
+addSignal -h 15 -holdScope tipc_tim0_trust
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,1 @@
+-link -encrypt -top wujian100_open_top -osyn /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synwork/wujian100_open_comp.srs /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synwork/layer0.srs  -jobname linker  

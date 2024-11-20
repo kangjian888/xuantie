@@ -1,0 +1,96 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/master/xuantie/wujian100_open/workdir/vg_dump.fsdb
+syncTime = 202750
+viewport = 0 27 1920 977 0 0 230 898
+activeNode = "wujian100_open_tb.x_wujian100_open_top.x_pdu_top.x_sub_apb0_top.x_tim0_sec_top"
+activeScope = "wujian100_open_tb.x_wujian100_open_top.x_pdu_top.x_sub_apb0_top.x_tim0_sec_top"
+activeFile = "../soc/tim.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 5
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = True
+SourceVerticalScrollLines = 5
+Scope1 = "wujian100_open_tb.x_wujian100_open_top.x_pdu_top.x_sub_apb0_top.x_tim0_sec_top"
+Scope2 = "wujian100_open_tb.x_wujian100_open_top.x_pdu_top.x_sub_apb1_top.x_tim3_sec_top"
+Scope3 = "wujian100_open_tb.x_wujian100_open_top.x_pdu_top.x_sub_apb1_top.x_tim1_sec_top"
+Scope4 = "wujian100_open_tb.x_wujian100_open_top.x_cpu_top"
+Scope5 = "wujian100_open_tb"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "./simv.daidir" 
+invokeDir = /home/master/xuantie/wujian100_open/workdir
+[hb.sourceTab.1]
+scope = wujian100_open_tb.x_wujian100_open_top.x_pdu_top.x_sub_apb0_top.x_tim0_sec_top
+File = /home/master/xuantie/wujian100_open/soc/tim.v
+Line = 6
+[nMemoryManager]
+WaveformFile = /home/master/xuantie/wujian100_open/workdir/vg_dump.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1920 477 233 204
+primaryWindow = TRUE
+SessionFile = /home/master/xuantie/wujian100_open/workdir/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

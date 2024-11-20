@@ -1,0 +1,373 @@
+#OPTIONS:"|-layerid|0|-orig_srs|osyn|-top|wujian100_open_top|-prodtype|synplify|-useclone|-ui|-I|/home/master/xuantie/wujian100_open/soc/params|-I|/home/master/xuantie/wujian100_open/fpga/synplify/|-I|/export/SoftWare/Synopsys/fpga/Q-2020.03/lib|-v2001|-dspmac|-pqdpadd|-use_vivado|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-verification_mode|0|-nram|-divnmod|-continue_on_error|-loadunimacro|-devicelib|/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim_retarget.v|-devicelib|/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim_vivado.v|-ui|-fid2|-ram|-sharing|on|-ll|2000|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-dc_root|/tools/synopsys/syn_vD-2010.03|-fast_synthesis|0|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/linux_a_64/c_ver":1583123929
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim_retarget.v":1582930608
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/xilinx/unisim_vivado.v":1582930608
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/hypermods.v":1582930644
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/umr_capim.v":1582930663
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/synip/hcei/zceistubs.v":1582930580
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/scemi_objects.v":1582930644
+#CUR:"/export/SoftWare/Synopsys/fpga/Q-2020.03/lib/vlog/scemi_pipes.svh":1582930644
+#CUR:"/home/master/xuantie/wujian100_open/fpga/wujian100_open_fpga_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/smu_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/sms.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/retu_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim5.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/timers_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/timers_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/dmac.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/pdu_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim2.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/usi1.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/aou_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/matrix.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/dummy.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/pwm.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/usi0.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/common.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/wdt.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/wdt_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/wdt_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/wdt_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/wdt_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim1.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/rtc.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim7.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/apb0.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/apb0_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/apb0_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/gpio0.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim4.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim3.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/clkgen.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/core_top.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/tim6.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/apb1.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/apb1_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/params/apb1_params.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/sim_lib/PAD_DIG_IO.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/sim_lib/PAD_OSC_IO.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v":1731834527
+#CUR:"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v":1731834527
+#numinternalfiles:7
+#defaultlanguage:verilog
+0			"/home/master/xuantie/wujian100_open/fpga/wujian100_open_fpga_top.v" verilog
+1			"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v" verilog
+2			"/home/master/xuantie/wujian100_open/soc/smu_top.v" verilog
+3			"/home/master/xuantie/wujian100_open/soc/sms.v" verilog
+4			"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v" verilog
+5			"/home/master/xuantie/wujian100_open/soc/retu_top.v" verilog
+6			"/home/master/xuantie/wujian100_open/soc/tim5.v" verilog
+7			"/home/master/xuantie/wujian100_open/soc/tim.v" verilog
+8		*	"/home/master/xuantie/wujian100_open/soc/params/timers_params.v" verilog
+9			"/home/master/xuantie/wujian100_open/soc/dmac.v" verilog
+10			"/home/master/xuantie/wujian100_open/soc/pdu_top.v" verilog
+11			"/home/master/xuantie/wujian100_open/soc/tim2.v" verilog
+12			"/home/master/xuantie/wujian100_open/soc/usi1.v" verilog
+13			"/home/master/xuantie/wujian100_open/soc/aou_top.v" verilog
+14			"/home/master/xuantie/wujian100_open/soc/matrix.v" verilog
+15			"/home/master/xuantie/wujian100_open/soc/dummy.v" verilog
+16			"/home/master/xuantie/wujian100_open/soc/pwm.v" verilog
+17			"/home/master/xuantie/wujian100_open/soc/usi0.v" verilog
+18			"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v" verilog
+19			"/home/master/xuantie/wujian100_open/soc/common.v" verilog
+20			"/home/master/xuantie/wujian100_open/soc/wdt.v" verilog
+21		*	"/home/master/xuantie/wujian100_open/soc/params/wdt_params.v" verilog
+22			"/home/master/xuantie/wujian100_open/soc/tim1.v" verilog
+23			"/home/master/xuantie/wujian100_open/soc/rtc.v" verilog
+24			"/home/master/xuantie/wujian100_open/soc/E902_20191018.v" verilog
+25			"/home/master/xuantie/wujian100_open/soc/tim7.v" verilog
+26			"/home/master/xuantie/wujian100_open/soc/apb0.v" verilog
+27		*	"/home/master/xuantie/wujian100_open/soc/params/apb0_params.v" verilog
+28			"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v" verilog
+29			"/home/master/xuantie/wujian100_open/soc/gpio0.v" verilog
+30			"/home/master/xuantie/wujian100_open/soc/tim4.v" verilog
+31			"/home/master/xuantie/wujian100_open/soc/tim3.v" verilog
+32			"/home/master/xuantie/wujian100_open/soc/clkgen.v" verilog
+33			"/home/master/xuantie/wujian100_open/soc/core_top.v" verilog
+34			"/home/master/xuantie/wujian100_open/soc/tim6.v" verilog
+35			"/home/master/xuantie/wujian100_open/soc/apb1.v" verilog
+36		*	"/home/master/xuantie/wujian100_open/soc/params/apb1_params.v" verilog
+37			"/home/master/xuantie/wujian100_open/soc/sim_lib/PAD_DIG_IO.v" verilog
+38			"/home/master/xuantie/wujian100_open/soc/sim_lib/PAD_OSC_IO.v" verilog
+39			"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v" verilog
+40			"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v" verilog
+#Dependency Lists(Uses List)
+0 13 10 33 5 38 37
+1 14 15 9
+2 3
+3 40
+4 14 15
+5 2
+6 7 8
+7 8
+8 8
+9 -1
+10 1 4 18 28
+11 7 8
+12 17
+13 32 29 23
+14 -1
+15 -1
+16 19
+17 -1
+18 26 27 7 8 11 30 34 17 12 15 20 21 16
+19 0
+20 21
+21 21
+22 7 8
+23 19
+24 19
+25 7 8
+26 27
+27 27
+28 35 36 22 31 6 25 12 15
+29 -1
+30 7 8
+31 7 8
+32 -1
+33 24 19
+34 7 8
+35 36
+36 36
+37 -1
+38 -1
+39 -1
+40 39
+#Dependency Lists(Users Of)
+0 19
+1 10
+2 5
+3 2
+4 10
+5 0
+6 28
+7 6 11 18 22 25 30 31 34
+8 6 7 8 11 18 22 25 30 31 34
+9 1
+10 0
+11 18
+12 18 28
+13 0
+14 1 4
+15 1 4 18 28
+16 18
+17 12 18
+18 10
+19 16 23 24 33
+20 18
+21 18 20 21
+22 28
+23 13
+24 33
+25 28
+26 18
+27 18 26 27
+28 10
+29 13
+30 18
+31 28
+32 13
+33 0
+34 18
+35 28
+36 28 35 36
+37 0
+38 0
+39 40
+40 3
+#Design Unit to File Association
+module work wujian100_open_top 0
+module work aou_top 13
+module work pdu_top 10
+module work core_top 33
+module work retu_top 5
+module work PAD_OSC_IO 38
+module work PAD_DIG_IO 37
+module work ahb_matrix_top 1
+module work ahb_matrix_7_12_main 14
+module work ahbm_dummy_top 15
+module work ahb_dummy_top 15
+module work dmac_top 9
+module work smu_top 2
+module work sms_top 3
+module work sms_bank_64k_top 3
+module work sms_sms_ahbs_bk2 3
+module work sms_sram_bk2 3
+module work fpga_spram 40
+module work ls_sub_top 4
+module work ahb_matrix_1_6_sub 14
+module work tim5_sec_top 6
+module work tim5_tim_top 6
+module work timers_top 7
+module work tim0_sec_top 7
+module work tim_top 7
+module work timers_apbif 7
+module work timers_frc 7
+module work arb_ctrl 9
+module work chntrg_latch 9
+module work hpchn_decd 9
+module work bmux_ctrl 9
+module work ch_ctrl 9
+module work fsmc 9
+module work chregc0 9
+module work chregc10 9
+module work chregc11 9
+module work chregc12 9
+module work chregc13 9
+module work chregc14 9
+module work chregc15 9
+module work chregc1 9
+module work chregc2 9
+module work chregc3 9
+module work chregc4 9
+module work chregc5 9
+module work chregc6 9
+module work chregc7 9
+module work chregc8 9
+module work chregc9 9
+module work reg_ctrl 9
+module work gbregc 9
+module work apb0_sub_top 18
+module work apb1_sub_top 28
+module work tim2_sec_top 11
+module work tim2_tim_top 11
+module work usi1_sec_top 12
+module work usi_top 17
+module work usi2_sec_top 12
+module work pmu_dummy_top 32
+module work gpio0_sec_top 29
+module work rtc0_sec_top 23
+module work afifo_35x2 14
+module work afifo_77x2 14
+module work ahb_matrix_1_6_sub_dec 14
+module work ahb_matrix_7_12_arb 14
+module work ahb_matrix_7_12_dec 14
+module work apb_dummy_top 15
+module work pwm 16
+module work pwm_ctrl 16
+module work pwm_apbif 16
+module work gated_clk_cell 19
+module work clk_mux2 19
+module work pwm_gen 16
+module work pwm_sec_top 16
+module work apb_if 17
+module work i2cm 17
+module work i2cs 17
+module work i2c_top 17
+module work sdata_if 17
+module work spi 17
+module work sync_fifo_16x16 17
+module work uart 17
+module work usi0_sec_top 17
+module work csky_apb0_top 26
+module work tim4_sec_top 30
+module work tim6_sec_top 34
+module work wdt_sec_top 20
+module work wdt_biu 20
+module work wdt_cnt 20
+module work wdt_isrc 20
+module work wdt_isrg 20
+module work wdt_regfile 20
+module work wdt 20
+module work tim1_sec_top 22
+module work tim1_tim_top 22
+module work rtc_pdu_top 23
+module work rtc_aou_top 23
+module work rtc_aou_apbif 23
+module work rtc_cnt 23
+module work rtc_ig 23
+module work rtc_clk_div 23
+module work rtc_cdr_sync 23
+module work rtc_clr_sync 23
+module work rtc_pdu_apbif 23
+module work cr_ahbl_if 24
+module work cr_ahbl_req_arb 24
+module work cr_bmu_dbus_if 24
+module work cr_bmu_ibus_if 24
+module work cr_bmu_top 24
+module work cr_clic_arb 24
+module work cr_clic_kid 24
+module work cr_clic_reg_if 24
+module work cr_clic_top 24
+module work cr_clk_top 24
+module work cr_clkrst_top 24
+module work cr_rst_top 24
+module work cr_core 24
+module work cr_ifu_top 24
+module work cr_iu_top 24
+module work cr_lsu_top 24
+module work cr_cp0_top 24
+module work cr_core_top 24
+module work cr_sahbl_top 24
+module work cr_iahbl_top 24
+module work cr_sys_io 24
+module work cr_coretim_top 24
+module work cr_cp0_iui 24
+module work cr_cp0_lpmd 24
+module work cr_cp0_oreg 24
+module work cr_cp0_randclk 24
+module work cr_cp0_status 24
+module work E902_20191018 24
+module work cr_had_top 24
+module work cr_tcipif_top 24
+module work cr_ifu_ibuf 24
+module work cr_ifu_ibuf_entry 24
+module work cr_ifu_ibusif 24
+module work cr_ifu_ifctrl 24
+module work cr_ifu_ifdp 24
+module work cr_ifu_randclk 24
+module work cr_iu_alu 24
+module work cr_iu_branch 24
+module work cr_iu_ctrl 24
+module work cr_iu_decd 24
+module work cr_iu_gated_clk_reg 24
+module work cr_iu_gated_clk_reg_timing 24
+module work cr_iu_hs_split 24
+module work cr_iu_mad 24
+module work cr_iu_oper 24
+module work cr_iu_oper_gpr 24
+module work cr_iu_pcgen 24
+module work cr_iu_randclk 24
+module work cr_iu_rbus 24
+module work cr_iu_retire 24
+module work cr_iu_special 24
+module work cr_iu_wb 24
+module work cr_iu_vector 24
+module work cr_lsu_ctrl 24
+module work cr_lsu_dp 24
+module work cr_lsu_randclk 24
+module work cr_lsu_unalign 24
+module work cr_pwrm_top_dummy 24
+module work cr_tcipif_behavior_bus 24
+module work cr_tcipif_dummy_bus 24
+module work A186a0 24
+module work A15 24
+module work A1867b 24
+module work A45 24
+module work A1864d 24
+module work A10a 24
+module work A1862c 24
+module work A7f 24
+module work A15e 24
+module work tim7_sec_top 25
+module work tim7_tim_top 25
+module work apb0_leaf_mux 26
+module work apb0_state_ctrl 26
+module work csky_apb1_top 35
+module work tim3_sec_top 31
+module work gpio0 29
+module work gpio_top 29
+module work gpio_apbif 29
+module work gpio_ctrl 29
+module work tim4_tim_top 30
+module work tim3_tim_top 31
+module work tim6_tim_top 34
+module work apb1_leaf_mux 35
+module work apb1_state_ctrl 35
+module work fpga_byte_spram 39

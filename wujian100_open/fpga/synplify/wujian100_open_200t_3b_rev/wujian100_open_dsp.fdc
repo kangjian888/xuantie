@@ -1,0 +1,1 @@
+define_attribute {i:x_cpu_top.CPU.x_cr_tcipif_top.x_cr_coretim_top.cnt[23:0]} {syn_dspstyle} {dsp48}

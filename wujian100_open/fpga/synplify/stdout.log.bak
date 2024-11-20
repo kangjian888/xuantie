@@ -1,0 +1,37 @@
+
+                                 Synplify (R) 
+
+                  Version Q-2020.03 for RHEL64 - Feb 28, 2020 
+
+                    Copyright (c) 1988 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    /export/SoftWare/Synopsys/fpga/Q-2020.03/linux_a_64/mbin/synplify
+Install:     /export/SoftWare/Synopsys/fpga/Q-2020.03
+Hostname:    icpc
+Date:        Mon Nov 18 21:09:18 2024
+Version:     Q-2020.03
+
+Arguments:   -product synplify -license_feature
+ProductType: synplify
+
+License checkout: synplify
+License: synplify from server icpc 
+Licensed Vendor: All FPGA
+
+
+dw_foundation is not supported in current product.
+Option dw_foundation forced to 1. DesignWare Foundation Library must be enabled when DesignWare MinPower Library is enabled.
+dw_minpower is not supported in current product.
+optimize_ngc is not supported in current product.
+pipe is not supported in current product.
+fix_gated_and_generated_clocks is not supported in current product.
+symbolic_fsm_compiler is not supported in current product.
+dc_root is not supported in current product.
+dw_foundation is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+exit status=0
+License checkin: synplify

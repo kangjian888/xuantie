@@ -1,0 +1,59 @@
+Selecting top level module DSP48E1
+@N: CG364 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3110:7:3110:13|Synthesizing module DSP48E1 in library work.
+@W: CG532 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3314:4:3314:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG793 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3847:15:3847:22|Ignoring system task $display
+@N: CG793 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3963:7:3963:14|Ignoring system task $display
+@N: CG793 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4196:34:4196:41|Ignoring system task $display
+@N: CG793 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4247:20:4247:27|Ignoring system task $display
+@W: CG296 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4024:13:4024:91|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4026:10:4026:14|Referenced variable $time is not in sensitivity list.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3243:34:3243:42|Object qa_o_reg1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3243:45:3243:53|Object qa_o_reg2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3250:34:3250:42|Object qb_o_reg1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3250:45:3250:53|Object qb_o_reg2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3254:18:3254:24|Object d_o_mux is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3265:24:3265:37|Object qcarryin_o_reg is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3277:26:3277:37|Object alu_full_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3278:26:3278:37|Object alu_hlf1_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3278:40:3278:51|Object alu_hlf2_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3279:26:3279:37|Object alu_qrt1_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3279:41:3279:52|Object alu_qrt2_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3279:55:3279:66|Object alu_qrt3_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3279:69:3279:80|Object alu_qrt4_tmp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4270:7:4270:25|Removing wire tmp_carrycascout_in, as there is no assignment to it.
+Running optimization stage 1 on DSP48E1 .......
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4347:4:4347:9|Pruning unused register qcarryin_o_reg7. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4332:4:4332:9|Pruning unused register qcarryin_o_reg0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3987:4:3987:9|Pruning unused register qalumode_o_reg1[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3936:4:3936:9|Pruning unused register qcarryinsel_o_reg1[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3936:4:3936:9|Pruning unused register qopmode_o_reg1[6:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3852:4:3852:9|Pruning unused register qmult_o_reg[42:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3817:4:3817:9|Pruning unused register qad_o_reg1[24:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3794:4:3794:9|Pruning unused register qd_o_reg1[24:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3611:4:3611:9|Pruning unused register qinmode_o_reg[4:0]. Make sure that there are no unused intermediate registers.
+@W: CL279 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":4403:4:4403:9|Pruning register bits 2 to 0 of carryout_o_reg[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on DSP48E1 .......
+@W: CL246 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3175:16:3175:21|Input port bits 4 to 2 of INMODE[4:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3243:34:3243:42|*Unassigned bits of qa_o_reg1[29:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3152:17:3152:20|Input ACIN is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3155:17:3155:20|Input BCIN is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3160:10:3160:13|Input CEA1 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3161:10:3161:13|Input CEA2 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3162:10:3162:13|Input CEAD is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3163:10:3163:18|Input CEALUMODE is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3164:10:3164:13|Input CEB1 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3165:10:3165:13|Input CEB2 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3167:10:3167:18|Input CECARRYIN is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3168:10:3168:15|Input CECTRL is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3169:10:3169:12|Input CED is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3170:10:3170:17|Input CEINMODE is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3171:10:3171:12|Input CEM is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3174:17:3174:17|Input D is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3179:10:3179:13|Input RSTA is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3180:10:3180:22|Input RSTALLCARRYIN is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3181:10:3181:19|Input RSTALUMODE is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3182:10:3182:13|Input RSTB is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3184:10:3184:16|Input RSTCTRL is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3185:10:3185:13|Input RSTD is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3186:10:3186:18|Input RSTINMODE is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/syntmp/multadd.v":3187:10:3187:13|Input RSTM is unused.

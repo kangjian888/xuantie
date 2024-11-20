@@ -1,0 +1,273 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R)
+Build: Q-2020.03
+Install: /export/SoftWare/Synopsys/fpga/Q-2020.03
+OS: CentOS Linux 7 (Core)
+Hostname: icpc
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Implementation : wujian100_open_200t_3b_rev
+
+# Written on Tue Nov 19 10:13:48 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "wujian100_open_top"
+Constraint File(s):      "/home/master/xuantie/wujian100_open/fpga/synplify/FDC_constraints/wujian100_open_200t_3b_rev/wujian100_open_200t_3b_translated.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 3 issues in 3 out of 9 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting          Ending            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------
+PIN_EHS           PIN_EHS           |     50.000           |     No paths         |     No paths         |     No paths                         
+PIN_EHS           PAD_JTAG_TCLK     |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+PIN_EHS           I_RTC_EXT_CLK     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PIN_EHS           RTC_CLK_DIV       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PIN_EHS           CLKDIV            |     50.000           |     No paths         |     No paths         |     No paths                         
+PAD_JTAG_TCLK     PIN_EHS           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PAD_JTAG_TCLK     PAD_JTAG_TCLK     |     500.000          |     No paths         |     250.000          |     No paths                         
+I_RTC_EXT_CLK     I_RTC_EXT_CLK     |     1000.000         |     No paths         |     No paths         |     No paths                         
+RTC_CLK_DIV       PIN_EHS           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+RTC_CLK_DIV       RTC_CLK_DIV       |     2000.000         |     No paths         |     No paths         |     No paths                         
+CLKDIV            PIN_EHS           |     50.000           |     No paths         |     No paths         |     No paths                         
+CLKDIV            CLKDIV            |     200.000          |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:PAD_GPIO_0 (bidir end point)
+p:PAD_GPIO_0 (bidir start point)
+p:PAD_GPIO_1 (bidir end point)
+p:PAD_GPIO_1 (bidir start point)
+p:PAD_GPIO_2 (bidir end point)
+p:PAD_GPIO_2 (bidir start point)
+p:PAD_GPIO_3 (bidir end point)
+p:PAD_GPIO_3 (bidir start point)
+p:PAD_GPIO_4 (bidir end point)
+p:PAD_GPIO_4 (bidir start point)
+p:PAD_GPIO_5 (bidir end point)
+p:PAD_GPIO_5 (bidir start point)
+p:PAD_GPIO_6 (bidir end point)
+p:PAD_GPIO_6 (bidir start point)
+p:PAD_GPIO_7 (bidir end point)
+p:PAD_GPIO_7 (bidir start point)
+p:PAD_GPIO_8 (bidir end point)
+p:PAD_GPIO_8 (bidir start point)
+p:PAD_GPIO_9 (bidir end point)
+p:PAD_GPIO_9 (bidir start point)
+p:PAD_GPIO_10 (bidir end point)
+p:PAD_GPIO_10 (bidir start point)
+p:PAD_GPIO_11 (bidir end point)
+p:PAD_GPIO_11 (bidir start point)
+p:PAD_GPIO_12 (bidir end point)
+p:PAD_GPIO_12 (bidir start point)
+p:PAD_GPIO_13 (bidir end point)
+p:PAD_GPIO_13 (bidir start point)
+p:PAD_GPIO_14 (bidir end point)
+p:PAD_GPIO_14 (bidir start point)
+p:PAD_GPIO_15 (bidir end point)
+p:PAD_GPIO_15 (bidir start point)
+p:PAD_GPIO_16 (bidir end point)
+p:PAD_GPIO_16 (bidir start point)
+p:PAD_GPIO_17 (bidir end point)
+p:PAD_GPIO_17 (bidir start point)
+p:PAD_GPIO_18 (bidir end point)
+p:PAD_GPIO_18 (bidir start point)
+p:PAD_GPIO_19 (bidir end point)
+p:PAD_GPIO_19 (bidir start point)
+p:PAD_GPIO_20 (bidir end point)
+p:PAD_GPIO_20 (bidir start point)
+p:PAD_GPIO_21 (bidir end point)
+p:PAD_GPIO_21 (bidir start point)
+p:PAD_GPIO_22 (bidir end point)
+p:PAD_GPIO_22 (bidir start point)
+p:PAD_GPIO_23 (bidir end point)
+p:PAD_GPIO_23 (bidir start point)
+p:PAD_GPIO_24 (bidir end point)
+p:PAD_GPIO_24 (bidir start point)
+p:PAD_GPIO_25 (bidir end point)
+p:PAD_GPIO_25 (bidir start point)
+p:PAD_GPIO_26 (bidir end point)
+p:PAD_GPIO_26 (bidir start point)
+p:PAD_GPIO_27 (bidir end point)
+p:PAD_GPIO_27 (bidir start point)
+p:PAD_GPIO_28 (bidir end point)
+p:PAD_GPIO_28 (bidir start point)
+p:PAD_GPIO_29 (bidir end point)
+p:PAD_GPIO_29 (bidir start point)
+p:PAD_GPIO_30 (bidir end point)
+p:PAD_GPIO_30 (bidir start point)
+p:PAD_GPIO_31 (bidir end point)
+p:PAD_GPIO_31 (bidir start point)
+p:PAD_JTAG_TMS (bidir end point)
+p:PAD_JTAG_TMS (bidir start point)
+p:PAD_MCURST
+p:PAD_PWM_CH0 (bidir end point)
+p:PAD_PWM_CH0 (bidir start point)
+p:PAD_PWM_CH1 (bidir end point)
+p:PAD_PWM_CH1 (bidir start point)
+p:PAD_PWM_CH2 (bidir end point)
+p:PAD_PWM_CH2 (bidir start point)
+p:PAD_PWM_CH3 (bidir end point)
+p:PAD_PWM_CH3 (bidir start point)
+p:PAD_PWM_CH4 (bidir end point)
+p:PAD_PWM_CH4 (bidir start point)
+p:PAD_PWM_CH5 (bidir end point)
+p:PAD_PWM_CH5 (bidir start point)
+p:PAD_PWM_CH6 (bidir end point)
+p:PAD_PWM_CH6 (bidir start point)
+p:PAD_PWM_CH7 (bidir end point)
+p:PAD_PWM_CH7 (bidir start point)
+p:PAD_PWM_CH8 (bidir end point)
+p:PAD_PWM_CH8 (bidir start point)
+p:PAD_PWM_CH9 (bidir end point)
+p:PAD_PWM_CH9 (bidir start point)
+p:PAD_PWM_CH10 (bidir end point)
+p:PAD_PWM_CH10 (bidir start point)
+p:PAD_PWM_CH11 (bidir end point)
+p:PAD_PWM_CH11 (bidir start point)
+p:PAD_PWM_FAULT
+p:PAD_USI0_NSS (bidir end point)
+p:PAD_USI0_NSS (bidir start point)
+p:PAD_USI0_SCLK (bidir end point)
+p:PAD_USI0_SCLK (bidir start point)
+p:PAD_USI0_SD0 (bidir end point)
+p:PAD_USI0_SD0 (bidir start point)
+p:PAD_USI0_SD1 (bidir end point)
+p:PAD_USI0_SD1 (bidir start point)
+p:PAD_USI1_NSS (bidir end point)
+p:PAD_USI1_NSS (bidir start point)
+p:PAD_USI1_SCLK (bidir end point)
+p:PAD_USI1_SCLK (bidir start point)
+p:PAD_USI1_SD0 (bidir end point)
+p:PAD_USI1_SD0 (bidir start point)
+p:PAD_USI1_SD1 (bidir end point)
+p:PAD_USI1_SD1 (bidir start point)
+p:PAD_USI2_NSS (bidir end point)
+p:PAD_USI2_NSS (bidir start point)
+p:PAD_USI2_SCLK (bidir end point)
+p:PAD_USI2_SCLK (bidir start point)
+p:PAD_USI2_SD0 (bidir end point)
+p:PAD_USI2_SD0 (bidir start point)
+p:PAD_USI2_SD1 (bidir end point)
+p:PAD_USI2_SD1 (bidir start point)
+p:PIN_EHS
+
+
+Ports without properties
+************************
+
+p:PAD_GPIO_0 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_1 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_2 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_3 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_4 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_5 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_6 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_7 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_8 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_9 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_10 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_11 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_12 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_13 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_14 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_15 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_16 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_17 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_18 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_19 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_20 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_21 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_22 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_23 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_24 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_25 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_26 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_27 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_28 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_29 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_30 Missing syn_loc, IO Standard attribute(s)
+p:PAD_GPIO_31 Missing syn_loc, IO Standard attribute(s)
+p:PAD_JTAG_TMS Missing syn_loc, IO Standard attribute(s)
+p:PAD_MCURST Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH0 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH1 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH2 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH3 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH4 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH5 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH6 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH7 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH8 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH9 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH10 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_CH11 Missing syn_loc, IO Standard attribute(s)
+p:PAD_PWM_FAULT Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI0_NSS Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI0_SCLK Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI0_SD0 Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI0_SD1 Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI1_NSS Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI1_SCLK Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI1_SD0 Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI1_SD1 Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI2_NSS Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI2_SCLK Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI2_SD0 Missing syn_loc, IO Standard attribute(s)
+p:PAD_USI2_SD1 Missing syn_loc, IO Standard attribute(s)
+p:PIN_EHS Missing syn_loc, IO Standard attribute(s)
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+create_clock -name CLKDIV [get_nets n:x_pdu_top.x_sub_apb0_top.x_pwm_sec_top.x_pwm.x_pwm_ctrl.clkdiv] -period 200.0 -waveform {0 100.0}
+	@W::"/home/master/xuantie/wujian100_open/fpga/synplify/FDC_constraints/wujian100_open_200t_3b_rev/wujian100_open_200t_3b_translated.fdc":87:0:87:0|Source for clock CLKDIV should be moved to net PIN_EHS_i connected to driving cell pin PIN_EHS.PIN_EHS
+create_clock -name I_RTC_EXT_CLK [get_nets n:x_aou_top.x_rtc0_sec_top.x_rtc_aou_top.x_rtc_clk_div.i_rtc_ext_clk] -period 1000.0 -waveform {0 500.0}
+	@W::"/home/master/xuantie/wujian100_open/fpga/synplify/FDC_constraints/wujian100_open_200t_3b_rev/wujian100_open_200t_3b_translated.fdc":85:0:85:0|Source for clock I_RTC_EXT_CLK should be moved to net PIN_EHS_i connected to driving cell pin PIN_EHS.PIN_EHS
+create_clock -name RTC_CLK_DIV [get_nets n:x_aou_top.x_rtc0_sec_top.x_rtc_aou_top.x_rtc_clk_div.rtc_clk_div] -period 2000.0 -waveform {0 1000.0}
+	@W::"/home/master/xuantie/wujian100_open/fpga/synplify/FDC_constraints/wujian100_open_200t_3b_rev/wujian100_open_200t_3b_translated.fdc":86:0:86:0|Source for clock RTC_CLK_DIV should be moved to net PIN_EHS_i connected to driving cell pin PIN_EHS.PIN_EHS
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report
