@@ -1,0 +1,46 @@
+intc.c: In function 'ck_intc_init':
+intc.c:19:35: warning: initialization of 'int *' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   19 | #define TCIP_BASE                 0xE000E000
+      |                                   ^~~~~~~~~~
+intc.c:26:14: note: in expansion of macro 'TCIP_BASE'
+   26 |  int *picr = TCIP_BASE;
+      |              ^~~~~~~~~
+intc.c:20:35: warning: initialization of 'int *' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   20 | #define CLIC_BASE                 0xE000E100
+      |                                   ^~~~~~~~~~
+intc.c:30:22: note: in expansion of macro 'CLIC_BASE'
+   30 |         int *piser = CLIC_BASE+INTIE+0x10;
+      |                      ^~~~~~~~~
+In file included from mem_copy_main.c:24:
+vtimer.h: In function 'get_vtimer':
+vtimer.h:23:14: warning: assignment to 'int *' from 'unsigned int' makes pointer from integer without a cast [-Wint-conversion]
+   23 |   TIMER_ADDR = 0xE0013000;
+      |              ^
+vtimer.h: In function 'sim_end':
+vtimer.h:32:12: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   32 |   END_ADDR = 0x6000FFF8;
+      |            ^
+mem_copy_main.c: In function 'main':
+mem_copy_main.c:46:28: warning: initialization of 'unsigned int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   46 |   unsigned int* src_addr = 0xc000;
+      |                            ^~~~~~
+mem_copy_main.c:47:28: warning: initialization of 'unsigned int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   47 |   unsigned int* des_addr = 0xe000;
+      |                            ^~~~~~
+mem_copy_main.c:62:3: warning: implicit declaration of function 'ck_intc_init'; did you mean 'ck_uart_init'? [-Wimplicit-function-declaration]
+   62 |   ck_intc_init();
+      |   ^~~~~~~~~~~~
+      |   ck_uart_init
+mem_copy_main.c:90:3: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   90 |   memset(array_old,0xffffffff,0x400);
+      |   ^~~~~~
+mem_copy_main.c:90:3: warning: incompatible implicit declaration of built-in function 'memset'
+mem_copy_main.c:25:1: note: include '<string.h>' or provide a declaration of 'memset'
+   24 | #include "vtimer.h"
+  +++ |+#include <string.h>
+   25 | #endif
+mem_copy_main.c:99:3: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+   99 |   memcpy(array_new,array_old,0x400);
+      |   ^~~~~~
+mem_copy_main.c:99:3: warning: incompatible implicit declaration of built-in function 'memcpy'
+mem_copy_main.c:99:3: note: include '<string.h>' or provide a declaration of 'memcpy'

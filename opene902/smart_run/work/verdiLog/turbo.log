@@ -1,0 +1,3 @@
+Command Line: /export/SoftWare/Synopsys/verdi/T-2022.06/platform/LINUXAMD64/bin/Novas -dbdir simv.daidir/ -ssf novas.fsdb
+uname(Linux icpc 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+au time 181892.068438 687.082528 138.824236 delta 263036928 263036928 total 788213760 788213760

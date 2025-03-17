@@ -1,0 +1,944 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":466:63:466:75|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":555:37:555:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":557:41:557:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":568:41:568:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":933:36:933:48|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":965:37:965:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":986:37:986:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1007:37:1007:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1029:37:1029:49|Read a parallel_case directive.
+@N: CG334 :"/home/master/xuantie/wujian100_open/soc/matrix.v":224:12:224:24|Read directive translate_off.
+@N: CG333 :"/home/master/xuantie/wujian100_open/soc/matrix.v":237:12:237:23|Read directive translate_on.
+@N: CG334 :"/home/master/xuantie/wujian100_open/soc/matrix.v":452:12:452:24|Read directive translate_off.
+@N: CG333 :"/home/master/xuantie/wujian100_open/soc/matrix.v":465:12:465:23|Read directive translate_on.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1066:56:1066:68|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2839:42:2839:54|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2866:41:2866:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2916:42:2916:54|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2981:40:2981:52|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3071:41:3071:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3555:50:3555:62|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3581:38:3581:50|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3616:41:3616:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3669:37:3669:49|Read a parallel_case directive.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/clkgen.v":11:7:11:19|Synthesizing module pmu_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":166:7:166:16|Synthesizing module gpio_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":525:7:525:15|Synthesizing module gpio_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":1134:7:1134:14|Synthesizing module gpio_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":19:7:19:11|Synthesizing module gpio0 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":89:7:89:19|Synthesizing module gpio0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/common.v":43:7:43:20|Synthesizing module gated_clk_cell in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":700:7:700:19|Synthesizing module rtc_pdu_apbif in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/rtc.v":979:17:979:23|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":371:7:371:18|Synthesizing module rtc_cdr_sync in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":481:7:481:18|Synthesizing module rtc_clr_sync in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":1014:7:1014:17|Synthesizing module rtc_pdu_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":564:7:564:13|Synthesizing module rtc_cnt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":619:7:619:12|Synthesizing module rtc_ig in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":431:7:431:17|Synthesizing module rtc_clk_div in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":135:7:135:19|Synthesizing module rtc_aou_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":241:7:241:17|Synthesizing module rtc_aou_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":21:7:21:18|Synthesizing module rtc0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/aou_top.v":11:7:11:13|Synthesizing module aou_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":31794:7:31794:25|Synthesizing module ahb_matrix_7_12_dec in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1859:7:1859:25|Synthesizing module ahb_matrix_7_12_arb in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34729:7:34729:26|Synthesizing module ahb_matrix_7_12_main in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":73:7:73:20|Synthesizing module ahbm_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":36:7:36:19|Synthesizing module ahb_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":631:7:631:15|Synthesizing module bmux_ctrl in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1059:21:1059:29|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15929:7:15929:12|Synthesizing module gbregc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3587:7:3587:13|Synthesizing module chregc0 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7759:7:7759:13|Synthesizing module chregc1 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8355:7:8355:13|Synthesizing module chregc2 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8951:7:8951:13|Synthesizing module chregc3 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9547:7:9547:13|Synthesizing module chregc4 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10143:7:10143:13|Synthesizing module chregc5 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10739:7:10739:13|Synthesizing module chregc6 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11335:7:11335:13|Synthesizing module chregc7 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11931:7:11931:13|Synthesizing module chregc8 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12527:7:12527:13|Synthesizing module chregc9 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4183:7:4183:14|Synthesizing module chregc10 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4779:7:4779:14|Synthesizing module chregc11 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5375:7:5375:14|Synthesizing module chregc12 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5971:7:5971:14|Synthesizing module chregc13 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6567:7:6567:14|Synthesizing module chregc14 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7163:7:7163:14|Synthesizing module chregc15 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16237:7:16237:14|Synthesizing module reg_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3549:7:3549:18|Synthesizing module chntrg_latch in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16224:7:16224:16|Synthesizing module hpchn_decd in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11:7:11:14|Synthesizing module arb_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15225:7:15225:10|Synthesizing module fsmc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1077:7:1077:13|Synthesizing module ch_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":13123:7:13123:14|Synthesizing module dmac_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":11:7:11:20|Synthesizing module ahb_matrix_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":467:7:467:28|Synthesizing module ahb_matrix_1_6_sub_dec in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":239:7:239:16|Synthesizing module afifo_77x2 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/matrix.v":303:4:303:9|Found RAM mem, depth=2, width=77
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":11:7:11:16|Synthesizing module afifo_35x2 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/matrix.v":75:4:75:9|Found RAM mem, depth=2, width=35
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1386:7:1386:24|Synthesizing module ahb_matrix_1_6_sub in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":11:7:11:16|Synthesizing module ls_sub_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":83:7:83:21|Synthesizing module apb0_state_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":11:7:11:19|Synthesizing module apb0_leaf_mux in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":357:8:357:20|Synthesizing module csky_apb0_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":92:7:92:18|Synthesizing module timers_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":432:7:432:16|Synthesizing module timers_frc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":535:7:535:16|Synthesizing module timers_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":672:7:672:13|Synthesizing module tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":11:7:11:18|Synthesizing module tim0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim2.v":94:7:94:18|Synthesizing module tim2_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim2.v":11:7:11:18|Synthesizing module tim2_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim4.v":93:7:93:18|Synthesizing module tim4_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim4.v":11:7:11:18|Synthesizing module tim4_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim6.v":93:7:93:18|Synthesizing module tim6_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim6.v":11:7:11:18|Synthesizing module tim6_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3335:7:3335:10|Synthesizing module uart in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3568:32:3568:38|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":602:7:602:10|Synthesizing module i2cm in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1625:7:1625:10|Synthesizing module i2cs in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2134:7:2134:13|Synthesizing module i2c_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2625:7:2625:9|Synthesizing module spi in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2399:7:2399:14|Synthesizing module sdata_if in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":39:7:39:12|Synthesizing module apb_if in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3107:7:3107:21|Synthesizing module sync_fifo_16x16 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3212:0:3212:5|Found RAM mem_fifo, depth=16, width=16
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3916:7:3916:13|Synthesizing module usi_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3765:7:3765:18|Synthesizing module usi0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi1.v":162:7:162:18|Synthesizing module usi2_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":11:7:11:19|Synthesizing module apb_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":11:7:11:13|Synthesizing module wdt_biu in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":242:7:242:17|Synthesizing module wdt_regfile in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":43:7:43:13|Synthesizing module wdt_cnt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":165:7:165:14|Synthesizing module wdt_isrg in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":116:7:116:14|Synthesizing module wdt_isrc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":588:7:588:9|Synthesizing module wdt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":519:7:519:17|Synthesizing module wdt_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/common.v":11:7:11:14|Synthesizing module clk_mux2 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":4772:7:4772:13|Synthesizing module pwm_gen in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":3113:7:3113:14|Synthesizing module pwm_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1147:7:1147:15|Synthesizing module pwm_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":64:7:64:9|Synthesizing module pwm in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5314:7:5314:17|Synthesizing module pwm_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":11:7:11:18|Synthesizing module apb0_sub_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":83:7:83:21|Synthesizing module apb1_state_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":11:7:11:19|Synthesizing module apb1_leaf_mux in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":357:8:357:20|Synthesizing module csky_apb1_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim1.v":92:7:92:18|Synthesizing module tim1_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim1.v":11:7:11:18|Synthesizing module tim1_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim3.v":93:7:93:18|Synthesizing module tim3_tim_top in library work.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9615:0:9615:5|Register bit ibus_prot_reg[0] is always 0.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9319:17:9319:25|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9356:21:9356:33|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13006:15:13006:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":15396:19:15396:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6579:15:6579:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6670:14:6670:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6867:12:6867:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6877:12:6877:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6885:12:6885:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6909:11:6909:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6923:12:6923:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":945:25:945:41|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":955:24:955:39|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1360:20:1360:31|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1387:21:1387:33|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20683:11:20683:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20737:14:20737:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20838:11:20838:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20860:14:20860:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21646:25:21646:41|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21657:14:21657:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22281:19:22281:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22282:22:22282:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22302:16:22302:18|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22303:14:22303:16|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22304:20:22304:25|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22305:16:22305:18|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22342:14:22342:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22352:11:22352:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22362:14:22362:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22385:14:22385:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22396:11:22396:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22407:14:22407:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22418:14:22418:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22429:11:22429:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22445:16:22445:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21478:14:21478:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21512:14:21512:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21523:11:21523:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21533:14:21533:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21572:11:21572:13|Removing redundant assignment.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20180:0:20180:5|Register bit xx_tcip_grant is always 0.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2448:18:2448:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2475:19:2475:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5497:14:5497:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5498:19:5498:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5508:18:5508:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5522:18:5522:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5599:19:5599:29|Removing redundant assignment.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v":35:0:35:5|Found RAM mem, depth=16384, width=8
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/sms.v":223:16:223:24|Input mem_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":117:16:117:25|Input bist0_mode is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":124:16:124:35|Input hmain0_cpu_m1_hrdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":125:16:125:35|Input hmain0_cpu_m1_hready is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":126:16:126:34|Input hmain0_cpu_m1_hresp is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":149:16:149:22|Input scan_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2338:15:2338:29|Input ctl_xx_prot_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2340:15:2340:30|Input int_sec_updt_val is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1972:16:1972:31|Input ctrl_arb_int_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1974:16:1974:35|Input ctrl_arb_prio10_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1975:16:1975:35|Input ctrl_arb_prio11_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1976:16:1976:35|Input ctrl_arb_prio12_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1977:16:1977:35|Input ctrl_arb_prio13_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1978:16:1978:35|Input ctrl_arb_prio14_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1979:16:1979:35|Input ctrl_arb_prio15_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1987:16:1987:34|Input ctrl_arb_prio8_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1988:16:1988:34|Input ctrl_arb_prio9_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20252:16:20252:35|Input bmu_tcipif_ibus_addr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20254:16:20254:36|Input bmu_tcipif_ibus_write is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21271:16:21271:21|Input A18551 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21272:16:21272:19|Input A151 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21273:16:21273:21|Input A18550 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21741:16:21741:31|Input cp0_had_int_exit is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21759:16:21759:41|Input iu_had_retire_with_had_int is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21769:16:21769:30|Input tcipif_had_addr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21771:16:21771:31|Input tcipif_had_wdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21772:16:21772:31|Input tcipif_had_write is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21601:15:21601:31|Input pad_had_jdb_req_b is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20940:16:20940:35|Input iu_had_chgflw_dst_pc is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20941:16:20941:32|Input iu_had_chgflw_vld is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":510:16:510:22|Input cpu_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6755:16:6755:29|Input iu_yy_xx_dbgon is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6270:16:6270:31|Input sysio_cp0_bigend is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6271:16:6271:33|Input sysio_cp0_clkratio is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6272:16:6272:34|Input sysio_cp0_endian_v2 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12583:16:12583:35|Input iu_hs_split_ex_stall is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12584:16:12584:33|Input iu_ifu_spcu_int_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":14877:16:14877:35|Input had_iu_bkpt_trace_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":8450:16:8450:41|Input ifctrl_ibuf_inst_pipe_down is unused.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9323:0:9323:5|Register bit entry_inst[16] is always 0.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":54:16:54:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":62:16:62:30|Input tipc_usi1_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim7.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim7.v":44:16:44:30|Input tipc_tim7_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim5.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim5.v":44:16:44:30|Input tipc_tim5_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim3.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim3.v":44:16:44:30|Input tipc_tim3_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim1.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim1.v":44:16:44:30|Input tipc_tim1_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/apb1.v":94:42:94:55|Input i_slave_hburst is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5401:16:5401:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5407:16:5407:29|Input tipc_pwm_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/wdt.v":537:16:537:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/wdt.v":543:16:543:29|Input tipc_wdt_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":23:16:23:20|Input paddr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":24:16:24:19|Input pclk is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":25:16:25:22|Input penable is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":26:16:26:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":27:16:27:19|Input psel is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":28:16:28:21|Input pwdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":29:16:29:21|Input pwrite is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":30:16:30:22|Input presetn is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":205:16:205:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":213:16:213:30|Input tipc_usi2_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3808:16:3808:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3816:16:3816:30|Input tipc_usi0_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim6.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim6.v":44:16:44:30|Input tipc_tim6_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim4.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim4.v":44:16:44:30|Input tipc_tim4_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim2.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim2.v":44:16:44:30|Input tipc_tim2_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":44:16:44:30|Input tipc_tim0_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":573:48:573:56|Input scan_mode is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/apb0.v":94:42:94:55|Input i_slave_hburst is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7210:16:7210:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6614:16:6614:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6018:16:6018:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5422:16:5422:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4826:16:4826:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4230:16:4230:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12574:16:12574:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11978:16:11978:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11382:16:11382:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10786:16:10786:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10190:16:10190:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9594:16:9594:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8998:16:8998:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8402:16:8402:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7806:16:7806:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3634:16:3634:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16042:16:16042:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":51:16:51:20|Input haddr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":52:16:52:19|Input hclk is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":53:16:53:20|Input hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":54:16:54:21|Input hrst_b is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":55:16:55:19|Input hsel is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":56:16:56:20|Input hsize is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":57:16:57:21|Input htrans is unused.
+@N|Running in 64-bit mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/rtc.v":892:16:892:23|Removing instance gatecell (in view: work.rtc_pdu_apbif(verilog)) of type view:work.gated_clk_cell_0(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/rtc.v":409:16:409:23|Removing instance gatecell (in view: work.rtc_cdr_sync(verilog)) of type view:work.gated_clk_cell_1(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/rtc.v":510:16:510:23|Removing instance gatecell (in view: work.rtc_clr_sync(verilog)) of type view:work.gated_clk_cell_2(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/rtc.v":469:16:469:25|Removing instance x_gatecell (in view: work.rtc_clk_div(verilog)) of type view:work.gated_clk_cell_3(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/rtc.v":197:16:197:23|Removing instance gatecell (in view: work.rtc_aou_apbif(verilog)) of type view:work.gated_clk_cell_4(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":780:16:780:33|Removing instance x_main_mdummy_top0 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahbm_dummy_top_2(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":795:16:795:33|Removing instance x_main_mdummy_top1 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahbm_dummy_top_1(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":810:16:810:33|Removing instance x_main_mdummy_top2 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahbm_dummy_top_0(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":825:15:825:35|Removing instance x_main_imemdummy_top0 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahb_dummy_top_5(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":840:15:840:35|Removing instance x_main_dmemdummy_top0 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahb_dummy_top_4(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":855:15:855:31|Removing instance x_main_dummy_top0 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahb_dummy_top_3(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":977:15:977:31|Removing instance x_main_dummy_top1 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahb_dummy_top_2(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":992:15:992:31|Removing instance x_main_dummy_top2 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahb_dummy_top_1(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":1007:15:1007:31|Removing instance x_main_dummy_top3 (in view: work.ahb_matrix_top(verilog)) of type view:work.ahb_dummy_top_0(verilog) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance m_hwdata_d[31:0] (in view: work.ahb_matrix_1_6_sub_dec(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":282:3:282:8|Removing sequential instance grey_wr_ptr[1:0] (in view: work.afifo_77x2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":282:3:282:8|Removing sequential instance wr_ptr[1:0] (in view: work.afifo_77x2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":330:3:330:8|Removing sequential instance grey_rd_ptr[1:0] (in view: work.afifo_77x2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":330:3:330:8|Removing sequential instance rd_ptr[1:0] (in view: work.afifo_77x2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":54:3:54:8|Removing sequential instance grey_wr_ptr[1:0] (in view: work.afifo_35x2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":54:3:54:8|Removing sequential instance wr_ptr[1:0] (in view: work.afifo_35x2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1793:0:1793:5|Removing sequential instance m_hwrite_d (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1793:0:1793:5|Removing sequential instance m_hprot_d[3:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1793:0:1793:5|Removing sequential instance m_hburst_d[2:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1793:0:1793:5|Removing sequential instance m_hsize_d[2:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1793:0:1793:5|Removing sequential instance m_htrans_d[1:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1793:0:1793:5|Removing sequential instance m_haddr_d[31:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1770:12:1770:25|Removing instance x_sub_wr_afifo (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:work.afifo_77x2(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":288:15:288:32|Removing instance x_lsbus_dummy_top0 (in view: work.ls_sub_top(verilog)) of type view:work.ahb_dummy_top_9(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":303:15:303:32|Removing instance x_lsbus_dummy_top1 (in view: work.ls_sub_top(verilog)) of type view:work.ahb_dummy_top_8(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":318:15:318:32|Removing instance x_lsbus_dummy_top2 (in view: work.ls_sub_top(verilog)) of type view:work.ahb_dummy_top_7(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":333:15:333:32|Removing instance x_lsbus_dummy_top3 (in view: work.ls_sub_top(verilog)) of type view:work.ahb_dummy_top_6(verilog) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/pwm.v":4166:0:4166:5|Removing sequential instance clkdiv_en (in view: work.pwm_ctrl(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/pwm.v":4185:16:4185:30|Removing instance x_cpu_gated_clk (in view: work.pwm_ctrl(verilog)) of type view:work.gated_clk_cell_5(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":769:15:769:31|Removing instance x_apb0_dummy_top1 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_7(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":796:15:796:31|Removing instance x_apb0_dummy_top2 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_6(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":808:15:808:31|Removing instance x_apb0_dummy_top3 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_5(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":820:15:820:31|Removing instance x_apb0_dummy_top4 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_4(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":832:15:832:31|Removing instance x_apb0_dummy_top5 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_3(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":909:15:909:31|Removing instance x_apb0_dummy_top7 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_2(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":921:15:921:31|Removing instance x_apb0_dummy_top8 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_1(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":933:15:933:31|Removing instance x_apb0_dummy_top9 (in view: work.apb0_sub_top(verilog)) of type view:work.apb_dummy_top_0(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":549:15:549:31|Removing instance x_apb1_dummy_top1 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_15(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":561:15:561:31|Removing instance x_apb1_dummy_top2 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_14(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":573:15:573:31|Removing instance x_apb1_dummy_top3 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_13(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":585:15:585:31|Removing instance x_apb1_dummy_top4 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_12(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":597:15:597:31|Removing instance x_apb1_dummy_top5 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_11(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":609:15:609:31|Removing instance x_apb1_dummy_top6 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_10(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":621:15:621:31|Removing instance x_apb1_dummy_top7 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_9(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/apb1_sub_top.v":633:15:633:31|Removing instance x_apb1_dummy_top8 (in view: work.apb1_sub_top(verilog)) of type view:work.apb_dummy_top_8(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9538:16:9538:41|Removing instance x_ibus_addr_cnt_low_clkhdr (in view: work.cr_ifu_ibusif(verilog)) of type view:work.gated_clk_cell_8(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9548:16:9548:42|Removing instance x_ibus_addr_cnt_high_clkhdr (in view: work.cr_ifu_ibusif(verilog)) of type view:work.gated_clk_cell_7(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9558:16:9558:30|Removing instance x_sm_upd_clkhdr (in view: work.cr_ifu_ibusif(verilog)) of type view:work.gated_clk_cell_6(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9293:16:9293:37|Removing instance x_ibuf_data_upd_clkhdr (in view: work.cr_ifu_ibuf_entry_5(verilog)) of type view:work.gated_clk_cell_9(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9293:16:9293:37|Removing instance x_ibuf_data_upd_clkhdr (in view: work.cr_ifu_ibuf_entry_4(verilog)) of type view:work.gated_clk_cell_48_0(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9293:16:9293:37|Removing instance x_ibuf_data_upd_clkhdr (in view: work.cr_ifu_ibuf_entry_3(verilog)) of type view:work.gated_clk_cell_48_1(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9293:16:9293:37|Removing instance x_ibuf_data_upd_clkhdr (in view: work.cr_ifu_ibuf_entry_2(verilog)) of type view:work.gated_clk_cell_48_2(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9293:16:9293:37|Removing instance x_ibuf_data_upd_clkhdr (in view: work.cr_ifu_ibuf_entry_1(verilog)) of type view:work.gated_clk_cell_48_3(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9293:16:9293:37|Removing instance x_ibuf_data_upd_clkhdr (in view: work.cr_ifu_ibuf_entry_0(verilog)) of type view:work.gated_clk_cell_48_4(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":8637:16:8637:37|Removing instance x_ibuf_push_upd_clkhdr (in view: work.cr_ifu_ibuf(verilog)) of type view:work.gated_clk_cell_11(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":8648:16:8648:36|Removing instance x_ibuf_pop_upd_clkhdr (in view: work.cr_ifu_ibuf(verilog)) of type view:work.gated_clk_cell_10(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":10445:16:10445:24|Removing instance x_randclk (in view: work.cr_ifu_top(verilog)) of type view:work.cr_ifu_randclk(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":10285:16:10285:38|Removing instance x_gated_cpuclk_cell_ifu (in view: work.cr_ifu_top(verilog)) of type view:work.gated_clk_cell_13(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":10295:16:10295:38|Removing instance x_entry_ifu_misc_clkhdr (in view: work.cr_ifu_top(verilog)) of type view:work.gated_clk_cell_12(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_13(verilog)) of type view:work.gated_clk_cell_14(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_12(verilog)) of type view:work.gated_clk_cell_48_5(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_11(verilog)) of type view:work.gated_clk_cell_48_6(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_10(verilog)) of type view:work.gated_clk_cell_48_7(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_9(verilog)) of type view:work.gated_clk_cell_48_8(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_8(verilog)) of type view:work.gated_clk_cell_48_9(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_7(verilog)) of type view:work.gated_clk_cell_48_10(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_6(verilog)) of type view:work.gated_clk_cell_48_11(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_5(verilog)) of type view:work.gated_clk_cell_48_12(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_4(verilog)) of type view:work.gated_clk_cell_48_13(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_3(verilog)) of type view:work.gated_clk_cell_48_14(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_2(verilog)) of type view:work.gated_clk_cell_48_15(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_1(verilog)) of type view:work.gated_clk_cell_48_16(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12500:16:12500:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_0(verilog)) of type view:work.gated_clk_cell_48_17(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12551:16:12551:30|Removing instance x_reg_gated_clk (in view: work.cr_iu_gated_clk_reg_timing(verilog)) of type view:work.gated_clk_cell_15(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12902:16:12902:30|Removing instance x_mad_gated_clk (in view: work.cr_iu_mad(verilog)) of type view:work.gated_clk_cell_18(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13053:16:13053:37|Removing instance x_split_cnt_upd_clkhdr (in view: work.cr_iu_mad(verilog)) of type view:work.gated_clk_cell_17(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13064:16:13064:30|Removing instance x_sm_upd_clkhdr (in view: work.cr_iu_mad(verilog)) of type view:work.gated_clk_cell_16(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":15183:16:15183:35|Removing instance x_ext_int_gated_cell (in view: work.cr_iu_retire(verilog)) of type view:work.gated_clk_cell_19(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":15172:16:15172:30|Removing instance x_dbg_gated_clk (in view: work.cr_iu_retire(verilog)) of type view:work.gated_clk_cell_20(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17632:16:17632:29|Removing instance x_wb_gated_clk (in view: work.cr_iu_wb(verilog)) of type view:work.gated_clk_cell_23(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17643:16:17643:43|Removing instance x_wb_data_buf_16_0_gated_clk (in view: work.cr_iu_wb(verilog)) of type view:work.gated_clk_cell_22(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17656:16:17656:38|Removing instance x_idx_buf_3_0_gated_clk (in view: work.cr_iu_wb(verilog)) of type view:work.gated_clk_cell_21(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":14260:16:14260:32|Removing instance x_curpc_gated_clk (in view: work.cr_iu_pcgen(verilog)) of type view:work.gated_clk_cell_25(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":14273:16:14273:38|Removing instance x_curpc_30_11_gated_clk (in view: work.cr_iu_pcgen(verilog)) of type view:work.gated_clk_cell_24(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17106:15:17106:29|Removing instance x_cr_iu_randclk (in view: work.cr_iu_top(verilog)) of type view:work.cr_iu_randclk(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17115:16:17115:31|Removing instance x_cr_iu_hs_split (in view: work.cr_iu_top(verilog)) of type view:work.cr_iu_hs_split(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":16423:16:16423:31|Removing instance x_misc_gated_clk (in view: work.cr_iu_top(verilog)) of type view:work.gated_clk_cell_26(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":18462:16:18462:35|Removing instance x_size_buf_gated_clk (in view: work.cr_lsu_dp(verilog)) of type view:work.gated_clk_cell_28(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":18645:16:18645:33|Removing instance x_store_buffer_clk (in view: work.cr_lsu_dp(verilog)) of type view:work.gated_clk_cell_27(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19239:16:19239:31|Removing instance x_cr_lsu_unalign (in view: work.cr_lsu_top(verilog)) of type view:work.cr_lsu_unalign(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19236:16:19236:24|Removing instance x_randclk (in view: work.cr_lsu_top(verilog)) of type view:work.cr_lsu_randclk(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6093:16:6093:31|Removing instance x_lpmd_gated_clk (in view: work.cr_cp0_lpmd(verilog)) of type view:work.gated_clk_cell_29(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":7529:16:7529:31|Removing instance x_cr_cp0_randclk (in view: work.cr_cp0_top(verilog)) of type view:work.cr_cp0_randclk(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":7313:16:7313:35|Removing instance x_psr_lpmd_gated_clk (in view: work.cr_cp0_top(verilog)) of type view:work.gated_clk_cell_30(verilog) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":948:0:948:5|Removing sequential instance iahbl_lrw_hit_ff (in view: work.cr_bmu_dbus_if(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1794:16:1794:31|Removing instance x_deny_gated_clk (in view: work.cr_bmu_top(verilog)) of type view:work.gated_clk_cell_31(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19633:16:19633:39|Removing instance x_gated_ahbl_cpuclk_cell (in view: work.cr_sahbl_top(verilog)) of type view:work.gated_clk_cell_32(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":8293:16:8293:39|Removing instance x_gated_ahbl_cpuclk_cell (in view: work.cr_iahbl_top(verilog)) of type view:work.gated_clk_cell_33(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19807:16:19807:45|Removing instance x_gated_sysio_lpmd_cpuclk_cell (in view: work.cr_sys_io(verilog)) of type view:work.gated_clk_cell_34(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":23073:16:23073:19|Removing instance A158 (in view: work.cr_had_top(verilog)) of type view:work.gated_clk_cell_35(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3472:12:3472:23|Removing instance x_cr_clk_top (in view: work.cr_clkrst_top(verilog)) of type view:work.cr_clk_top(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3480:12:3480:23|Removing instance x_cr_rst_top (in view: work.cr_clkrst_top(verilog)) of type view:work.cr_rst_top(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20078:16:20078:36|Removing instance x_tcipif_dbus_sel_clk (in view: work.cr_tcipif_behavior_bus(verilog)) of type view:work.gated_clk_cell_37(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20170:16:20170:37|Removing instance x_tcipif_dbus_ctrl_clk (in view: work.cr_tcipif_behavior_bus(verilog)) of type view:work.gated_clk_cell_36(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20285:16:20285:36|Removing instance x_tcipif_ibus_sel_clk (in view: work.cr_tcipif_dummy_bus(verilog)) of type view:work.gated_clk_cell_38(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3089:16:3089:38|Removing instance x_clic_enable_gated_clk (in view: work.cr_clic_top(verilog)) of type view:work.gated_clk_cell_44(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3100:16:3100:36|Removing instance x_clic_pend_gated_clk (in view: work.cr_clic_top(verilog)) of type view:work.gated_clk_cell_43(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3111:16:3111:38|Removing instance x_clic_sample_gated_clk (in view: work.cr_clic_top(verilog)) of type view:work.gated_clk_cell_42(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3122:16:3122:35|Removing instance x_clic_pri_gated_clk (in view: work.cr_clic_top(verilog)) of type view:work.gated_clk_cell_41(verilog) because it does not drive other instances.
+@N: BN115 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":3136:16:3136:35|Removing instance x_clic_cfg_gated_clk (in view: work.cr_clic_top(verilog)) of type view:work.gated_clk_cell_40(verilog) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":307:0:307:5|Removing sequential instance harb_ahbs_hsel_r (in view: work.sms_sms_ahbs_bk2_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":307:0:307:5|Removing sequential instance harb_ahbs_hsel_r (in view: work.sms_sms_ahbs_bk2_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":307:0:307:5|Removing sequential instance harb_ahbs_hsel_r (in view: work.sms_sms_ahbs_bk2_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":307:0:307:5|Removing sequential instance harb_ahbs_hsel_r (in view: work.sms_sms_ahbs_bk2_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/rtc.v":393:1:393:6|Removing sequential instance cnt_reg3 (in view: work.rtc_cdr_sync(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1828:0:1828:5|Removing sequential instance rd_hready (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1840:0:1840:5|Removing sequential instance clk_div (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3262:0:3262:5|Removing sequential instance empty_d (in view: work.sync_fifo_16x16_1_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3262:0:3262:5|Removing sequential instance empty_d (in view: work.sync_fifo_16x16_1_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3262:0:3262:5|Removing sequential instance empty_d (in view: work.sync_fifo_16x16_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/rtc.v":393:1:393:6|Removing sequential instance cnt_reg2 (in view: work.rtc_cdr_sync(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/apb0.v":240:0:240:5|Removing sequential instance o_root_pstrb[3:0] (in view: work.apb0_state_ctrl(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/apb0.v":256:0:256:5|Removing sequential instance o_root_pprot[2:0] (in view: work.apb0_state_ctrl(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4514:0:4514:5|Removing sequential instance dma_req_rx (in view: work.usi_top_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4514:0:4514:5|Removing sequential instance dma_req_tx (in view: work.usi_top_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4555:0:4555:5|Removing sequential instance usi_etb_rx_trig (in view: work.usi_top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4566:0:4566:5|Removing sequential instance usi_etb_tx_trig (in view: work.usi_top_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4514:0:4514:5|Removing sequential instance dma_req_rx (in view: work.usi_top_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4514:0:4514:5|Removing sequential instance dma_req_tx (in view: work.usi_top_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4555:0:4555:5|Removing sequential instance usi_etb_rx_trig (in view: work.usi_top_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4566:0:4566:5|Removing sequential instance usi_etb_tx_trig (in view: work.usi_top_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/apb1.v":240:0:240:5|Removing sequential instance o_root_pstrb[3:0] (in view: work.apb1_state_ctrl(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4514:0:4514:5|Removing sequential instance dma_req_rx (in view: work.usi_top_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4514:0:4514:5|Removing sequential instance dma_req_tx (in view: work.usi_top_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4555:0:4555:5|Removing sequential instance usi_etb_rx_trig (in view: work.usi_top_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/usi0.v":4566:0:4566:5|Removing sequential instance usi_etb_tx_trig (in view: work.usi_top_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":15419:0:15419:5|Removing sequential instance wb_split_inst (in view: work.cr_iu_retire(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21526:0:21526:5|Removing sequential instance A1854e (in view: work.A1864d(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/rtc.v":393:1:393:6|Removing sequential instance cnt_reg1 (in view: work.rtc_cdr_sync(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/rtc.v":684:1:684:6|Removing sequential instance rtc_etb_trig (in view: work.rtc_ig(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19827:0:19827:5|Removing sequential instance sysio_pad_dbg_b (in view: work.cr_sys_io(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19827:0:19827:5|Removing sequential instance sysio_pad_ipend_b (in view: work.cr_sys_io(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":19827:0:19827:5|Removing sequential instance sysio_pad_wakeup_b (in view: work.cr_sys_io(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":316:0:316:5|Removing sequential instance harb_xx_haddr_r[1:0] (in view: work.sms_sms_ahbs_bk2_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":316:0:316:5|Removing sequential instance harb_xx_haddr_r[1:0] (in view: work.sms_sms_ahbs_bk2_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":316:0:316:5|Removing sequential instance harb_xx_haddr_r[1:0] (in view: work.sms_sms_ahbs_bk2_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":316:0:316:5|Removing sequential instance harb_xx_haddr_r[1:0] (in view: work.sms_sms_ahbs_bk2_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":639:0:639:5|Removing sequential instance gpio_int_clk_en (in view: work.gpio_ctrl(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_15(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_15(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_5(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_4(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_4(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_14(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_13(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_12(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_12(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_11(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_11(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_10(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_10(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_7(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_7(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15723:0:15723:5|Removing sequential instance channl_end_st (in view: work.fsmc_6(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15737:0:15737:5|Removing sequential instance trgevent_end_st (in view: work.fsmc_6(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_5(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_6(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":404:0:404:5|Removing sequential instance tim2_etb_trig (in view: work.timers_apbif_6(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/tim.v":395:0:395:5|Removing sequential instance tim1_etb_trig (in view: work.timers_apbif_7(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=730 on top level netlist wujian100_open_top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open.sap.
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":102:3:102:8|Removing sequential instance x_sub_rd_afifo.rd_ptr[1:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21637:0:21637:5|Removing sequential instance A15c.had_pad_jdb_ack_b (in view: work.cr_had_top(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21648:0:21648:5|Removing sequential instance A15c.A1862b (in view: work.cr_had_top(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO106 :"/home/master/xuantie/wujian100_open/soc/wdt.v":473:8:473:11|Found ROM int_top[30:16] (in view: work.wdt_regfile(verilog)) with 15 words by 15 bits.
+@N: MO106 :"/home/master/xuantie/wujian100_open/soc/wdt.v":430:8:430:11|Found ROM int_top_init[30:16] (in view: work.wdt_regfile(verilog)) with 15 words by 15 bits.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[1] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[3] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[4] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[5] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[6] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[7] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[8] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[9] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[10] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/rtc.v":658:7:658:41|Found 32 by 32 bit equality operator ('==') x_rtc0_sec_top.x_rtc_aou_top.x_rtc_ig.un1_match_val (in view: work.aou_top(verilog))
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/rtc.v":594:1:594:6|Found counter in view:work.rtc_cnt(verilog) instance cnt[31:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/rtc.v":606:12:606:40|Found 32 by 32 bit equality operator ('==') un1_match_val (in view: work.rtc_cnt(verilog))
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/rtc.v":459:0:459:5|Found counter in view:work.rtc_clk_div(verilog) instance cnt[19:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/rtc.v":458:16:458:47|Found 20 by 20 bit equality operator ('==') cntEq0 (in view: work.rtc_clk_div(verilog))
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34008:0:34008:5|Removing sequential instance m0_ctrl_bus_ff[11] (in view: work.ahb_matrix_7_12_dec(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34022:0:34022:5|Removing sequential instance m2_ctrl_bus_ff[11] (in view: work.ahb_matrix_7_12_dec(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance m3_ctrl_bus_ff[11] (in view: work.ahb_matrix_7_12_dec(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance m3_ctrl_bus_ff[10] (in view: work.ahb_matrix_7_12_dec(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34022:0:34022:5|Removing sequential instance m2_ctrl_bus_ff[10] (in view: work.ahb_matrix_7_12_dec(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34008:0:34008:5|Removing sequential instance m0_ctrl_bus_ff[10] (in view: work.ahb_matrix_7_12_dec(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/tim.v":468:0:468:5|Found counter in view:work.timers_frc_32_1(verilog) instance timer[31:0] 
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3627:0:3627:5|Found counter in view:work.uart(verilog) instance rxcnt_div16[23:0] 
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3524:0:3524:5|Found counter in view:work.uart(verilog) instance txcnt_div16[23:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3509:27:3509:62|Found 24 by 24 bit equality operator ('==') txcnt_div16_eq (in view: work.uart(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3739:27:3739:62|Found 24 by 24 bit equality operator ('==') un2_rxcnt_div16_eq (in view: work.uart(verilog))
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1467:0:1467:5|Found counter in view:work.i2cm(verilog) instance hold_cnt[7:0] 
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1485:0:1485:5|Found counter in view:work.i2cm(verilog) instance i2c_fscnt[7:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1478:23:1478:53|Found 8 by 8 bit equality operator ('==') un7_hold_eq (in view: work.i2cm(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1502:24:1502:57|Found 8 by 8 bit equality operator ('==') i2c_fscnt_eq (in view: work.i2cm(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1233:20:1233:51|Found 24 by 24 bit equality operator ('==') un1_bit_cnt (in view: work.i2cm(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1322:23:1322:48|Found 24 by 24 bit equality operator ('==') un2_bcnt_eql (in view: work.i2cm(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1323:23:1323:48|Found 24 by 24 bit equality operator ('==') un2_bcnt_eqh (in view: work.i2cm(verilog))
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1897:0:1897:5|Found counter in view:work.i2cs(verilog) instance i2cs_bcnt[23:0] 
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1936:0:1936:5|Found counter in view:work.i2cs(verilog) instance s_hold_cnt[7:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1947:51:1947:83|Found 8 by 8 bit equality operator ('==') un4_s_hold_eq (in view: work.i2cs(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2043:24:2043:53|Found 8 by 8 bit equality operator ('==') addr1_cmp_3 (in view: work.i2cs(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1901:12:1901:45|Found 24 by 24 bit equality operator ('==') i2cs_bcnt_eql (in view: work.i2cs(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2025:32:2025:61|Found 7 by 7 bit equality operator ('==') un8_addr0_cmp (in view: work.i2cs(verilog))
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2823:0:2823:5|Found counter in view:work.spi(verilog) instance txcnt_div[22:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2822:25:2822:58|Found 23 by 23 bit equality operator ('==') txcnt_div_eq (in view: work.spi(verilog))
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/wdt.v":230:0:230:5|Found counter in view:work.wdt_isrc(verilog) instance U_WDT_ISRG.rst_cnt[7:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":4174:7:4174:34|Found 7 by 7 bit equality operator ('==') clkcnt9 (in view: work.pwm_ctrl(verilog))
+@N: MO230 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5010:0:5010:5|Found up-down counter in view:work.pwm_gen(verilog) instance pwm_cnt[31:0]  
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5157:0:5157:5|Found counter in view:work.pwm_gen(verilog) instance deadband_cnt_1[11:0] 
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5135:0:5135:5|Found counter in view:work.pwm_gen(verilog) instance deadband_cnt_0[11:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5081:25:5081:60|Found 32 by 32 bit equality operator ('==') un1_pwm_cnt (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5015:7:5015:38|Found 32 by 32 bit equality operator ('==') pwm_cnt10 (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5040:14:5040:51|Found 32 by 32 bit equality operator ('==') pwm_cnt57 (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5187:37:5187:65|Found 32 by 32 bit equality operator ('==') un3_compa_up_flag (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5189:37:5189:65|Found 32 by 32 bit equality operator ('==') un3_compb_up_flag (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5191:51:5191:88|Found 32 by 32 bit equality operator ('==') un3_cap_cnt_match_flag (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5154:21:5154:69|Found 12 by 12 bit equality operator ('==') un1_deadband_delay_cnt (in view: work.pwm_gen(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5176:22:5176:70|Found 12 by 12 bit equality operator ('==') un1_deadband_delay_cnt_1 (in view: work.pwm_gen(verilog))
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20187:0:20187:5|Removing sequential instance x_cr_tcipif_top.x_cr_tcipif_dbus.tcipif_xx_dbus_addr[12] (in view: work.E902_20191018(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20187:0:20187:5|Removing sequential instance x_cr_tcipif_top.x_cr_tcipif_dbus.tcipif_xx_dbus_addr[13] (in view: work.E902_20191018(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20187:0:20187:5|Removing sequential instance x_cr_tcipif_top.x_cr_tcipif_dbus.tcipif_xx_dbus_addr[14] (in view: work.E902_20191018(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20187:0:20187:5|Removing sequential instance x_cr_tcipif_top.x_cr_tcipif_dbus.tcipif_xx_dbus_addr[15] (in view: work.E902_20191018(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":648:0:648:5|Removing sequential instance x_cr_core_top.x_cr_iahbl_top.x_cr_ahbl_req_arb.cpu_req_bus_grnt[1] (in view: work.E902_20191018(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":648:0:648:5|Removing sequential instance x_cr_core_top.x_cr_sahbl_top.x_cr_ahbl_req_arb.cpu_req_bus_grnt[1] (in view: work.E902_20191018(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":17814:0:17814:5|Removing sequential instance x_cr_iu_top.x_cr_iu_wb.wb_idx_buffer[4] (in view: work.cr_core(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6586:0:6586:5|Found counter in view:work.cr_cp0_top(verilog) instance x_cr_cp0_oreg.mcycle[63:0] 
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20668:18:20669:42|Found 32 by 32 bit equality operator ('==') A18688_1 (in view: work.A186a0(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20685:18:20688:31|Found 32 by 32 bit equality operator ('==') A18694_1 (in view: work.A186a0(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20824:17:20824:51|Found 32 by 32 bit equality operator ('==') A18688 (in view: work.A15(verilog))
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20840:17:20840:55|Found 32 by 32 bit equality operator ('==') A18682 (in view: work.A15(verilog))
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22091:0:22091:5|Removing sequential instance A1861c[7] (in view: work.A7f(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: MF179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2248:42:2248:77|Found 10 by 10 bit equality operator ('==') x_cr_clic_arb.un3_m_th_clr (in view: work.cr_clic_top(verilog))
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2277:0:2277:5|Removing sequential instance x_cr_clic_arb.clic_pad_int_id_1[6] (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: MO231 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5576:0:5576:5|Found counter in view:work.cr_coretim_top(verilog) instance cnt[23:0] 
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[39\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[32\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[28\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[30\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[37\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[40\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[25\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[20\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[33\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[38\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[35\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[23\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[24\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[29\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[34\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[18\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[16\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[21\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[36\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[26\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[19\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[7\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[17\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[22\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[27\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":137:0:137:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_isram_top.rd_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":113:0:113:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_isram_top.wr_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":125:0:125:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_isram_top.rd_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":101:0:101:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_isram_top.wr_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":137:0:137:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms2_top.rd_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":113:0:113:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms2_top.wr_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":125:0:125:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms2_top.rd_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":101:0:101:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms2_top.wr_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":137:0:137:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms1_top.rd_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":113:0:113:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms1_top.wr_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":125:0:125:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms1_top.rd_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":101:0:101:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms1_top.wr_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":137:0:137:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms0_top.rd_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":113:0:113:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms0_top.wr_deny_resp_2_cycle (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":125:0:125:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms0_top.rd_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":101:0:101:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms0_top.wr_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":398:0:398:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_isram_top.x_sms_sms_ahbs.w_ram_size_tmp[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m3_ctrl_bus_ff[3] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m3_ctrl_bus_ff[4] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m3_ctrl_bus_ff[1] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34022:0:34022:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m2_ctrl_bus_ff[1] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34008:0:34008:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m0_ctrl_bus_ff[1] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m3_ctrl_bus_ff[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34022:0:34022:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m2_ctrl_bus_ff[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34008:0:34008:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m0_ctrl_bus_ff[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/apb0.v":170:0:170:5|Removing sequential instance x_pdu_top.x_sub_apb0_top.x_apb0_sub_top.U_APB0_STATE_CTRL.o_root_paddr[31] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1319:0:1319:5|Removing sequential instance x_pdu_top.x_sub_ls_top.x_sub_ls_top.x_matrix_sub_dec.m_ctrl_bus_d[30] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[0] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":19264:0:19264:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m4_cur_st[0] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":22972:0:22972:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m5_cur_st[0] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":26680:0:26680:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m6_cur_st[0] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[42] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[46] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[48] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[18] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[22] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[24] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[26] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[28] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[30] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[32] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[34] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[36] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[38] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[40] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[6] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":535:1:535:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.rtc_load_sync1 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":548:1:548:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.pclk_load_sync1 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A75.A18597 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A74.A18597 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A1862d.A18597 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":535:1:535:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.rtc_load_sync1 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":548:1:548:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.pclk_load_sync1 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A75.A18597 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A74.A18597 (in view: work.wujian100_open_top(verilog)).
+@N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A1862d.A18597 (in view: work.wujian100_open_top(verilog)).
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX623 |Packing into LUT6_2
+@N: FX1035 :"/home/master/xuantie/wujian100_open/soc/sms.v":398:0:398:5|Inserting BUFG on non-clock net pad_core_rst_b_i (fanout: 12440). To prevent insertion of a BUFG on this net, copy and paste the string 'define_attribute {n:pad_core_rst_b_i} {syn_auto_insert_bufg} {0}' into your FDC file.
+@N: FX1056 |Writing EDF file: /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open.edf
+@N: MT615 |Found clock PIN_EHS with period 50.00ns 
+@N: MT615 |Found clock PAD_JTAG_TCLK with period 500.00ns 
+@N: MT615 |Found clock I_RTC_EXT_CLK with period 1000.00ns 
+@N: MT615 |Found clock RTC_CLK_DIV with period 2000.00ns 
+@N: MT615 |Found clock CLKDIV with period 200.00ns 
+@N: MT535 |Writing timing correlation to file /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open_ctd.txt 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":466:63:466:75|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":555:37:555:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":557:41:557:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/sms.v":568:41:568:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":933:36:933:48|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":965:37:965:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":986:37:986:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1007:37:1007:49|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1029:37:1029:49|Read a parallel_case directive.
+@N: CG334 :"/home/master/xuantie/wujian100_open/soc/matrix.v":224:12:224:24|Read directive translate_off.
+@N: CG333 :"/home/master/xuantie/wujian100_open/soc/matrix.v":237:12:237:23|Read directive translate_on.
+@N: CG334 :"/home/master/xuantie/wujian100_open/soc/matrix.v":452:12:452:24|Read directive translate_off.
+@N: CG333 :"/home/master/xuantie/wujian100_open/soc/matrix.v":465:12:465:23|Read directive translate_on.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1066:56:1066:68|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2839:42:2839:54|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2866:41:2866:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2916:42:2916:54|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2981:40:2981:52|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3071:41:3071:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3555:50:3555:62|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3581:38:3581:50|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3616:41:3616:53|Read a parallel_case directive.
+@N: CG347 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3669:37:3669:49|Read a parallel_case directive.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/clkgen.v":11:7:11:19|Synthesizing module pmu_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":166:7:166:16|Synthesizing module gpio_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":525:7:525:15|Synthesizing module gpio_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":1134:7:1134:14|Synthesizing module gpio_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":19:7:19:11|Synthesizing module gpio0 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/gpio0.v":89:7:89:19|Synthesizing module gpio0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/common.v":43:7:43:20|Synthesizing module gated_clk_cell in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":700:7:700:19|Synthesizing module rtc_pdu_apbif in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/rtc.v":979:17:979:23|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":371:7:371:18|Synthesizing module rtc_cdr_sync in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":481:7:481:18|Synthesizing module rtc_clr_sync in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":1014:7:1014:17|Synthesizing module rtc_pdu_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":564:7:564:13|Synthesizing module rtc_cnt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":619:7:619:12|Synthesizing module rtc_ig in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":431:7:431:17|Synthesizing module rtc_clk_div in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":135:7:135:19|Synthesizing module rtc_aou_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":241:7:241:17|Synthesizing module rtc_aou_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/rtc.v":21:7:21:18|Synthesizing module rtc0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/aou_top.v":11:7:11:13|Synthesizing module aou_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":31794:7:31794:25|Synthesizing module ahb_matrix_7_12_dec in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1859:7:1859:25|Synthesizing module ahb_matrix_7_12_arb in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34729:7:34729:26|Synthesizing module ahb_matrix_7_12_main in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":73:7:73:20|Synthesizing module ahbm_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":36:7:36:19|Synthesizing module ahb_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":631:7:631:15|Synthesizing module bmux_ctrl in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1059:21:1059:29|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15929:7:15929:12|Synthesizing module gbregc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3587:7:3587:13|Synthesizing module chregc0 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7759:7:7759:13|Synthesizing module chregc1 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8355:7:8355:13|Synthesizing module chregc2 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8951:7:8951:13|Synthesizing module chregc3 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9547:7:9547:13|Synthesizing module chregc4 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10143:7:10143:13|Synthesizing module chregc5 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10739:7:10739:13|Synthesizing module chregc6 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11335:7:11335:13|Synthesizing module chregc7 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11931:7:11931:13|Synthesizing module chregc8 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12527:7:12527:13|Synthesizing module chregc9 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4183:7:4183:14|Synthesizing module chregc10 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4779:7:4779:14|Synthesizing module chregc11 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5375:7:5375:14|Synthesizing module chregc12 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5971:7:5971:14|Synthesizing module chregc13 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6567:7:6567:14|Synthesizing module chregc14 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7163:7:7163:14|Synthesizing module chregc15 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16237:7:16237:14|Synthesizing module reg_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3549:7:3549:18|Synthesizing module chntrg_latch in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16224:7:16224:16|Synthesizing module hpchn_decd in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11:7:11:14|Synthesizing module arb_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":15225:7:15225:10|Synthesizing module fsmc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":1077:7:1077:13|Synthesizing module ch_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dmac.v":13123:7:13123:14|Synthesizing module dmac_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/ahb_matrix_top.v":11:7:11:20|Synthesizing module ahb_matrix_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":467:7:467:28|Synthesizing module ahb_matrix_1_6_sub_dec in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":239:7:239:16|Synthesizing module afifo_77x2 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/matrix.v":303:4:303:9|Found RAM mem, depth=2, width=77
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":11:7:11:16|Synthesizing module afifo_35x2 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/matrix.v":75:4:75:9|Found RAM mem, depth=2, width=35
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/matrix.v":1386:7:1386:24|Synthesizing module ahb_matrix_1_6_sub in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/ls_sub_top.v":11:7:11:16|Synthesizing module ls_sub_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":83:7:83:21|Synthesizing module apb0_state_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":11:7:11:19|Synthesizing module apb0_leaf_mux in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0.v":357:8:357:20|Synthesizing module csky_apb0_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":92:7:92:18|Synthesizing module timers_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":432:7:432:16|Synthesizing module timers_frc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":535:7:535:16|Synthesizing module timers_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":672:7:672:13|Synthesizing module tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim.v":11:7:11:18|Synthesizing module tim0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim2.v":94:7:94:18|Synthesizing module tim2_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim2.v":11:7:11:18|Synthesizing module tim2_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim4.v":93:7:93:18|Synthesizing module tim4_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim4.v":11:7:11:18|Synthesizing module tim4_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim6.v":93:7:93:18|Synthesizing module tim6_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim6.v":11:7:11:18|Synthesizing module tim6_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3335:7:3335:10|Synthesizing module uart in library work.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3568:32:3568:38|Removing redundant assignment.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":602:7:602:10|Synthesizing module i2cm in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":1625:7:1625:10|Synthesizing module i2cs in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2134:7:2134:13|Synthesizing module i2c_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2625:7:2625:9|Synthesizing module spi in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2399:7:2399:14|Synthesizing module sdata_if in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":39:7:39:12|Synthesizing module apb_if in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3107:7:3107:21|Synthesizing module sync_fifo_16x16 in library work.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3212:0:3212:5|Found RAM mem_fifo, depth=16, width=16
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3916:7:3916:13|Synthesizing module usi_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3765:7:3765:18|Synthesizing module usi0_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/usi1.v":162:7:162:18|Synthesizing module usi2_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/dummy.v":11:7:11:19|Synthesizing module apb_dummy_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":11:7:11:13|Synthesizing module wdt_biu in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":242:7:242:17|Synthesizing module wdt_regfile in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":43:7:43:13|Synthesizing module wdt_cnt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":165:7:165:14|Synthesizing module wdt_isrg in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":116:7:116:14|Synthesizing module wdt_isrc in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":588:7:588:9|Synthesizing module wdt in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/wdt.v":519:7:519:17|Synthesizing module wdt_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/common.v":11:7:11:14|Synthesizing module clk_mux2 in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":4772:7:4772:13|Synthesizing module pwm_gen in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":3113:7:3113:14|Synthesizing module pwm_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":1147:7:1147:15|Synthesizing module pwm_apbif in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":64:7:64:9|Synthesizing module pwm in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5314:7:5314:17|Synthesizing module pwm_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb0_sub_top.v":11:7:11:18|Synthesizing module apb0_sub_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":83:7:83:21|Synthesizing module apb1_state_ctrl in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":11:7:11:19|Synthesizing module apb1_leaf_mux in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/apb1.v":357:8:357:20|Synthesizing module csky_apb1_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim1.v":92:7:92:18|Synthesizing module tim1_tim_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim1.v":11:7:11:18|Synthesizing module tim1_sec_top in library work.
+@N: CG364 :"/home/master/xuantie/wujian100_open/soc/tim3.v":93:7:93:18|Synthesizing module tim3_tim_top in library work.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9615:0:9615:5|Register bit ibus_prot_reg[0] is always 0.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9319:17:9319:25|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9356:21:9356:33|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":13006:15:13006:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":15396:19:15396:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6579:15:6579:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6670:14:6670:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6867:12:6867:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6877:12:6877:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6885:12:6885:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6909:11:6909:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6923:12:6923:15|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":945:25:945:41|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":955:24:955:39|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1360:20:1360:31|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1387:21:1387:33|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20683:11:20683:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20737:14:20737:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20838:11:20838:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20860:14:20860:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21646:25:21646:41|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21657:14:21657:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22281:19:22281:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22282:22:22282:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22302:16:22302:18|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22303:14:22303:16|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22304:20:22304:25|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22305:16:22305:18|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22342:14:22342:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22352:11:22352:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22362:14:22362:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22385:14:22385:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22396:11:22396:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22407:14:22407:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22418:14:22418:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22429:11:22429:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22445:16:22445:21|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21478:14:21478:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21512:14:21512:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21523:11:21523:13|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21533:14:21533:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21572:11:21572:13|Removing redundant assignment.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20180:0:20180:5|Register bit xx_tcip_grant is always 0.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2448:18:2448:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2475:19:2475:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5497:14:5497:19|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5498:19:5498:29|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5508:18:5508:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5522:18:5522:27|Removing redundant assignment.
+@N: CG179 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5599:19:5599:29|Removing redundant assignment.
+@N: CL134 :"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v":35:0:35:5|Found RAM mem, depth=16384, width=8
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/sms.v":223:16:223:24|Input mem_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":117:16:117:25|Input bist0_mode is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":124:16:124:35|Input hmain0_cpu_m1_hrdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":125:16:125:35|Input hmain0_cpu_m1_hready is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":126:16:126:34|Input hmain0_cpu_m1_hresp is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/core_top.v":149:16:149:22|Input scan_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2338:15:2338:29|Input ctl_xx_prot_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2340:15:2340:30|Input int_sec_updt_val is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1972:16:1972:31|Input ctrl_arb_int_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1974:16:1974:35|Input ctrl_arb_prio10_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1975:16:1975:35|Input ctrl_arb_prio11_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1976:16:1976:35|Input ctrl_arb_prio12_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1977:16:1977:35|Input ctrl_arb_prio13_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1978:16:1978:35|Input ctrl_arb_prio14_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1979:16:1979:35|Input ctrl_arb_prio15_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1987:16:1987:34|Input ctrl_arb_prio8_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":1988:16:1988:34|Input ctrl_arb_prio9_mask is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20252:16:20252:35|Input bmu_tcipif_ibus_addr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20254:16:20254:36|Input bmu_tcipif_ibus_write is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21271:16:21271:21|Input A18551 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21272:16:21272:19|Input A151 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21273:16:21273:21|Input A18550 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21741:16:21741:31|Input cp0_had_int_exit is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21759:16:21759:41|Input iu_had_retire_with_had_int is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21769:16:21769:30|Input tcipif_had_addr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21771:16:21771:31|Input tcipif_had_wdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21772:16:21772:31|Input tcipif_had_write is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21601:15:21601:31|Input pad_had_jdb_req_b is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20940:16:20940:35|Input iu_had_chgflw_dst_pc is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":20941:16:20941:32|Input iu_had_chgflw_vld is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":510:16:510:22|Input cpu_sec is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6755:16:6755:29|Input iu_yy_xx_dbgon is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6270:16:6270:31|Input sysio_cp0_bigend is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6271:16:6271:33|Input sysio_cp0_clkratio is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":6272:16:6272:34|Input sysio_cp0_endian_v2 is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12583:16:12583:35|Input iu_hs_split_ex_stall is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":12584:16:12584:33|Input iu_ifu_spcu_int_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":14877:16:14877:35|Input had_iu_bkpt_trace_en is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":8450:16:8450:41|Input ifctrl_ibuf_inst_pipe_down is unused.
+@N: CL189 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":9323:0:9323:5|Register bit entry_inst[16] is always 0.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":54:16:54:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":62:16:62:30|Input tipc_usi1_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim7.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim7.v":44:16:44:30|Input tipc_tim7_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim5.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim5.v":44:16:44:30|Input tipc_tim5_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim3.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim3.v":44:16:44:30|Input tipc_tim3_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim1.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim1.v":44:16:44:30|Input tipc_tim1_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/apb1.v":94:42:94:55|Input i_slave_hburst is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5401:16:5401:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/pwm.v":5407:16:5407:29|Input tipc_pwm_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/wdt.v":537:16:537:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/wdt.v":543:16:543:29|Input tipc_wdt_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":23:16:23:20|Input paddr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":24:16:24:19|Input pclk is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":25:16:25:22|Input penable is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":26:16:26:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":27:16:27:19|Input psel is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":28:16:28:21|Input pwdata is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":29:16:29:21|Input pwrite is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":30:16:30:22|Input presetn is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":205:16:205:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi1.v":213:16:213:30|Input tipc_usi2_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3808:16:3808:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/usi0.v":3816:16:3816:30|Input tipc_usi0_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim6.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim6.v":44:16:44:30|Input tipc_tim6_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim4.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim4.v":44:16:44:30|Input tipc_tim4_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim2.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim2.v":44:16:44:30|Input tipc_tim2_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":38:16:38:20|Input pprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":44:16:44:30|Input tipc_tim0_trust is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/tim.v":573:48:573:56|Input scan_mode is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/apb0.v":94:42:94:55|Input i_slave_hburst is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7210:16:7210:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6614:16:6614:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":6018:16:6018:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":5422:16:5422:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4826:16:4826:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":4230:16:4230:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":12574:16:12574:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11978:16:11978:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":11382:16:11382:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10786:16:10786:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":10190:16:10190:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":9594:16:9594:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8998:16:8998:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":8402:16:8402:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":7806:16:7806:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":3634:16:3634:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dmac.v":16042:16:16042:22|Input s_hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":51:16:51:20|Input haddr is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":52:16:52:19|Input hclk is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":53:16:53:20|Input hprot is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":54:16:54:21|Input hrst_b is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":55:16:55:19|Input hsel is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":56:16:56:20|Input hsize is unused.
+@N: CL159 :"/home/master/xuantie/wujian100_open/soc/dummy.v":57:16:57:21|Input htrans is unused.
+

@@ -1,0 +1,97 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/master/xuantie/opene902/smart_run/work/novas.fsdb
+syncTime = 2350000
+viewport = 0 27 1914 819 0 0 219 850
+activeNode = "tb.x_soc.x_cpu_sub_system_ahb.x_e902.x_cr_core_top.x_cr_core.x_cr_iu_top.x_cr_iu_alu"
+activeScope = "tb.x_soc.x_cpu_sub_system_ahb.x_e902.x_cr_core_top.x_cr_core.x_cr_iu_top.x_cr_iu_alu"
+activeFile = "/home/master/xuantie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_alu.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 205
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = True
+SourceVerticalScrollLines = 5
+Scope1 = "tb.x_soc.x_cpu_sub_system_ahb.x_e902.x_cr_core_top.x_cr_core.x_cr_iu_top.x_cr_iu_alu"
+Scope2 = "tb.x_soc.x_cpu_sub_system_ahb.x_e902.x_cr_core_top.x_cr_core.x_cr_iu_top.x_cr_iu_branch"
+Scope3 = "tb.x_soc.x_cpu_sub_system_ahb.x_e902.x_cr_core_top.x_cr_core.x_cr_iu_top.x_cr_iu_decd"
+Scope4 = "tb"
+Scope5 = "clic_kid_golden_ports"
+multipleSelection = 1 320 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "simv.daidir/" 
+invokeDir = /home/master/xuantie/opene902/smart_run/work
+[hb.sourceTab.1]
+scope = tb.x_soc.x_cpu_sub_system_ahb.x_e902.x_cr_core_top.x_cr_core.x_cr_iu_top.x_cr_iu_alu
+File = /home/master/xuantie/opene902/E902_RTL_FACTORY/gen_rtl/iu/rtl/cr_iu_alu.v
+Line = 206
+[nMemoryManager]
+WaveformFile = /home/master/xuantie/opene902/smart_run/work/novas.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1914 315 510 65
+primaryWindow = TRUE
+SessionFile = /home/master/xuantie/opene902/smart_run/work/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = TRUE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

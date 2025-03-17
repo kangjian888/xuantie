@@ -1,0 +1,77 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1914 315 510 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/master/xuantie/opene902/smart_run/work/novas.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 1935201.500427 3528413.459149
+cursor 2350000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 10
+; marker line index
+markerPos 21
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/master/xuantie/opene902/smart_run/work/novas.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_decd/ifu_iu_ex_inst[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope branch_pcgen_add_pc[30:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pcgen_xx_cur_pc[30:0]
+addGroup "G2"
+addSignal -h 15 -UNSIGNED -HEX /tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_decd/decd_alu_func[2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ifu_iu_ex_rd_reg[4:0]
+addSignal -h 15 -holdScope decd_inst_auipc
+addSignal -h 15 -holdScope decd_branch_auipc
+addGroup "G3"
+addSignal -h 15 /tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_branch/branch_alu_pc_sel
+addGroup "G4"
+addSignal -h 15 /tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_alu/branch_alu_pc_sel
+addSignal -h 15 -holdScope mad_alu_rs1_vld
+addSignal -h 15 -UNSIGNED -HEX -holdScope alu_mux_rs1[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope pcgen_xx_cur_pc[30:0]
+addSignal -h 15 -holdScope branch_alu_pc_sel
+addSubGroup "/tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_alu/branch_alu_pc_sel#Load"
+addSignal -h 15 /tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_alu/branch_alu_pc_sel
+addSignal -h 15 -UNSIGNED -HEX -holdScope alu_mux_rs1[31:0]
+addSignal -h 15 -holdScope alu_rs2_imm_sel
+addSignal -h 15 -holdScope alu_adder_sel
+endSubGroup "/tb/x_soc/x_cpu_sub_system_ahb/x_e902/x_cr_core_top/x_cr_core/x_cr_iu_top/x_cr_iu_alu/branch_alu_pc_sel#Load"
+addGroup "G5"
+addGroup "G6"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

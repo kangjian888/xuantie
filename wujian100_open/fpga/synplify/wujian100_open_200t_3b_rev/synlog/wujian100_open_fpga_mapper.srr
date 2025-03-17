@@ -1,4 +1,4 @@
-# Tue Nov 19 10:13:48 2024
+# Wed Nov 20 12:09:59 2024
 
 
 Copyright (C) 1994-2020 Synopsys, Inc.
@@ -38,7 +38,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 353MB peak: 353MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 353MB peak: 353MB)
 
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":102:3:102:8|Removing sequential instance x_sub_rd_afifo.rd_ptr[1:0] (in view: work.ahb_matrix_1_6_sub(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":21637:0:21637:5|Removing sequential instance A15c.had_pad_jdb_ack_b (in view: work.cr_had_top(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
@@ -211,7 +211,7 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2277:0:2277:5|Removing sequential instance x_cr_clic_arb.clic_pad_int_id_1[6] (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
 @N: MO231 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":5576:0:5576:5|Found counter in view:work.cr_coretim_top(verilog) instance cnt[23:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 442MB peak: 442MB)
+Starting factoring (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 442MB peak: 442MB)
 
 Auto Dissolve of x_cr_iu_top.x_cr_iu_oper.x_cr_iu_oper_gpr (inst of view:work.cr_iu_oper_gpr(verilog))
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":2431:0:2431:5|Removing sequential instance INT_KID\[39\]\.x_cr_clic_kid.int_vld_ff (in view: work.cr_clic_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
@@ -270,7 +270,7 @@ Auto Dissolve of x_cr_iu_top.x_cr_iu_oper.x_cr_iu_oper_gpr (inst of view:work.cr
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":101:0:101:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_sms0_top.wr_deny_resp (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/sms.v":398:0:398:5|Removing sequential instance x_retu_top.x_smu_top.x_sms_top.x_isram_top.x_sms_sms_ahbs.w_ram_size_tmp[2] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 533MB peak: 533MB)
+Finished factoring (Real Time elapsed 0h:00m:47s; CPU Time elapsed 0h:00m:46s; Memory used current: 533MB peak: 533MB)
 
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m3_ctrl_bus_ff[3] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":34029:0:34029:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_dec.m3_ctrl_bus_ff[4] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
@@ -289,7 +289,7 @@ Clock Buffers:
   Inserting Clock buffer for port PIN_EHS_0,
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:01m:04s; CPU Time elapsed 0h:01m:02s; Memory used current: 687MB peak: 687MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:01m:12s; CPU Time elapsed 0h:01m:11s; Memory used current: 687MB peak: 687MB)
 
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":8140:0:8140:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[0] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
 @N: BN362 :"/home/master/xuantie/wujian100_open/soc/matrix.v":19264:0:19264:5|Removing sequential instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m4_cur_st[0] (in view: work.wujian100_open_top(verilog)) of type view:UNILIB.FDCPE(PRIM) because it does not drive other instances.
@@ -314,13 +314,13 @@ Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:01m:04s; CP
 
 Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/synlog/wujian100_open_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:01m:22s; CPU Time elapsed 0h:01m:20s; Memory used current: 687MB peak: 687MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:31s; Memory used current: 687MB peak: 688MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:01m:27s; CPU Time elapsed 0h:01m:25s; Memory used current: 687MB peak: 687MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:01m:38s; CPU Time elapsed 0h:01m:37s; Memory used current: 687MB peak: 688MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:01m:30s; CPU Time elapsed 0h:01m:27s; Memory used current: 687MB peak: 687MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:01m:41s; CPU Time elapsed 0h:01m:40s; Memory used current: 687MB peak: 688MB)
 
 @W: BN132 :"/home/master/xuantie/wujian100_open/soc/matrix.v":19264:0:19264:5|Removing instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m4_cur_st[3] because it is equivalent to instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/master/xuantie/wujian100_open/soc/matrix.v":22972:0:22972:5|Removing instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m5_cur_st[3] because it is equivalent to instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -348,7 +348,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:01m:30s; CP
 @W: BN132 :"/home/master/xuantie/wujian100_open/soc/matrix.v":22972:0:22972:5|Removing instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m5_cur_st[44] because it is equivalent to instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[44]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/master/xuantie/wujian100_open/soc/matrix.v":26680:0:26680:5|Removing instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m6_cur_st[44] because it is equivalent to instance x_pdu_top.x_main_bus_top.x_ahb_matrix_7_12_main.x_matrix_arb.m1_cur_st[44]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished preparing to map (Real Time elapsed 0h:01m:42s; CPU Time elapsed 0h:01m:39s; Memory used current: 687MB peak: 687MB)
+Finished preparing to map (Real Time elapsed 0h:01m:54s; CPU Time elapsed 0h:01m:53s; Memory used current: 687MB peak: 688MB)
 
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":535:1:535:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.rtc_load_sync1 (in view: work.wujian100_open_top(verilog)).
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":548:1:548:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.pclk_load_sync1 (in view: work.wujian100_open_top(verilog)).
@@ -362,52 +362,52 @@ Finished preparing to map (Real Time elapsed 0h:01m:42s; CPU Time elapsed 0h:01m
 @W: BN132 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2603:0:2603:5|Removing sequential instance nss_in_d_5604 because it is equivalent to instance nss_in_d_5599. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/master/xuantie/wujian100_open/soc/usi0.v":2603:0:2603:5|Removing sequential instance nss_in_d_5599 because it is equivalent to instance nss_in_d_5594. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished technology mapping (Real Time elapsed 0h:02m:22s; CPU Time elapsed 0h:02m:19s; Memory used current: 845MB peak: 845MB)
+Finished technology mapping (Real Time elapsed 0h:02m:42s; CPU Time elapsed 0h:02m:41s; Memory used current: 844MB peak: 844MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:02m:22s		    11.69ns		27439 /     13389
-   2		0h:02m:22s		    11.69ns		27425 /     13389
-   3		0h:02m:22s		    11.69ns		27425 /     13389
-   4		0h:02m:22s		    11.69ns		27425 /     13389
+   1		0h:02m:44s		    11.69ns		27439 /     13389
+   2		0h:02m:44s		    11.69ns		27425 /     13389
+   3		0h:02m:44s		    11.69ns		27425 /     13389
+   4		0h:02m:44s		    11.69ns		27425 /     13389
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":535:1:535:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.rtc_load_sync1 (in view: work.wujian100_open_top(verilog)).
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/rtc.v":548:1:548:6|Adding ASYNC_REG property on synchronizing instance x_aou_top.x_rtc0_sec_top.x_rtc_pdu_top.x_rtc_clr_sync.pclk_load_sync1 (in view: work.wujian100_open_top(verilog)).
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A75.A18597 (in view: work.wujian100_open_top(verilog)).
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A74.A18597 (in view: work.wujian100_open_top(verilog)).
 @N: FX1019 :"/home/master/xuantie/wujian100_open/soc/E902_20191018.v":22745:0:22745:5|Adding ASYNC_REG property on synchronizing instance x_cpu_top.CPU.x_cr_had_top.A15d.A1862d.A18597 (in view: work.wujian100_open_top(verilog)).
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:02m:31s; CPU Time elapsed 0h:02m:28s; Memory used current: 845MB peak: 845MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:02m:55s; CPU Time elapsed 0h:02m:52s; Memory used current: 844MB peak: 844MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @N: FX623 |Packing into LUT6_2
 @N: FX1035 :"/home/master/xuantie/wujian100_open/soc/sms.v":398:0:398:5|Inserting BUFG on non-clock net pad_core_rst_b_i (fanout: 12440). To prevent insertion of a BUFG on this net, copy and paste the string 'define_attribute {n:pad_core_rst_b_i} {syn_auto_insert_bufg} {0}' into your FDC file.
 
-Finished restoring hierarchy (Real Time elapsed 0h:02m:39s; CPU Time elapsed 0h:02m:36s; Memory used current: 845MB peak: 845MB)
+Finished restoring hierarchy (Real Time elapsed 0h:03m:05s; CPU Time elapsed 0h:03m:01s; Memory used current: 844MB peak: 844MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:02m:41s; CPU Time elapsed 0h:02m:37s; Memory used current: 845MB peak: 845MB)
+Start Writing Netlists (Real Time elapsed 0h:03m:09s; CPU Time elapsed 0h:03m:03s; Memory used current: 844MB peak: 844MB)
 
 Writing Analyst data base /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:02m:46s; CPU Time elapsed 0h:02m:43s; Memory used current: 845MB peak: 845MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:03m:20s; CPU Time elapsed 0h:03m:08s; Memory used current: 844MB peak: 844MB)
 
 Writing EDIF Netlist and constraint files
 Writing XDC file /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open_edif.xdc
 Starting XDC forward annotation..
 @N: FX1056 |Writing EDF file: /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open.edf
 
-Start writing characteristics file. (Real Time elapsed 0h:02m:50s; CPU Time elapsed 0h:02m:47s; Memory used current: 845MB peak: 845MB)
+Start writing characteristics file. (Real Time elapsed 0h:03m:25s; CPU Time elapsed 0h:03m:13s; Memory used current: 844MB peak: 844MB)
 
 Writing FDC file /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/wujian100_open_synplify.fdc
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:02m:51s; CPU Time elapsed 0h:02m:48s; Memory used current: 845MB peak: 845MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:03m:27s; CPU Time elapsed 0h:03m:14s; Memory used current: 844MB peak: 844MB)
 
 Writing Verilog Simulation files
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:02m:56s; CPU Time elapsed 0h:02m:53s; Memory used current: 845MB peak: 845MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:03m:32s; CPU Time elapsed 0h:03m:19s; Memory used current: 844MB peak: 844MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:02m:57s; CPU Time elapsed 0h:02m:54s; Memory used current: 845MB peak: 845MB)
+Start final timing analysis (Real Time elapsed 0h:03m:34s; CPU Time elapsed 0h:03m:21s; Memory used current: 844MB peak: 844MB)
 
 @N: MT615 |Found clock PIN_EHS with period 50.00ns 
 @N: MT615 |Found clock PAD_JTAG_TCLK with period 500.00ns 
@@ -419,7 +419,7 @@ Start final timing analysis (Real Time elapsed 0h:02m:57s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Tue Nov 19 10:16:49 2024
+# Timing report written on Wed Nov 20 12:13:38 2024
 #
 
 
@@ -1199,10 +1199,10 @@ x_aou_top.x_rtc0_sec_top.x_rtc_aou_top.x_rtc_cnt.cnt[31]                        
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:03m:01s; CPU Time elapsed 0h:02m:57s; Memory used current: 845MB peak: 845MB)
+Finished final timing analysis (Real Time elapsed 0h:03m:39s; CPU Time elapsed 0h:03m:24s; Memory used current: 844MB peak: 844MB)
 
 
-Finished timing report (Real Time elapsed 0h:03m:01s; CPU Time elapsed 0h:02m:57s; Memory used current: 845MB peak: 845MB)
+Finished timing report (Real Time elapsed 0h:03m:39s; CPU Time elapsed 0h:03m:24s; Memory used current: 844MB peak: 844MB)
 
 ---------------------------------------
 Resource Usage Report for wujian100_open_top 
@@ -1277,9 +1277,9 @@ Distribution of All Consumed Luts 25171 = 3 + 72 + 421 + 2364 + 1927 + 4195 + 40
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:03m:02s; CPU Time elapsed 0h:02m:59s; Memory used current: 976MB peak: 976MB)
+At Mapper Exit (Real Time elapsed 0h:03m:41s; CPU Time elapsed 0h:03m:26s; Memory used current: 976MB peak: 976MB)
 
-Process took 0h:03m:02s realtime, 0h:02m:59s cputime
-# Tue Nov 19 10:16:51 2024
+Process took 0h:03m:41s realtime, 0h:03m:26s cputime
+# Wed Nov 20 12:13:41 2024
 
 ###########################################################]

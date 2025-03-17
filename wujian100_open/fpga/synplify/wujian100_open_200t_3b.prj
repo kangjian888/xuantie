@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version Q-2020.03
 #--  Project file /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b.prj
-#--  Written on Mon Nov 18 21:02:43 2024
+#--  Written on Fri Nov 22 13:15:41 2024
 
 
 #project files
@@ -43,6 +43,7 @@ add_file -verilog "../../soc/sim_lib/PAD_OSC_IO.v"
 add_file -verilog "../../soc/sim_lib/fpga_byte_spram.v"
 add_file -verilog "../../soc/sim_lib/fpga_spram.v"
 add_file -constraint "wujian100_open.sdc"
+add_file -fpga_constraint "FDC_constraints/wujian100_open_200t_3b_rev/wujian100_open_200t_3b_translated.fdc"
 
 
 #implementation: "wujian100_open_200t_3b_rev"
@@ -53,6 +54,9 @@ impl -add wujian100_open_200t_3b_rev -type fpga
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
+
+#set constraint files
+set_option -constraint -clear
 set_option -include_path {../../soc/params/}
 
 #device options

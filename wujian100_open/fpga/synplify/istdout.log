@@ -1,0 +1,6 @@
+argv 1 /export/SoftWare/Synopsys/fpga/Q-2020.03/lib
+argv 2 -tsl
+argv 4 -idb
+argv 6 -prj
+argv 8 -curimpl
+argv 10 -product

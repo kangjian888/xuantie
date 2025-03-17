@@ -114,6 +114,7 @@ Synopsys Verilog Compiler, Version comp202003syn, Build 035R, Built Mar  1 2020 
 @I::"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_byte_spram.v" (library work)
 @I::"/home/master/xuantie/wujian100_open/soc/sim_lib/fpga_spram.v" (library work)
 Verilog syntax check successful!
+Options changed - recompiling
 Selecting top level module wujian100_open_top
 @N: CG364 :"/home/master/xuantie/wujian100_open/soc/clkgen.v":11:7:11:19|Synthesizing module pmu_dummy_top in library work.
 Running optimization stage 1 on pmu_dummy_top .......
@@ -1005,21 +1006,21 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: /home/master/xuantie/wujian100_open/fpga/synplify/wujian100_open_200t_3b_rev/./layer0.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:49s; Memory used current: 633MB peak: 633MB)
+At c_ver Exit (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:22s; Memory used current: 359MB peak: 359MB)
 
-Process took 0h:00m:53s realtime, 0h:00m:49s cputime
+Process took 0h:00m:25s realtime, 0h:00m:22s cputime
 
 Process completed successfully.
-# Mon Nov 18 20:55:10 2024
+# Wed Nov 20 12:04:22 2024
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:53s; CPU Time elapsed 0h:00m:49s; Memory used current: 55MB peak: 55MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:22s; Memory used current: 55MB peak: 55MB)
 
-Process took 0h:00m:53s realtime, 0h:00m:49s cputime
+Process took 0h:00m:26s realtime, 0h:00m:22s cputime
 
 Process completed successfully.
-# Mon Nov 18 20:55:10 2024
+# Wed Nov 20 12:04:22 2024
 
 ###########################################################]
