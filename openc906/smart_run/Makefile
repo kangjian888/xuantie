@@ -62,6 +62,7 @@ endif
 compile:
 	@echo "  [THead-smart] Compiling smart now ... "
 	@echo "  [THead-smart] SIM = $(SIM)"
+	mkdir -p ./work
 ifeq ($(SIM), vcs)
 	@make -s cleansim
 	@cd ./work && vcs $(SIMULATOR_OPT) $(TIMESCALE) $(SIMULATOR_DEF) $(SIM_FILELIST) $(SIM_DUMP) $(SIMULATOR_LOG) 

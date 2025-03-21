@@ -1,0 +1,8 @@
+simSetSimulator "-vcssv" -exec "./simv" -args
+debImport "-dbdir" "./simv.daidir/"
+verdiWindowResize -win $_Verdi_1 "0" "0" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowResize -win $_Verdi_1 "0" "0" "900" "700"
+verdiSetActWin -dock widgetDock_<Message>
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+debExit
