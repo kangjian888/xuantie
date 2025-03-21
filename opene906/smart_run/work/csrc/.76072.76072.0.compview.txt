@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1742193810.958680727, "rt":14.28, "ut":8.56, "st":0.65}}
+{"vcselab":{"timestamp_begin":1742193825.281149084, "rt":1.13, "ut":0.82, "st":0.07}}
+{"link":{"timestamp_begin":1742193826.458636783, "rt":0.29, "ut":0.12, "st":0.09}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1742193810.590110910}
+{"VCS_COMP_START_TIME": 1742193810.590110910}
+{"VCS_COMP_END_TIME": 1742193826.929731324}
+{"VCS_USER_OPTIONS": "-sverilog -full64 -kdb -lca -debug_access +nospecify +notimingchecks -timescale=1ns/100fs +define+no_warning +define+TSMC_NO_WARNING -f ../logical/filelists/sim.fl -l comp.vcs.log"}
+{"vcs1": {"peak_mem": 483532}}
+{"stitch_vcselab": {"peak_mem": 253360}}

@@ -1,15 +1,8 @@
-
-Error-[VERDI_VCS_MM] Possible VERDI_HOME and VCS_HOME mismatch
-  The Verdi tab and pli.a cannot be added to the 'vcs' compile command because
-  the file '/pli.a' could not be found.
-  Please check to make sure VERDI_HOME and VCS_HOME point to installations 
-  that are either both 32-bits or both 64-bits.
-
 Command: vcs -sverilog -full64 -kdb -lca -debug_access +nospecify +notimingchecks \
 -timescale=1ns/100fs +define+no_warning +define+TSMC_NO_WARNING -f ../logical/filelists/sim.fl \
 -l comp.vcs.log
                          Chronologic VCS (TM)
-         Version T-2022.06_Full64 -- Mon Mar 17 14:20:55 2025
+         Version T-2022.06_Full64 -- Mon Mar 17 14:43:31 2025
 
                     Copyright (c) 1991 - 2022 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -348,13 +341,160 @@ Top Level Modules:
        pa_spsram_8192x32
        tb
 TimeScale is 1 ns / 100 fs
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
 
-Error-[UST] Undefined System Task Call
-../logical/tb/tb.v, 262
-  Undefined System Task call to '$fsdbDumpvars'.
-   
-
-1 warning
-1 error
-CPU time: 5.143 seconds to compile
+147 modules and 0 UDP read.
+recompiling module booth_code_25_bit
+recompiling module booth_code_33_bit
+recompiling module fpga_ram
+recompiling module pa_ahbl_if
+recompiling module pa_bmu_top
+recompiling module pa_clic_arb_32to1_kernel
+recompiling module pa_clic_busif
+recompiling module pa_clic_ctrl
+recompiling module pa_clic_ff1_onehot
+recompiling module pa_clic_kid
+recompiling module pa_clic_kid_dummy
+recompiling module pa_clic_sel
+recompiling module pa_clint_top
+recompiling module pa_clkrst_top
+recompiling module pa_cp0_ext_csr
+recompiling module pa_cp0_ext_inst
+recompiling module pa_cp0_float_csr
+recompiling module pa_cp0_special
+recompiling module pa_cp0_srst
+recompiling module pa_cp0_top
+recompiling module pa_cpu_top_golden_port
+recompiling module pa_dahbl_top
+recompiling module pa_dcache_data_array
+recompiling module pa_dcache_top
+recompiling module pa_dtu_cdc
+recompiling module pa_dtu_cdc_lvl
+recompiling module pa_dtu_cdc_pulse
+recompiling module pa_dtu_dbginfo
+recompiling module pa_dtu_mcontrol_2
+recompiling module pa_dtu_pcfifo
+recompiling module pa_dtu_top
+recompiling module pa_fadd_lop_s1_s
+recompiling module pa_fadd_shift_sub_single
+recompiling module pa_falu_ctrl
+recompiling module pa_fdsu_ctrl
+recompiling module pa_fdsu_pack_single
+recompiling module pa_fdsu_top
+recompiling module pa_fmau_top
+recompiling module pa_fpu_ctrl
+recompiling module pa_fpu_dp
+recompiling module pa_fpu_frbus
+recompiling module pa_fpu_src_type
+recompiling module pa_fspu_single
+recompiling module pa_hpcp_cnt
+recompiling module pa_hpcp_event
+recompiling module pa_hpcp_top
+recompiling module pa_iahbl_top
+recompiling module pa_idu_ctrl
+recompiling module pa_idu_decd_dsp
+recompiling module pa_idu_decd_fp
+50 of 147 modules done
+recompiling module pa_idu_decd_rv32fd
+recompiling module pa_idu_decd_rv32x
+recompiling module pa_idu_dp
+recompiling module pa_idu_fpr
+recompiling module pa_idu_hs
+recompiling module pa_idu_id_fp
+recompiling module pa_idu_reg
+recompiling module pa_idu_reg32
+recompiling module pa_idu_reg32_high
+recompiling module pa_idu_reg_sp
+recompiling module pa_idu_split
+recompiling module pa_idu_top
+recompiling module pa_ifu_btb
+recompiling module pa_ifu_btb_entry
+recompiling module pa_ifu_ctrl
+recompiling module pa_ifu_ibuf_entry
+recompiling module pa_ifu_ibuf_pop_entry
+recompiling module pa_ifu_id_pred
+recompiling module pa_ifu_ipack
+recompiling module pa_ifu_ipack_entry
+recompiling module pa_ifu_ras_entry
+recompiling module pa_ifu_top
+recompiling module pa_ifu_vec
+recompiling module pa_iu_addr_gen
+recompiling module pa_iu_ctrl
+recompiling module pa_iu_mul
+recompiling module pa_iu_top
+recompiling module pa_lsu_dahbif
+recompiling module pa_lsu_dc
+recompiling module pa_lsu_dtif
+recompiling module pa_lsu_icc
+recompiling module pa_lsu_lfb
+recompiling module pa_lsu_lm
+recompiling module pa_lsu_ncb
+recompiling module pa_lsu_rdl
+recompiling module pa_lsu_stb
+recompiling module pa_lsu_stb_entry
+recompiling module pa_lsu_top
+recompiling module pa_lsu_vb
+recompiling module pa_lsu_vb_entry
+recompiling module pa_lsu_wb_entry
+recompiling module pa_pmp_comp_hit
+recompiling module pa_pmp_top
+recompiling module pa_rtu_int
+recompiling module pa_rtu_lockup
+recompiling module pa_rtu_top
+recompiling module pa_sahbl_top
+recompiling module pa_spsram_1024x36
+recompiling module pa_spsram_1024x37
+recompiling module pa_spsram_1024x4
+100 of 147 modules done
+recompiling module pa_spsram_128x32
+recompiling module pa_spsram_128x4
+recompiling module pa_spsram_128x42
+recompiling module pa_spsram_128x43
+recompiling module pa_spsram_2048x32
+recompiling module pa_spsram_256x32
+recompiling module pa_spsram_32x4
+recompiling module pa_spsram_32x46
+recompiling module pa_spsram_32x47
+recompiling module pa_spsram_4096x32
+recompiling module pa_spsram_512x32
+recompiling module pa_spsram_512x38
+recompiling module pa_spsram_512x39
+recompiling module pa_spsram_512x4
+recompiling module pa_spsram_64x4
+recompiling module pa_spsram_64x44
+recompiling module pa_spsram_64x45
+recompiling module pa_spsram_8192x32
+recompiling module pa_sys_io
+recompiling module pa_sysmap_access
+recompiling module pa_sysmap_hit
+recompiling module pa_sysmap_reg
+recompiling module pa_sysmap_top
+recompiling module pa_tcipif_behavior_bus
+recompiling module pa_tcipif_dummy_bus
+recompiling module pa_tcipif_top
+recompiling module tdt_top
+recompiling module tdt_dmi_pulse_sync
+recompiling module tdt_dmi_top
+recompiling module tdt_gated_clk_cell
+recompiling module tb
+recompiling module ahb
+recompiling module ahb_fifo
+recompiling module apb
+recompiling module err_gen
+recompiling module mem_ctrl
+recompiling module fpga_clk_gen
+recompiling module dahb_mem_ctrl
+recompiling module iahb_mem_ctrl
+recompiling module soc_fpga_ram
+recompiling module smpu_top
+recompiling module uart
+recompiling module wic_top
+recompiling module timer
+recompiling module counter
+recompiling module smpu_comp_hit
+recompiling module wic
+All of 147 modules done
+../simv up to date
+CPU time: 9.248 seconds to compile + .912 seconds to elab + .263 seconds to link
 Verdi KDB elaboration done and the database successfully generated: 0 error(s), 0 warning(s)

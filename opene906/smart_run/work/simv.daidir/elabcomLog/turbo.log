@@ -2,4 +2,4 @@ Command Line: /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin/elabcom -logdi
 uname(Linux icpc 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
 [INFO] error/warning message 'C00388' has been suppressed.
 [INFO] error/warning message 'C00389' has been suppressed.
-au time 2.039262 0.502249 0.534578 delta 123019264 123019264 total 284127232 284127232
+au time 1.823055 0.435194 0.192358 delta 123019264 123019264 total 284127232 284127232

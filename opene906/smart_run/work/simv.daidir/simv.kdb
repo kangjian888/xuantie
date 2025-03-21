@@ -3,7 +3,7 @@ rc file Version 1.0
 [Design]
 COMPILE_PATH=/home/master/xuantie/opene906/smart_run/work
 VCS_HOME=/export/SoftWare/Synopsys/vcs/T-2022.06
-VERDI_HOME=/export/SoftWare/Synopsys/verdi/Verdi_O-2018.09-SP2
+VERDI_HOME=/export/SoftWare/Synopsys/verdi/T-2022.06
 SystemC=FALSE
 UUM=FALSE
 KDB=TRUE

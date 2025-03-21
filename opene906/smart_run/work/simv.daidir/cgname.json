@@ -1,0 +1,968 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "booth_code_25_bit": [
+        "booth_code_25_bit",
+        "iSY61",
+        "module",
+        2
+    ],
+    "booth_code_33_bit": [
+        "booth_code_33_bit",
+        "ckK4r",
+        "module",
+        3
+    ],
+    "fpga_ram": [
+        "fpga_ram",
+        "dg1eV",
+        "module",
+        4
+    ],
+    "fpga_ram_0000": [
+        "fpga_ram_0000",
+        "tLegw",
+        "module",
+        5
+    ],
+    "fpga_ram_0002": [
+        "fpga_ram_0002",
+        "IwC3F",
+        "module",
+        6
+    ],
+    "fpga_ram_0003": [
+        "fpga_ram_0003",
+        "kCuBi",
+        "module",
+        7
+    ],
+    "fpga_ram_0004": [
+        "fpga_ram_0004",
+        "riGqI",
+        "module",
+        8
+    ],
+    "fpga_ram_0005": [
+        "fpga_ram_0005",
+        "Tqk5I",
+        "module",
+        9
+    ],
+    "fpga_ram_0006": [
+        "fpga_ram_0006",
+        "LQTav",
+        "module",
+        10
+    ],
+    "fpga_ram_0007": [
+        "fpga_ram_0007",
+        "HMn0m",
+        "module",
+        11
+    ],
+    "fpga_ram_0008": [
+        "fpga_ram_0008",
+        "Zq6gj",
+        "module",
+        12
+    ],
+    "pa_ahbl_if": [
+        "pa_ahbl_if",
+        "TEdvj",
+        "module",
+        13
+    ],
+    "pa_bmu_top": [
+        "pa_bmu_top",
+        "a7tYj",
+        "module",
+        14
+    ],
+    "pa_clic_arb_32to1_kernel_0001": [
+        "pa_clic_arb_32to1_kernel_0001",
+        "Fc6Dx",
+        "module",
+        15
+    ],
+    "pa_clic_busif_0000": [
+        "pa_clic_busif_0000",
+        "eSVaN",
+        "module",
+        16
+    ],
+    "pa_clic_ctrl_0000": [
+        "pa_clic_ctrl_0000",
+        "qcyny",
+        "module",
+        17
+    ],
+    "pa_clic_ff1_onehot_0000": [
+        "pa_clic_ff1_onehot_0000",
+        "cSa2h",
+        "module",
+        18
+    ],
+    "pa_clic_kid": [
+        "pa_clic_kid",
+        "TViWx",
+        "module",
+        19
+    ],
+    "pa_clic_kid_dummy": [
+        "pa_clic_kid_dummy",
+        "IrQkK",
+        "module",
+        20
+    ],
+    "pa_clic_sel_0000": [
+        "pa_clic_sel_0000",
+        "wQRCW",
+        "module",
+        21
+    ],
+    "pa_clic_sel_0001": [
+        "pa_clic_sel_0001",
+        "qAt2z",
+        "module",
+        22
+    ],
+    "pa_clic_sel_0002": [
+        "pa_clic_sel_0002",
+        "VqCMR",
+        "module",
+        23
+    ],
+    "pa_clic_sel_0003": [
+        "pa_clic_sel_0003",
+        "Vjwzk",
+        "module",
+        24
+    ],
+    "pa_clic_sel_0004": [
+        "pa_clic_sel_0004",
+        "NNQix",
+        "module",
+        25
+    ],
+    "pa_clint_top": [
+        "pa_clint_top",
+        "rCW1k",
+        "module",
+        26
+    ],
+    "pa_clkrst_top": [
+        "pa_clkrst_top",
+        "fdGg8",
+        "module",
+        27
+    ],
+    "pa_cp0_ext_csr": [
+        "pa_cp0_ext_csr",
+        "BbALR",
+        "module",
+        28
+    ],
+    "pa_cp0_ext_inst": [
+        "pa_cp0_ext_inst",
+        "fHzMG",
+        "module",
+        29
+    ],
+    "pa_cp0_float_csr": [
+        "pa_cp0_float_csr",
+        "Hx8eC",
+        "module",
+        30
+    ],
+    "pa_cp0_special": [
+        "pa_cp0_special",
+        "hmE6n",
+        "module",
+        31
+    ],
+    "pa_cp0_srst": [
+        "pa_cp0_srst",
+        "g61dw",
+        "module",
+        32
+    ],
+    "pa_cp0_top": [
+        "pa_cp0_top",
+        "A0T8x",
+        "module",
+        33
+    ],
+    "pa_cpu_top_golden_port": [
+        "pa_cpu_top_golden_port",
+        "Nq1Ag",
+        "module",
+        34
+    ],
+    "pa_dahbl_top": [
+        "pa_dahbl_top",
+        "aaj89",
+        "module",
+        35
+    ],
+    "pa_dcache_data_array": [
+        "pa_dcache_data_array",
+        "HeGjk",
+        "module",
+        36
+    ],
+    "pa_dcache_top": [
+        "pa_dcache_top",
+        "APypL",
+        "module",
+        37
+    ],
+    "pa_dtu_cdc": [
+        "pa_dtu_cdc",
+        "VNZ5s",
+        "module",
+        38
+    ],
+    "pa_dtu_cdc_lvl": [
+        "pa_dtu_cdc_lvl",
+        "cGCWu",
+        "module",
+        39
+    ],
+    "pa_dtu_cdc_pulse": [
+        "pa_dtu_cdc_pulse",
+        "ph8Td",
+        "module",
+        40
+    ],
+    "pa_dtu_dbginfo_0000": [
+        "pa_dtu_dbginfo_0000",
+        "SY9yJ",
+        "module",
+        41
+    ],
+    "pa_dtu_mcontrol_2": [
+        "pa_dtu_mcontrol_2",
+        "eTTfd",
+        "module",
+        42
+    ],
+    "pa_dtu_pcfifo": [
+        "pa_dtu_pcfifo",
+        "zmECv",
+        "module",
+        43
+    ],
+    "pa_dtu_top": [
+        "pa_dtu_top",
+        "B4Bqq",
+        "module",
+        44
+    ],
+    "pa_fadd_lop_s1_s": [
+        "pa_fadd_lop_s1_s",
+        "CRDZY",
+        "module",
+        45
+    ],
+    "pa_fadd_shift_sub_single": [
+        "pa_fadd_shift_sub_single",
+        "Cg7hS",
+        "module",
+        46
+    ],
+    "pa_falu_ctrl": [
+        "pa_falu_ctrl",
+        "b4Djy",
+        "module",
+        47
+    ],
+    "pa_fdsu_ctrl": [
+        "pa_fdsu_ctrl",
+        "gFhUy",
+        "module",
+        48
+    ],
+    "pa_fdsu_pack_single": [
+        "pa_fdsu_pack_single",
+        "qVmaZ",
+        "module",
+        49
+    ],
+    "pa_fdsu_top": [
+        "pa_fdsu_top",
+        "SqhR5",
+        "module",
+        50
+    ],
+    "pa_fmau_top": [
+        "pa_fmau_top",
+        "ABUdJ",
+        "module",
+        51
+    ],
+    "pa_fpu_ctrl": [
+        "pa_fpu_ctrl",
+        "bY1qK",
+        "module",
+        52
+    ],
+    "pa_fpu_dp": [
+        "pa_fpu_dp",
+        "a5790",
+        "module",
+        53
+    ],
+    "pa_fpu_frbus": [
+        "pa_fpu_frbus",
+        "RFBh8",
+        "module",
+        54
+    ],
+    "pa_fpu_src_type": [
+        "pa_fpu_src_type",
+        "A6ZeU",
+        "module",
+        55
+    ],
+    "pa_fspu_single": [
+        "pa_fspu_single",
+        "EdF4K",
+        "module",
+        56
+    ],
+    "pa_hpcp_cnt": [
+        "pa_hpcp_cnt",
+        "VhuTS",
+        "module",
+        57
+    ],
+    "pa_hpcp_event": [
+        "pa_hpcp_event",
+        "pzrRc",
+        "module",
+        58
+    ],
+    "pa_hpcp_top": [
+        "pa_hpcp_top",
+        "sY7HW",
+        "module",
+        59
+    ],
+    "pa_iahbl_top": [
+        "pa_iahbl_top",
+        "xBATu",
+        "module",
+        60
+    ],
+    "pa_idu_ctrl": [
+        "pa_idu_ctrl",
+        "cZLUF",
+        "module",
+        61
+    ],
+    "pa_idu_decd_dsp": [
+        "pa_idu_decd_dsp",
+        "U5N4Q",
+        "module",
+        62
+    ],
+    "pa_idu_decd_fp": [
+        "pa_idu_decd_fp",
+        "xNyed",
+        "module",
+        63
+    ],
+    "pa_idu_decd_rv32fd": [
+        "pa_idu_decd_rv32fd",
+        "p3Yuk",
+        "module",
+        64
+    ],
+    "pa_idu_decd_rv32x": [
+        "pa_idu_decd_rv32x",
+        "Yzp5A",
+        "module",
+        65
+    ],
+    "pa_idu_dp": [
+        "pa_idu_dp",
+        "rKPqP",
+        "module",
+        66
+    ],
+    "pa_idu_fpr": [
+        "pa_idu_fpr",
+        "UQfcM",
+        "module",
+        67
+    ],
+    "pa_idu_hs": [
+        "pa_idu_hs",
+        "pgmzL",
+        "module",
+        68
+    ],
+    "pa_idu_id_fp": [
+        "pa_idu_id_fp",
+        "LucpR",
+        "module",
+        69
+    ],
+    "pa_idu_reg": [
+        "pa_idu_reg",
+        "zS5DE",
+        "module",
+        70
+    ],
+    "pa_idu_reg32": [
+        "pa_idu_reg32",
+        "NG8N3",
+        "module",
+        71
+    ],
+    "pa_idu_reg32_high": [
+        "pa_idu_reg32_high",
+        "DZBTa",
+        "module",
+        72
+    ],
+    "pa_idu_reg_sp": [
+        "pa_idu_reg_sp",
+        "Capz4",
+        "module",
+        73
+    ],
+    "pa_idu_split": [
+        "pa_idu_split",
+        "c3G9V",
+        "module",
+        74
+    ],
+    "pa_idu_top": [
+        "pa_idu_top",
+        "LBaAT",
+        "module",
+        75
+    ],
+    "pa_ifu_btb": [
+        "pa_ifu_btb",
+        "bZe1d",
+        "module",
+        76
+    ],
+    "pa_ifu_btb_entry": [
+        "pa_ifu_btb_entry",
+        "Cjjkw",
+        "module",
+        77
+    ],
+    "pa_ifu_ctrl": [
+        "pa_ifu_ctrl",
+        "K2ksm",
+        "module",
+        78
+    ],
+    "pa_ifu_ibuf_entry": [
+        "pa_ifu_ibuf_entry",
+        "UmuDk",
+        "module",
+        79
+    ],
+    "pa_ifu_ibuf_pop_entry": [
+        "pa_ifu_ibuf_pop_entry",
+        "VUvtH",
+        "module",
+        80
+    ],
+    "pa_ifu_id_pred": [
+        "pa_ifu_id_pred",
+        "dQQj8",
+        "module",
+        81
+    ],
+    "pa_ifu_ipack": [
+        "pa_ifu_ipack",
+        "YDk94",
+        "module",
+        82
+    ],
+    "pa_ifu_ipack_entry": [
+        "pa_ifu_ipack_entry",
+        "Ss8Ya",
+        "module",
+        83
+    ],
+    "pa_ifu_ras_entry": [
+        "pa_ifu_ras_entry",
+        "yK1mK",
+        "module",
+        84
+    ],
+    "pa_ifu_top": [
+        "pa_ifu_top",
+        "NN3vN",
+        "module",
+        85
+    ],
+    "pa_ifu_vec": [
+        "pa_ifu_vec",
+        "He2sr",
+        "module",
+        86
+    ],
+    "pa_iu_addr_gen": [
+        "pa_iu_addr_gen",
+        "Vjrsa",
+        "module",
+        87
+    ],
+    "pa_iu_ctrl": [
+        "pa_iu_ctrl",
+        "xt1eC",
+        "module",
+        88
+    ],
+    "pa_iu_mul": [
+        "pa_iu_mul",
+        "iiCRL",
+        "module",
+        89
+    ],
+    "pa_iu_top": [
+        "pa_iu_top",
+        "AfJFu",
+        "module",
+        90
+    ],
+    "pa_lsu_dahbif": [
+        "pa_lsu_dahbif",
+        "WJ6jA",
+        "module",
+        91
+    ],
+    "pa_lsu_dc": [
+        "pa_lsu_dc",
+        "JFmkL",
+        "module",
+        92
+    ],
+    "pa_lsu_dtif": [
+        "pa_lsu_dtif",
+        "uuD8M",
+        "module",
+        93
+    ],
+    "pa_lsu_icc": [
+        "pa_lsu_icc",
+        "YIKFk",
+        "module",
+        94
+    ],
+    "pa_lsu_lfb": [
+        "pa_lsu_lfb",
+        "TPbu8",
+        "module",
+        95
+    ],
+    "pa_lsu_lm": [
+        "pa_lsu_lm",
+        "gYn9t",
+        "module",
+        96
+    ],
+    "pa_lsu_ncb": [
+        "pa_lsu_ncb",
+        "fKhQj",
+        "module",
+        97
+    ],
+    "pa_lsu_rdl": [
+        "pa_lsu_rdl",
+        "SDDNy",
+        "module",
+        98
+    ],
+    "pa_lsu_stb": [
+        "pa_lsu_stb",
+        "gPb6t",
+        "module",
+        99
+    ],
+    "pa_lsu_stb_entry": [
+        "pa_lsu_stb_entry",
+        "ZdhTC",
+        "module",
+        100
+    ],
+    "pa_lsu_top": [
+        "pa_lsu_top",
+        "UAPnb",
+        "module",
+        101
+    ],
+    "pa_lsu_vb": [
+        "pa_lsu_vb",
+        "BU4pS",
+        "module",
+        102
+    ],
+    "pa_lsu_vb_entry": [
+        "pa_lsu_vb_entry",
+        "kSrdV",
+        "module",
+        103
+    ],
+    "pa_lsu_wb_entry": [
+        "pa_lsu_wb_entry",
+        "fg360",
+        "module",
+        104
+    ],
+    "pa_pmp_comp_hit": [
+        "pa_pmp_comp_hit",
+        "Jz3uV",
+        "module",
+        105
+    ],
+    "pa_pmp_top": [
+        "pa_pmp_top",
+        "IFm22",
+        "module",
+        106
+    ],
+    "pa_rtu_int": [
+        "pa_rtu_int",
+        "R5qwT",
+        "module",
+        107
+    ],
+    "pa_rtu_lockup": [
+        "pa_rtu_lockup",
+        "eQefs",
+        "module",
+        108
+    ],
+    "pa_rtu_top": [
+        "pa_rtu_top",
+        "kqZZr",
+        "module",
+        109
+    ],
+    "pa_sahbl_top": [
+        "pa_sahbl_top",
+        "MGzvh",
+        "module",
+        110
+    ],
+    "pa_spsram_1024x36": [
+        "pa_spsram_1024x36",
+        "RyPHj",
+        "module",
+        111
+    ],
+    "pa_spsram_1024x37": [
+        "pa_spsram_1024x37",
+        "dSg8W",
+        "module",
+        112
+    ],
+    "pa_spsram_1024x4": [
+        "pa_spsram_1024x4",
+        "IYcQ1",
+        "module",
+        113
+    ],
+    "pa_spsram_128x32": [
+        "pa_spsram_128x32",
+        "LbyEm",
+        "module",
+        114
+    ],
+    "pa_spsram_128x4": [
+        "pa_spsram_128x4",
+        "yLfwp",
+        "module",
+        115
+    ],
+    "pa_spsram_128x42": [
+        "pa_spsram_128x42",
+        "ysVEg",
+        "module",
+        116
+    ],
+    "pa_spsram_128x43": [
+        "pa_spsram_128x43",
+        "VKevy",
+        "module",
+        117
+    ],
+    "pa_spsram_2048x32": [
+        "pa_spsram_2048x32",
+        "UuIkZ",
+        "module",
+        118
+    ],
+    "pa_spsram_256x32": [
+        "pa_spsram_256x32",
+        "mkIf2",
+        "module",
+        119
+    ],
+    "pa_spsram_32x4": [
+        "pa_spsram_32x4",
+        "JryFP",
+        "module",
+        120
+    ],
+    "pa_spsram_32x46": [
+        "pa_spsram_32x46",
+        "UVvpy",
+        "module",
+        121
+    ],
+    "pa_spsram_32x47": [
+        "pa_spsram_32x47",
+        "DpjpP",
+        "module",
+        122
+    ],
+    "pa_spsram_4096x32": [
+        "pa_spsram_4096x32",
+        "jQQAk",
+        "module",
+        123
+    ],
+    "pa_spsram_512x32": [
+        "pa_spsram_512x32",
+        "D4VZi",
+        "module",
+        124
+    ],
+    "pa_spsram_512x38": [
+        "pa_spsram_512x38",
+        "NkkLm",
+        "module",
+        125
+    ],
+    "pa_spsram_512x39": [
+        "pa_spsram_512x39",
+        "Swswk",
+        "module",
+        126
+    ],
+    "pa_spsram_512x4": [
+        "pa_spsram_512x4",
+        "pyhiQ",
+        "module",
+        127
+    ],
+    "pa_spsram_64x4": [
+        "pa_spsram_64x4",
+        "pUeAZ",
+        "module",
+        128
+    ],
+    "pa_spsram_64x44": [
+        "pa_spsram_64x44",
+        "cHYyp",
+        "module",
+        129
+    ],
+    "pa_spsram_64x45": [
+        "pa_spsram_64x45",
+        "ZMDe2",
+        "module",
+        130
+    ],
+    "pa_spsram_8192x32": [
+        "pa_spsram_8192x32",
+        "Ef3kY",
+        "module",
+        131
+    ],
+    "pa_sys_io": [
+        "pa_sys_io",
+        "jTmMn",
+        "module",
+        132
+    ],
+    "pa_sysmap_access": [
+        "pa_sysmap_access",
+        "VBnsQ",
+        "module",
+        133
+    ],
+    "pa_sysmap_hit": [
+        "pa_sysmap_hit",
+        "mk4GV",
+        "module",
+        134
+    ],
+    "pa_sysmap_reg": [
+        "pa_sysmap_reg",
+        "GndRB",
+        "module",
+        135
+    ],
+    "pa_sysmap_top": [
+        "pa_sysmap_top",
+        "ISnuh",
+        "module",
+        136
+    ],
+    "pa_tcipif_behavior_bus": [
+        "pa_tcipif_behavior_bus",
+        "pbeMH",
+        "module",
+        137
+    ],
+    "pa_tcipif_dummy_bus": [
+        "pa_tcipif_dummy_bus",
+        "mUQIc",
+        "module",
+        138
+    ],
+    "pa_tcipif_top": [
+        "pa_tcipif_top",
+        "Zv0nL",
+        "module",
+        139
+    ],
+    "tdt_top": [
+        "tdt_top",
+        "LkDt7",
+        "module",
+        140
+    ],
+    "tdt_dmi_pulse_sync": [
+        "tdt_dmi_pulse_sync",
+        "pqfNS",
+        "module",
+        141
+    ],
+    "tdt_dmi_top": [
+        "tdt_dmi_top",
+        "Apxw5",
+        "module",
+        142
+    ],
+    "tdt_gated_clk_cell": [
+        "tdt_gated_clk_cell",
+        "K3Sfr",
+        "module",
+        143
+    ],
+    "tb": [
+        "tb",
+        "g7hgQ",
+        "module",
+        144
+    ],
+    "ahb": [
+        "ahb",
+        "NHiNR",
+        "module",
+        145
+    ],
+    "ahb_fifo": [
+        "ahb_fifo",
+        "dB9jV",
+        "module",
+        146
+    ],
+    "apb": [
+        "apb",
+        "jsCLA",
+        "module",
+        147
+    ],
+    "err_gen": [
+        "err_gen",
+        "f6b33",
+        "module",
+        148
+    ],
+    "mem_ctrl": [
+        "mem_ctrl",
+        "DJDDw",
+        "module",
+        149
+    ],
+    "fpga_clk_gen": [
+        "fpga_clk_gen",
+        "MIWiH",
+        "module",
+        150
+    ],
+    "dahb_mem_ctrl": [
+        "dahb_mem_ctrl",
+        "zDTBD",
+        "module",
+        151
+    ],
+    "iahb_mem_ctrl": [
+        "iahb_mem_ctrl",
+        "IqYEE",
+        "module",
+        152
+    ],
+    "soc_fpga_ram_0000": [
+        "soc_fpga_ram_0000",
+        "ad7Bu",
+        "module",
+        153
+    ],
+    "smpu_top": [
+        "smpu_top",
+        "ccNGj",
+        "module",
+        154
+    ],
+    "uart": [
+        "uart",
+        "bvImI",
+        "module",
+        155
+    ],
+    "wic_top": [
+        "wic_top",
+        "Pf2JG",
+        "module",
+        156
+    ],
+    "timer": [
+        "timer",
+        "t5sdY",
+        "module",
+        157
+    ],
+    "counter": [
+        "counter",
+        "MQn6b",
+        "module",
+        158
+    ],
+    "smpu_comp_hit": [
+        "smpu_comp_hit",
+        "ebkYL",
+        "module",
+        159
+    ],
+    "wic": [
+        "wic",
+        "Hai6u",
+        "module",
+        160
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        161
+    ]
+}

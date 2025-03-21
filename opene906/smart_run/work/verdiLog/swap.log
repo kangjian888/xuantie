@@ -1,0 +1,66 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 729088 bytes [need 712K bytes if disable swap]
+
+used block: 40 [memory(40) file(0)]
+                 [ 8K(33) 64K(7) { total 712K bytes } ]
+overhead: (9623) bytes for (40) blocks [Average: (240) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 7(times) 397K(bytes) [57K bytes compressed data from file]
+access => 1445429(times) 11386M(bytes)
+          [hit ratio: 99.9995%]
+
+time: write(0) read(0.001)  unit: second
+
+swap file directory: (/home/master/xuantie/opene906/smart_run/work/verdiLog)
+used swap file number: (9)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (12)
+closeHead: (1)
+closeTail: (9)
+openCnt: (7)
+fid(11): fd(0) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_ifu_ctrl.v.tdc)
+	size(5242) lastModTime(1742193812) curModTime(1742193812)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(10): fd(0) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_ifu_ibuf.v.tdc)
+	size(36082) lastModTime(1742193812) curModTime(1742193812)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(9): fd(1073741829) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_idu_ctrl.v.tdc)
+	size(31109) lastModTime(1742193811) curModTime(1742193811)
+	mode(rb)	hot(0) cool(6) pos(0)
+fid(8): fd(0) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_idu_top.v.tdc)
+	size(52248) lastModTime(1742193812) curModTime(1742193812)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_core_top.v.tdc)
+	size(46985) lastModTime(1742193811) curModTime(1742193811)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(6): fd(1073741828) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_ifu_top.v.tdc)
+	size(35971) lastModTime(1742193812) curModTime(1742193812)
+	mode(rb)	hot(9) cool(5) pos(0)
+fid(5): fd(1073741827) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_core.v.tdc)
+	size(70162) lastModTime(1742193811) curModTime(1742193811)
+	mode(rb)	hot(6) cool(4) pos(0)
+fid(4): fd(1073741826) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_iu_top.v.tdc)
+	size(27621) lastModTime(1742193812) curModTime(1742193812)
+	mode(rb)	hot(5) cool(3) pos(0)
+fid(3): fd(1073741825) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_iu_alu.v.tdc)
+	size(15156) lastModTime(1742193812) curModTime(1742193812)
+	mode(rb)	hot(4) cool(2) pos(0)
+fid(2): fd(24) fileName(/home/master/xuantie/opene906/smart_run/work/verdiLog/_swap_0001#-1771385089#87277)
+	size(0) lastModTime(0) curModTime(1742198047)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/master/xuantie/opene906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/pa_cpu_top_golden_port.v.tdc)
+	size(14926) lastModTime(1742193811) curModTime(1742193811)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x1c504b30) pre(0x1c4f6480) next((nil))
+version(200506)
+date(Apr 25 2022 02:34:42)
