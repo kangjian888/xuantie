@@ -1,0 +1,800 @@
+0 
+42
++define+TSMC_NO_WARNING
++define+no_warning
++itf+/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
++lint=TFIPC-L
++nospecify
++notimingchecks
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/export/SoftWare/Synopsys/vcs/T-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/export/SoftWare/Synopsys/vcs/T-2022.06/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-debug_access
+-f ../logical/filelists/sim.fl
+-fsdb
+-full64
+-gen_obj
+-kdb
+-l
+-lca
+-picarchive
+-sverilog
+-timescale=1ns/100fs
+/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin/vcs1
+comp.vcs.log
+/export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+../logical/filelists/sim.fl
+206
+ossSimUserSiDir=/export/SoftWare/Keysight/ADS2020_update2/idf/ads_site/si
+ossSimUserHnlDir=/export/SoftWare/Keysight/ADS2020_update2/idf/ads_site/hnl
+__MODULES_LMALTNAME=matlab/2020a/modulefile&matlab/default&matlab&as|matlab/2020a/default&as|matlab/2020a/latest:ads/2020/modulefile&ads/default&ads&as|ads/2020/default&as|ads/2020/latest:goldengate/2020/modulefile&goldengate/default&goldengate&as|goldengate/2020/default&as|goldengate/2020/latest:vivado/2019.1/modulefile&vivado/default&vivado&as|vivado/2019.1/default&as|vivado/2019.1/latest:quartus/2018_std/modulefile&quartus/default&quartus&as|quartus/2018_std/default&as|quartus/2018_std/latest:syn/2018.06-SP1/modulefile&syn/default&syn&as|syn/2018.06-SP1/default&as|syn/2018.06-SP1/latest:pts/2018.06-SP1/modulefile&pts/default&pts&as|pts/2018.06-SP1/default&as|pts/2018.06-SP1/latest:pwr/2018.06-SP3/modulefile&pwr/default&pwr&as|pwr/latest&as|pwr/2018.06-SP3/default&as|pwr/2018.06-SP3/latest:icc/2018.06-SP1/modulefile&icc/default&icc&as|icc/latest&as|icc/2018.06-SP1/default&as|icc/2018.06-SP1/latest:vc_static/2018.09-SP1/modulefile&vc_static/default&vc_static&as|vc_static/2018.09-SP1/default&as|vc_static/2018.09-SP1/latest:icc2/2018.06/modulefile&icc2/default&icc2&as|icc2/2018.06/default&as|icc2/2018.06/latest:vcs/2018.09-SP2/modulefile&vcs/default&vcs&as|vcs/2018.09-SP2/default&as|vcs/2018.09-SP2/latest:fm/2018.06-SP1/modulefile&fm/default&fm&as|fm/2018.06-SP1/default&as|fm/2018.06-SP1/latest:starrc/2018.06-SP1/modulefile&starrc/default&starrc&as|starrc/2018.06-SP1/default&as|starrc/2018.06-SP1/latest:verdi/2018.09-SP2/modulefile&verdi/default&verdi&as|verdi/2018.09-SP2/default&as|verdi/2018.09-SP2/latest:spyglass/2018.09-SP1/modulefile&spyglass/default&spyglass&as|spyglass/2018.09-SP1/default&as|spyglass/2018.09-SP1/latest:hspice/2018.09-SP2/modulefile&hspice/default&hspice&as|hspice/2018.09-SP2/default&as|hspice/2018.09-SP2/latest:hsim/2018.09-SP3/modulefile&hsim/default&hsim&as|hsim/2018.09-SP3/default&as|hsim/2018.09-SP3/latest:coretool/2018.09-SP3-1/modulefile&coretool/default&coretool&as|coretool/2018.09-SP3-1/default&as|coretool/2018.09-SP3-1/latest:embedit/2018.12/modulefile&embedit/default&embedit&as|embedit/2018.12/default&as|embedit/2018.12/latest:customcompiler/2018.09-SP1/modulefile&customcompiler/default&customcompiler&as|customcompiler/2018.09-SP1/default&as|customcompiler/2018.09-SP1/latest:nt/2018.06-SP5/modulefile&nt/default&nt&as|nt/2018.06-SP5/default&as|nt/2018.06-SP5/latest:fusioncompiler/2018.06-SP4/modulefile&fusioncompiler/default&fusioncompiler&as|fusioncompiler/2018.06-SP4/default&as|fusioncompiler/2018.06-SP4/latest:primewave/2021.09/modulefile&primewave/default&primewave&as|primewave/latest&as|primewave/2021.09/default&as|primewave/2021.09/latest:mw/2018.06-SP5-1/modulefile&mw/default&mw&as|mw/2018.06-SP5-1/default&as|mw/2018.06-SP5-1/latest:wv/2018.09-SP2/modulefile&wv/default&wv&as|wv/2018.09-SP2/default&as|wv/2018.09-SP2/latest:txs/2018.06-SP1/modulefile&txs/default&txs&as|txs/2018.06-SP1/default&as|txs/2018.06-SP1/latest:sentaurus/2018.06-SP2/modulefile&sentaurus/default&sentaurus&as|sentaurus/2018.06-SP2/default&as|sentaurus/2018.06-SP2/latest:lc/2018.06-SP1/modulefile&lc/default&lc&as|lc/2018.06-SP1/default&as|lc/2018.06-SP1/latest:fpga/2018.03-SP1/modulefile&fpga/default&fpga&as|fpga/2018.03-SP1/default&as|fpga/2018.03-SP1/latest:identify/2018.03-SP1/modulefile&identify/default&identify&as|identify/2018.03-SP1/default&as|identify/2018.03-SP1/latest:icvalidator/2018.12-1/modulefile&icvalidator/default&icvalidator&as|icvalidator/2018.12-1/default&as|icvalidator/2018.12-1/latest:siliconsmart/2018.09/modulefile&siliconsmart/default&siliconsmart&as|siliconsmart/2018.09/default&as|siliconsmart/2018.09/latest:xa/2018.09-SP5/modulefile&xa/default&xa&as|xa/2018.09-SP5/default&as|xa/2018.09-SP5/latest:finesim/2018.09-SP2/modulefile&finesim/default&finesim&as|finesim/2018.09-SP2/default&as|finesim/2018.09-SP2/latest:primesim/2021.09/modulefile&primesim/default&primesim&as|primesim/latest&as|primesim/2021.09/default&as|primesim/2021.09/latest:asip_designer/2018.09-SP3-1/modulefile&asip_designer/default&asip_designer&as|asip_designer/2018.09-SP3-1/default&as|asip_designer/2018.09-SP3-1/latest:laker/2018.12/modulefile&laker/default&laker&as|laker/latest&as|laker/2018.12/default&as|laker/2018.12/latest:assura/4.16.001/modulefile&assura/default&assura&as|assura/4.16.001/default&as|assura/4.16.001/latest:innovus/20.10.000/modulefile&innovus/default&innovus&as|innovus/20.10.000/default&as|innovus/20.10.000/latest:ic/618.290/modulefile&as|ic/618.290/default&as|ic/618.290/latest:pvs/20.11.000/modulefile&pvs/default&pvs&as|pvs/20.11.000/default&as|pvs/20.11.000/latest:modus/20.12.000/modulefile&modus/default&modus&as|modus/20.12.000/default&as|modus/20.12.000/latest:spectre/20.10.534/modulefile&spectre/default&spectre&as|spectre/20.10.534/default&as|spectre/20.10.534/latest:xceliummain/20.09.009/modulefile&xceliummain/default&xceliummain&as|xceliummain/20.09.009/default&as|xceliummain/20.09.009/latest:confrml/20.20.200/modulefile&confrml/default&confrml&as|confrml/20.20.200/default&as|confrml/20.20.200/latest:quantus/20.12.000/modulefile&quantus/default&quantus&as|quantus/20.12.000/default&as|quantus/20.12.000/latest:genus/20.12.001/modulefile&genus/default&genus&as|genus/20.12.001/default&as|genus/20.12.001/latest:liberate/20.10.674/modulefile&liberate/default&liberate&as|liberate/20.10.674/default&as|liberate/20.10.674/latest:ssv/20.20.000/modulefile&ssv/default&ssv&as|ssv/20.20.000/default&as|ssv/20.20.000/latest:jls/20.12.000/modulefile&jls/default&jls&as|jls/20.12.000/default&as|jls/20.12.000/latest:jaspergold/20.12.002/modulefile&jaspergold/default&jaspergold&as|jaspergold/20.12.002/default&as|jaspergold/20.12.002/latest:stratus/20.26.100/modulefile&stratus/default&stratus&as|stratus/20.26.100/default&as|stratus/20.26.100/latest:indago/20.09.002/modulefile&indago/default&indago&as|indago/20.09.002/default&as|indago/20.09.002/latest:vmanager/20.09.002/modulefile&vmanager/default&vmanager&as|vmanager/20.09.002/default&as|vmanager/20.09.002/latest:pegasus/20.40.000/modulefile&pegasus/default&pegasus&as|pegasus/20.40.000/default&as|pegasus/20.40.000/latest:mvs/20.22.000/modulefile&mvs/default&mvs&as|mvs/20.22.000/default&as|mvs/20.22.000/latest:litmus/20.20.101/modulefile&litmus/default&litmus&as|litmus/20.20.101/default&as|litmus/20.20.101/latest:spb/17.40.033/modulefile&spb/default&spb&as|spb/17.40.033/default&as|spb/17.40.033/latest:integrand/60.00.000/modulefile&integrand/default&integrand&as|integrand/60.00.000/default&as|integrand/60.00.000/latest:pas/3.05.001/modulefile&pas/default&pas&as|pas/3.05.001/default&as|pas/3.05.001/latest:midas/21.12.001/modulefile&midas/default&midas&as|midas/21.12.001/default&as|midas/21.12.001/latest:cerebrus/21.13.000/modulefile&cerebrus/default&cerebrus&as|cerebrus/21.13.000/default&as|cerebrus/21.13.000/latest:sig/21.10.500/modulefile&sig/default&sig&as|sig/21.10.500/default&as|sig/21.10.500/latest:calibre/2021.2_28.15/modulefile&calibre/default&calibre&as|calibre/2021.2_28.15/default&as|calibre/2021.2_28.15/latest:tessent/2021_2/modulefile&tessent/default&tessent&as|tessent/2021_2/default&as|tessent/2021_2/latest:tannertools/2019.2/modulefile&tannertools/default&tannertools&as|tannertools/latest&as|tannertools/2019.2/default&as|tannertools/2019.2/latest:amsv/2021_1/modulefile&amsv/default&amsv&as|amsv/latest&as|amsv/2021_1/default&as|amsv/2021_1/latest:mentor_sim/QuestaSim_2021.2_1/modulefile&mentor_sim/default&mentor_sim&as|mentor_sim/latest&as|mentor_sim/QuestaSim_2021.2_1/default&as|mentor_sim/QuestaSim_2021.2_1/latest:ansysEM/18.1/modulefile&ansysEM/default&ansysEM&as|ansysEM/18.1/default&as|ansysEM/18.1/latest:redhawk/2019/modulefile&redhawk/default&redhawk&as|redhawk/2019/default&as|redhawk/2019/latest:totem/2019/modulefile&totem/default&totem&as|totem/latest&as|totem/2019/default&as|totem/2019/latest:silvaco/2018/modulefile&silvaco/default&silvaco&as|silvaco/2018/default&as|silvaco/2018/latest:pycharm/2023.1/modulefile&pycharm/default&pycharm&as|pycharm/latest&as|pycharm/2023.1/default&as|pycharm/2023.1/latest:clion/2023.1/modulefile&clion/default&clion&as|clion/latest&as|clion/2023.1/default&as|clion/2023.1/latest:datagrip/2023.1/modulefile&datagrip/default&datagrip&as|datagrip/latest&as|datagrip/2023.1/default&as|datagrip/2023.1/latest:goland/2023.1/modulefile&goland/default&goland&as|goland/latest&as|goland/2023.1/default&as|goland/2023.1/latest:ideaIU/2023.1/modulefile&ideaIU/default&ideaIU&as|ideaIU/latest&as|ideaIU/2023.1/default&as|ideaIU/2023.1/latest:phpstorm/2023.1/modulefile&phpstorm/default&phpstorm&as|phpstorm/latest&as|phpstorm/2023.1/default&as|phpstorm/2023.1/latest:rider/2023.1/modulefile&rider/default&rider&as|rider/latest&as|rider/2023.1/default&as|rider/2023.1/latest:rubymine/2023.1/modulefile&rubymine/default&rubymine&as|rubymine/latest&as|rubymine/2023.1/default&as|rubymine/2023.1/latest:webstorm/2023.1/modulefile&webstorm/default&webstorm&as|webstorm/latest&as|webstorm/2023.1/default&as|webstorm/2023.1/latest:vcs/2022.06/modulefile&as|vcs/latest&as|vcs/2022.06/default&as|vcs/2022.06/latest:verdi/2022.06/modulefile&as|verdi/latest&as|verdi/2022.06/default&as|verdi/2022.06/latest
+_LMFILES_=/export/SoftWare/Module/modulefiles/matlab/2020a/modulefile:/export/SoftWare/Module/modulefiles/ads/2020/modulefile:/export/SoftWare/Module/modulefiles/goldengate/2020/modulefile:/export/SoftWare/Module/modulefiles/vivado/2019.1/modulefile:/export/SoftWare/Module/modulefiles/quartus/2018_std/modulefile:/export/SoftWare/Module/modulefiles/syn/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/pts/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/pwr/2018.06-SP3/modulefile:/export/SoftWare/Module/modulefiles/icc/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/vc_static/2018.09-SP1/modulefile:/export/SoftWare/Module/modulefiles/icc2/2018.06/modulefile:/export/SoftWare/Module/modulefiles/vcs/2018.09-SP2/modulefile:/export/SoftWare/Module/modulefiles/fm/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/starrc/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/verdi/2018.09-SP2/modulefile:/export/SoftWare/Module/modulefiles/spyglass/2018.09-SP1/modulefile:/export/SoftWare/Module/modulefiles/hspice/2018.09-SP2/modulefile:/export/SoftWare/Module/modulefiles/hsim/2018.09-SP3/modulefile:/export/SoftWare/Module/modulefiles/coretool/2018.09-SP3-1/modulefile:/export/SoftWare/Module/modulefiles/embedit/2018.12/modulefile:/export/SoftWare/Module/modulefiles/customcompiler/2018.09-SP1/modulefile:/export/SoftWare/Module/modulefiles/nt/2018.06-SP5/modulefile:/export/SoftWare/Module/modulefiles/fusioncompiler/2018.06-SP4/modulefile:/export/SoftWare/Module/modulefiles/primewave/2021.09/modulefile:/export/SoftWare/Module/modulefiles/mw/2018.06-SP5-1/modulefile:/export/SoftWare/Module/modulefiles/wv/2018.09-SP2/modulefile:/export/SoftWare/Module/modulefiles/txs/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/sentaurus/2018.06-SP2/modulefile:/export/SoftWare/Module/modulefiles/lc/2018.06-SP1/modulefile:/export/SoftWare/Module/modulefiles/fpga/2018.03-SP1/modulefile:/export/SoftWare/Module/modulefiles/identify/2018.03-SP1/modulefile:/export/SoftWare/Module/modulefiles/icvalidator/2018.12-1/modulefile:/export/SoftWare/Module/modulefiles/siliconsmart/2018.09/modulefile:/export/SoftWare/Module/modulefiles/xa/2018.09-SP5/modulefile:/export/SoftWare/Module/modulefiles/finesim/2018.09-SP2/modulefile:/export/SoftWare/Module/modulefiles/primesim/2021.09/modulefile:/export/SoftWare/Module/modulefiles/asip_designer/2018.09-SP3-1/modulefile:/export/SoftWare/Module/modulefiles/laker/2018.12/modulefile:/export/SoftWare/Module/modulefiles/assura/4.16.001/modulefile:/export/SoftWare/Module/modulefiles/innovus/20.10.000/modulefile:/export/SoftWare/Module/modulefiles/ic/618.290/modulefile:/export/SoftWare/Module/modulefiles/pvs/20.11.000/modulefile:/export/SoftWare/Module/modulefiles/modus/20.12.000/modulefile:/export/SoftWare/Module/modulefiles/spectre/20.10.534/modulefile:/export/SoftWare/Module/modulefiles/xceliummain/20.09.009/modulefile:/export/SoftWare/Module/modulefiles/confrml/20.20.200/modulefile:/export/SoftWare/Module/modulefiles/quantus/20.12.000/modulefile:/export/SoftWare/Module/modulefiles/genus/20.12.001/modulefile:/export/SoftWare/Module/modulefiles/liberate/20.10.674/modulefile:/export/SoftWare/Module/modulefiles/ssv/20.20.000/modulefile:/export/SoftWare/Module/modulefiles/jls/20.12.000/modulefile:/export/SoftWare/Module/modulefiles/jaspergold/20.12.002/modulefile:/export/SoftWare/Module/modulefiles/stratus/20.26.100/modulefile:/export/SoftWare/Module/modulefiles/indago/20.09.002/modulefile:/export/SoftWare/Module/modulefiles/vmanager/20.09.002/modulefile:/export/SoftWare/Module/modulefiles/pegasus/20.40.000/modulefile:/export/SoftWare/Module/modulefiles/mvs/20.22.000/modulefile:/export/SoftWare/Module/modulefiles/litmus/20.20.101/modulefile:/export/SoftWare/Module/modulefiles/spb/17.40.033/modulefile:/export/SoftWare/Module/modulefiles/integrand/60.00.000/modulefile:/export/SoftWare/Module/modulefiles/pas/3.05.001/modulefile:/export/SoftWare/Module/modulefiles/midas/21.12.001/modulefile:/export/SoftWare/Module/modulefiles/cerebrus/21.13.000/modulefile:/export/SoftWare/Module/modulefiles/sig/21.10.500/modulefile:/export/SoftWare/Module/modulefiles/calibre/2021.2_28.15/modulefile:/export/SoftWare/Module/modulefiles/tessent/2021_2/modulefile:/export/SoftWare/Module/modulefiles/tannertools/2019.2/modulefile:/export/SoftWare/Module/modulefiles/amsv/2021_1/modulefile:/export/SoftWare/Module/modulefiles/mentor_sim/QuestaSim_2021.2_1/modulefile:/export/SoftWare/Module/modulefiles/ansysEM/18.1/modulefile:/export/SoftWare/Module/modulefiles/redhawk/2019/modulefile:/export/SoftWare/Module/modulefiles/totem/2019/modulefile:/export/SoftWare/Module/modulefiles/silvaco/2018/modulefile:/export/SoftWare/Module/modulefiles/pycharm/2023.1/modulefile:/export/SoftWare/Module/modulefiles/clion/2023.1/modulefile:/export/SoftWare/Module/modulefiles/datagrip/2023.1/modulefile:/export/SoftWare/Module/modulefiles/goland/2023.1/modulefile:/export/SoftWare/Module/modulefiles/ideaIU/2023.1/modulefile:/export/SoftWare/Module/modulefiles/phpstorm/2023.1/modulefile:/export/SoftWare/Module/modulefiles/rider/2023.1/modulefile:/export/SoftWare/Module/modulefiles/rubymine/2023.1/modulefile:/export/SoftWare/Module/modulefiles/webstorm/2023.1/modulefile:/export/SoftWare/Module/modulefiles/vcs/2022.06/modulefile:/export/SoftWare/Module/modulefiles/verdi/2022.06/modulefile
+_CE_M=
+_CE_CONDA=
+XPEDION_CADENCE_VERSION=618-64b
+XPEDION=/export/SoftWare/Keysight/GoldenGate-2020
+XMODIFIERS=@im=ibus
+XILINX_HOME=/export/SoftWare/Xilinx/Vivado_2019.1/xic
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=2
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/master/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XCELIUMMAIN_HOME=/export/SoftWare/Cadence/XCELIUMMAIN20.09.009
+XA_HOME=/export/SoftWare/Synopsys/xa/O-2018.09-SP5
+XAUTHORITY=/run/gdm/auth-for-master-UkG3kL/database
+WV_HOME=/export/SoftWare/Synopsys/wv/O-2018.09-SP2
+WINDOWPATH=1
+WEBSTORM_HOME=/export/SoftWare/JetBrains/WebStorm-231.8109.174
+W3264_NO_HOST_CHECK=1
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VMANAGERHOME=/export/SoftWare/Cadence/VMANAGERMAIN20.09.002
+VIVADO_HOME=/export/SoftWare/Xilinx/Vivado_2019.1/Vivado/2019.1
+VERDI_HOME=/export/SoftWare/Synopsys/verdi/T-2022.06
+VC_STATIC_HOME=/export/SoftWare/Synopsys/vc_static/O-2018.09-SP1
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=comp.vcs.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/export/SoftWare/Synopsys/vcs/T-2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=master
+UNAME=/bin/uname
+Totem_HOME=/export/SoftWare/Ansys/Totem2019/Totem_Linux64e6_V19.2.7
+TXS_HOME=/export/SoftWare/Synopsys/txs/O-2018.06-SP1
+TOOL_PATH=/home/master/xuantie/riscv_toolchain
+TOOL_HOME=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64
+TOOL_EXTENSION=/home/master/xuantie/riscv_toolchain/bin
+TESSENT_PATH=/export/SoftWare/Mentor/Tessent_2021_2
+TCAD_HOME=/export/SoftWare/Silvaco/TCAD_2018
+TANNER_HOME=/export/SoftWare/Mentor/TannerTools_2019.2/tanner
+SYN_HOME=/export/SoftWare/Synopsys/syn/O-2018.06-SP1
+SYNOPSYS_LC_ROOT=/export/SoftWare/Synopsys/lc/O-2018.06-SP1
+STRATUS_HOME=/export/SoftWare/Cadence/STRATUS20.26.100
+STAR_RCXT_HOME=/export/SoftWare/Synopsys/starrc/O-2018.06-SP1
+SSV_HOME=/export/SoftWare/Cadence/SSV20.20.000
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=2983
+SPYGLASS_HOME=/export/SoftWare/Synopsys/spyglass/SPYGLASS2018.09-SP1
+SPECTRE_HOME=/export/SoftWare/Cadence/SPECTRE20.10.534
+SPB_HOME=/export/SoftWare/Cadence/SPB17.40.033
+SOFT_INST_DIR=/export
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_CLANG_PATH=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SIM=vcs
+SILICONSMART_HOME=/export/SoftWare/Synopsys/siliconsmart/O-2018.09
+SIG_HOME=/export/SoftWare/Cadence/SIG21.10.500
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2853,unix/unix:/tmp/.ICE-unix/2853
+SENTAURUS_HOME=/export/SoftWare/Synopsys/sentaurus/O-2018.06-SP2
+SDK_HOME=/export/SoftWare/Xilinx/Vivado_2019.1/SDK/2019.1
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RedHawk_HOME=/export/SoftWare/Ansys/Redhawk2019/RedHawk_Linux64e5_V19.0.3
+RUBYMINE_HOME=/export/SoftWare/JetBrains/RubyMine-2023.1
+RIDER_HOME=/export/SoftWare/JetBrains/Rider-2023.1
+QUESTASIM_HOME=/export/SoftWare/Mentor/QuestaSim_2021.2_1/questasim
+QUARTUS_HOME=/export/SoftWare/Altera/QuartusPrimeStd_2018/quartus
+QUANTUS_HOME=/export/SoftWare/Cadence/QUANTUS20.12.000
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+QPROGRAMMER_HOME=/export/SoftWare/Altera/QuartusPrimeStd_2018/qprogrammer
+PYCHARM_HOME=/export/SoftWare/JetBrains/pycharm-2023.1
+PVS_HOME=/export/SoftWare/Cadence/PVS20.11.000
+PRIMEWAVE_HOME=/export/SoftWare/Synopsys/primewave/S-2021.09
+PRIMETIME_HOME=/export/SoftWare/Synopsys/pts/O-2018.06-SP1
+PRIMESIM_HOME=/export/SoftWare/Synopsys/primesim/S-2021.09
+PRIMEPOWER_HOME=/export/SoftWare/Synopsys/pwr/O-2018.06-SP3
+PHPSTORM_HOME=/export/SoftWare/JetBrains/PhpStorm-231.8109.199
+PEGASUS_HOME=/export/SoftWare/Cadence/PEGASUS20.40.000
+PASHOME=/export/SoftWare/Cadence/PAS03.05.001
+OVA_UUM=0
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc44x
+OA_PLUGIN_PATH=/export/SoftWare/Cadence/IC06.18.290/oa_v22.60.082/data/plugins
+OA_HOME=/export/SoftWare/Cadence/IC06.18.290/oa_v22.60.082
+NIOS2EDS_HOME=/export/SoftWare/Altera/QuartusPrimeStd_2018/nios2eds
+NANOTIME_HOME=/export/SoftWare/Synopsys/nt/O-2018.06-SP5
+MW_HOME=/export/SoftWare/Synopsys/mw/O-2018.06-SP5-1
+MVS_HOME=/export/SoftWare/Cadence/MVS20.22.000
+MODUS_HOME=/export/SoftWare/Cadence/MODUS20.12.000
+MODULES_CMD=/export/SoftWare/Module/installed/libexec/modulecmd.tcl
+MODULESHOME=/export/SoftWare/Module/installed
+MODULEPATH=/export/SoftWare/Module/modulefiles
+MODEL_COMPOSER_HOME=/export/SoftWare/Xilinx/Vivado_2019.1/Model_Composer/2019.1
+MIDAS_HOME=/export/SoftWare/Cadence/MIDAS21.12.001
+MGLS_LICENSE_FILE=/export/SoftWare/Mentor/license/license.dat
+MGC_LIB_PATH=/export/SoftWare/Mentor/Calibre_2021.2_28.15/aoi_cal_2021.2_28.15/lib
+MGC_HOME=/export/SoftWare/Mentor/Calibre_2021.2_28.15/aoi_cal_2021.2_28.15
+MGC_CALIBRE_REALTIME_VIRTUOSO_ENABLED=1
+MFLAGS=-s
+MDV_XLM_HOME=/export/SoftWare/Cadence/VMANAGERMAIN20.09.002
+MATLAB_HOME=/export/SoftWare/MathWork/MatlabR2020a
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=2
+MAKEFLAGS=s -- CASE=ISA_FP SIM=vcs DUMP=on
+LOADEDMODULES=matlab/2020a/modulefile:ads/2020/modulefile:goldengate/2020/modulefile:vivado/2019.1/modulefile:quartus/2018_std/modulefile:syn/2018.06-SP1/modulefile:pts/2018.06-SP1/modulefile:pwr/2018.06-SP3/modulefile:icc/2018.06-SP1/modulefile:vc_static/2018.09-SP1/modulefile:icc2/2018.06/modulefile:vcs/2018.09-SP2/modulefile:fm/2018.06-SP1/modulefile:starrc/2018.06-SP1/modulefile:verdi/2018.09-SP2/modulefile:spyglass/2018.09-SP1/modulefile:hspice/2018.09-SP2/modulefile:hsim/2018.09-SP3/modulefile:coretool/2018.09-SP3-1/modulefile:embedit/2018.12/modulefile:customcompiler/2018.09-SP1/modulefile:nt/2018.06-SP5/modulefile:fusioncompiler/2018.06-SP4/modulefile:primewave/2021.09/modulefile:mw/2018.06-SP5-1/modulefile:wv/2018.09-SP2/modulefile:txs/2018.06-SP1/modulefile:sentaurus/2018.06-SP2/modulefile:lc/2018.06-SP1/modulefile:fpga/2018.03-SP1/modulefile:identify/2018.03-SP1/modulefile:icvalidator/2018.12-1/modulefile:siliconsmart/2018.09/modulefile:xa/2018.09-SP5/modulefile:finesim/2018.09-SP2/modulefile:primesim/2021.09/modulefile:asip_designer/2018.09-SP3-1/modulefile:laker/2018.12/modulefile:assura/4.16.001/modulefile:innovus/20.10.000/modulefile:ic/618.290/modulefile:pvs/20.11.000/modulefile:modus/20.12.000/modulefile:spectre/20.10.534/modulefile:xceliummain/20.09.009/modulefile:confrml/20.20.200/modulefile:quantus/20.12.000/modulefile:genus/20.12.001/modulefile:liberate/20.10.674/modulefile:ssv/20.20.000/modulefile:jls/20.12.000/modulefile:jaspergold/20.12.002/modulefile:stratus/20.26.100/modulefile:indago/20.09.002/modulefile:vmanager/20.09.002/modulefile:pegasus/20.40.000/modulefile:mvs/20.22.000/modulefile:litmus/20.20.101/modulefile:spb/17.40.033/modulefile:integrand/60.00.000/modulefile:pas/3.05.001/modulefile:midas/21.12.001/modulefile:cerebrus/21.13.000/modulefile:sig/21.10.500/modulefile:calibre/2021.2_28.15/modulefile:tessent/2021_2/modulefile:tannertools/2019.2/modulefile:amsv/2021_1/modulefile:mentor_sim/QuestaSim_2021.2_1/modulefile:ansysEM/18.1/modulefile:redhawk/2019/modulefile:totem/2019/modulefile:silvaco/2018/modulefile:pycharm/2023.1/modulefile:clion/2023.1/modulefile:datagrip/2023.1/modulefile:goland/2023.1/modulefile:ideaIU/2023.1/modulefile:phpstorm/2023.1/modulefile:rider/2023.1/modulefile:rubymine/2023.1/modulefile:webstorm/2023.1/modulefile:vcs/2022.06/modulefile:verdi/2022.06/modulefile
+LITMUS_HOME=/export/SoftWare/Cadence/LITMUS20.20.101
+LIBERATE_HOME=/export/SoftWare/Cadence/LIBERATE20.10.674
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+LAKER_HOME=/export/SoftWare/Synopsys/laker/2018.12
+JLS_HOME=/export/SoftWare/Cadence/JLS20.12.000
+JASPERGOLD_HOME=/export/SoftWare/Cadence/JASPERGOLD20.12.002
+INTEGRAND_HOME=/export/SoftWare/Cadence/INTEGRAND60.00.000
+INNOVUS_HOME=/export/SoftWare/Cadence/INNOVUS20.10.000
+INDAGO_ROOT=/export/SoftWare/Cadence/INDAGOMAIN20.09.002
+INDAGO_HOME=/export/SoftWare/Cadence/INDAGOMAIN20.09.002
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+IDENTIFY_HOME=/export/SoftWare/Synopsys/identify/N-2018.03-SP1
+IDEAIU_HOME=/export/SoftWare/JetBrains/idea-IU-231.8109.175
+ICV_HOME_DIR=/export/SoftWare/Synopsys/icvalidator/O-2018.12-1
+ICC_HOME=/export/SoftWare/Synopsys/icc/O-2018.06-SP1
+ICC2_HOME=/export/SoftWare/Synopsys/icc2/O-2018.06
+HSPICE_HOME=/export/SoftWare/Synopsys/hspice/O-2018.09-SP2/hspice
+HSIM_HOME=/export/SoftWare/Synopsys/hsim/O-2018.09-SP3/hsimplus
+HPEESOF_DIR=/export/SoftWare/Keysight/ADS2020_update2
+HLS_HOME=/export/SoftWare/Altera/QuartusPrimeStd_2018/hls
+HLD_HOME=/export/SoftWare/Altera/QuartusPrimeStd_2018/hld
+HISTCONTROL=ignoredups
+GTK_PATH=/usr/lib64/gtk-2.0
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+GSETTINGS_SCHEMA_DIR=/home/master/anaconda3/share/glib-2.0/schemas
+GOLDENGATE_LICENSE_FILE=/export/SoftWare/Keysight/license/license.lic
+GOLAND_HOME=/export/SoftWare/JetBrains/GoLand-2023.1
+GNOME_TERMINAL_SERVICE=:1.105
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/a6a7db4d_7a1d_4f88_8c83_d100e0e8a90c
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GENUS_HOME=/export/SoftWare/Cadence/GENUS20.12.001
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+FUSIONCOMPILER_HOME=/export/SoftWare/Synopsys/fusioncompiler/O-2018.06-SP4
+FPGA_HOME=/export/SoftWare/Synopsys/fpga/N-2018.03-SP1
+FLEXNOC_HOME=/export/SoftWare/FlexNoc/FlexNoC-4.7.1/FlexNoC-4.7.1_install
+FINESIM_HOME=/export/SoftWare/Synopsys/finesim/O-2018.09-SP2
+EMX_path=/export/SoftWare/Cadence/INTEGRAND60.00.000/bin
+EMX_modelgen_path=/export/SoftWare/Cadence/INTEGRAND60.00.000/bin
+EMX_INTERFACE_PATH=/export/SoftWare/Cadence/INTEGRAND60.00.000/cadence6/emxinterface
+EMPRO_LICENSE_FILE=/export/SoftWare/Keysight/license/license.lic
+EMPROHOME=/export/SoftWare/Keysight/ADS2020_update2/fem/2020.20/linux_x86_64/bin
+EMBEDIT_HOME=/export/SoftWare/Synopsys/embedit/O-2018.12
+DVE_HOME=/export/SoftWare/Synopsys/vcs/O-2018.09-SP2/gui/dve
+DUMP=on
+DESKTOP_SESSION=gnome-classic
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-OO8oiUMhDe,guid=62a78cba7f05e8c10dad0a5d67ddfdef
+DATAGRIP_HOME=/export/SoftWare/JetBrains/DataGrip-2023.1
+CUSTOMCOMPILER_HOME=/export/SoftWare/Synopsys/customcompiler/O-2018.09-SP1
+CONFRML_HOME=/export/SoftWare/Cadence/CONFRML20.20.200
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/home/master/anaconda3/bin/python
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PREFIX=/home/master/anaconda3
+CONDA_EXE=/home/master/anaconda3/bin/conda
+CONDA_DEFAULT_ENV=base
+COLORTERM=truecolor
+CODE_BASE_PATH=/home/master/xuantie/openc910/C910_RTL_FACTORY
+CLION_HOME=/export/SoftWare/JetBrains/clion-2023.1
+CEREBRUS_HOME=/export/SoftWare/Cadence/CEREBRUS21.13.000
+CDS_SPECTRE_FBENABLE=1
+CDS_SPECTRERF_FBENABLE=1
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CWD
+CDS_LIC_ONLY=1
+CDS_LIC_FILE=/export/SoftWare/Cadence/license/license.dat
+CDS_HOME=/export/SoftWare/Cadence/IC06.18.290
+CDS_ENABLE_VMS=1
+CDS_AUTO_64BIT=ALL
+CDSHOME=/export/SoftWare/Cadence/IC06.18.290
+CDS=/export/SoftWare/Cadence/IC06.18.290
+CASE=ISA_FP
+CALIBRE_ENABLE_SKILL_PEXBA_MODE=1
+BASH_FUNC_module()=() {  local _mlredir=1;_ if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then_ if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then_ _mlredir=0;_ else_ if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then_ _mlredir=1;_ fi;_ fi;_ fi;_ case " $@ " in _ *' --no-redirect '*)_ _mlredir=0_ ;;_ *' --redirect '*)_ _mlredir=1_ ;;_ esac;_ if [ $_mlredir -eq 0 ]; then_ _module_raw "$@";_ else_ _module_raw "$@" 2>&1;_ fi_}
+BASH_FUNC_ml()=() {  module ml "$@"_}
+BASH_FUNC__module_raw()=() {  eval "$(/usr/bin/tclsh /export/SoftWare/Module/installed/libexec/modulecmd.tcl bash "$@")";_ _mlstatus=$?;_ return $_mlstatus_}
+ASSURAHOME=/export/SoftWare/Cadence/ASSURA/ASSURA04.16.001
+ASIP_DESIGNER_HOME=/export/SoftWare/Synopsys/asip_designer/O-2018.09-SP3-1
+APACHEDA_LICENSE_FILE=11112@icpc
+ANSYS_EM_HOME=/export/SoftWare/Ansys/AnsysEM18.1
+AMSV_HOME=/export/SoftWare/Mentor/amsv_2021_1
+ALTERA_HOME=/export/SoftWare/Altera/QuartusPrimeStd_2018
+ADS_LICENSE_FILE=/export/SoftWare/Keysight/license/license.lic
+0
+9
+817483258 ../logical/tb
+817483258 ../logical/pmu
+818399926 ../logical/uart
+816566590 ../logical/mem
+815649921 ../logical/gpio
+813816585 ../logical/common
+812899917 ../logical/axi
+811983249 ../logical/apb
+811983249 ../logical/ahb
+530
+1732245577 ../logical/pmu/tap2_sm.v
+1732245577 ../logical/pmu/sync.v
+1732245577 ../logical/pmu/px_had_sync.v
+1732245577 ../logical/uart/uart_trans.v
+1732245577 ../logical/uart/uart_receive.v
+1732245577 ../logical/uart/uart_ctrl.v
+1732245577 ../logical/uart/uart_baud_gen.v
+1732245577 ../logical/uart/uart_apb_reg.v
+1732245577 ../logical/gpio/gpio_ctrl.v
+1732245577 ../logical/gpio/gpio_apbif.v
+1732245577 ../logical/common/wid_entry.v
+1732245577 ../logical/pmu/pmu.v
+1732245577 ../logical/uart/uart.v
+1732245577 ../logical/mem/ram.v
+1732245577 ../logical/mem/f_spsram_large.v
+1732245577 ../logical/mem/f_spsram_32768x128.v
+1732245577 ../logical/gpio/gpio.v
+1732245577 ../logical/common/wid_for_axi4.v
+1732245577 ../logical/common/timer.v
+1732245577 ../logical/common/rv_integration_platform.v
+1732245577 ../logical/common/fifo_counter.v
+1732245577 ../logical/common/clk_gen.v
+1732245577 ../logical/axi/axi_fifo_entry.v
+1732245577 ../logical/apb/apb_bridge.v
+1732245577 ../logical/ahb/ahb2apb.v
+1732245577 ../logical/mem/mem_ctrl.v
+1732245577 ../logical/common/err_gen.v
+1732245577 ../logical/common/cpu_sub_system_axi.v
+1732245577 ../logical/axi/axi_slave128.v
+1732245577 ../logical/axi/axi_interconnect128.v
+1732245577 ../logical/axi/axi_fifo.v
+1732245577 ../logical/axi/axi_err128.v
+1732245577 ../logical/axi/axi2ahb.v
+1732245577 ../logical/apb/apb.v
+1732245577 ../logical/ahb/ahb.v
+1732245577 ../logical/tb/int_mnt.v
+1732245577 ../logical/common/soc.v
+1732245577 ../logical/tb/tb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/top_golden_port.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/sync_level2pulse.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/sync_level2level.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_kid_busif.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_int_kid.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_hreg_busif.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_hart_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_granu_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_granu2_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_arb_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/plic_32to1_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/multiplier_65x65_3_stage.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/mp_top_golden_port.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/fpga_ram.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfpu/rtl/ct_vfpu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfpu/rtl/ct_vfpu_rbus.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfpu/rtl/ct_vfpu_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfpu/rtl/ct_vfpu_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfpu/rtl/ct_vfpu_cbus.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_mult_simd_half.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_mult_compressor.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_mult1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_lza_simd_half.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_lza_42.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_lza_32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_lza.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_ff1_10bit.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfmau/rtl/ct_vfmau_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_srt_radix16_with_sqrt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_srt_radix16_only_div.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_srt_radix16_bound_table.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_srt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_scalar_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_round.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_prepare.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_pack.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_ff1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_double.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfdsu/rtl/ct_vfdsu_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_vfalu_top_pipe7.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_vfalu_top_pipe6.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_vfalu_dp_pipe7.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_vfalu_dp_pipe6.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/ct_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/ct_sysio_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/ct_sysio_kid.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_8192x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_8192x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_65536x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_64x108.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_512x96.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_512x7.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_512x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_512x54.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_512x52.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_512x44.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_512x22.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_512x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_4096x84.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_4096x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_4096x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_4096x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_32768x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_spsram_256x84.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_256x7.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_256x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_256x54.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_256x52.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_256x23.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_spsram_256x196.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_256x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_256x100.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_2048x88.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_2048x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_2048x32_split.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_2048x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_2048x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_2048x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_16384x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_128x16.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_128x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_128x104.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_1024x92.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_1024x64.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_spsram_1024x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_spsram_1024x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_1024x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_spsram_1024x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_rob_rt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_rob_expt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_rob_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_rob.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_retire.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_vreg_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_vreg_dummy.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_vreg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_preg_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_preg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_ereg_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_pst_ereg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_expand_96.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_expand_8.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_expand_64.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_expand_32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_encode_96.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_encode_8.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_encode_64.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_encode_32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rtu/rtl/ct_rtu_compare_iid.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rst/rtl/ct_rst_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/ct_rmu_top_dummy.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_prio.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmp/rtl/ct_pmp_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmp/rtl/ct_pmp_regs.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmp/rtl/ct_pmp_comp_hit.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmp/rtl/ct_pmp_acc.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_piu_top_dummy_device.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_piu_top_dummy.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_piu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_piu_other_io_sync.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_piu_other_io_dummy.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_piu_other_io.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/openC910.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/rst/rtl/ct_mp_rst_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/clk/rtl/ct_mp_clk_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_tlboper.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_sysmap_hit.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_sysmap.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_regs.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_ptw.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_jtlb_tag_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_jtlb_data_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_jtlb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_iutlb_fst_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_iutlb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_iutlb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_iplru.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_dutlb_read.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_dutlb_huge_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_dutlb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_dutlb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_dplru.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/ct_mmu_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_wmb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_wmb_ce.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_wmb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_vb_sdb_data_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_vb_sdb_data.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_vb_addr_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_vb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_st_wb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_st_dc.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_st_da.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_st_ag.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_sq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_sq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_spec_fail_predict.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_snoop_snq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_snoop_snq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_snoop_resp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_snoop_req_arbiter.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_snoop_ctcq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_snoop_ctcq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_sd_ex1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_rot_data.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_rb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_rb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_sdb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_sdb_cmp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_pmb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_pfb_tsm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_pfb_l2sm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_pfb_l1sm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_pfb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_gsdb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu_gpfb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_pfu.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_mcic.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_lq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_lq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_lm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_lfb_data_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_lfb_addr_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_lfb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_ld_wb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_ld_dc.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_ld_da.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_ld_ag.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_idfifo_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_idfifo_8.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_icc.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_tag_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_ld_tag_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_info_update.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_dirty_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_data_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_dcache_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_cache_buffer.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_bus_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/lsu/rtl/ct_lsu_amr.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2cache_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2cache_tag_array_16way.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2cache_dirty_array_16way.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2cache_data_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_wb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_tag_ecc.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_tag.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_sub_bank.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_prefetch.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_icc.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_data.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/l2c/rtl/ct_l2c_cmp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_special.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_rbus.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_mult.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_div_srt_radix16.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_div_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_div.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_cbus.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_bju_pcfifo_read_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_bju_pcfifo_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_bju_pcfifo.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_bju.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/iu/rtl/ct_iu_alu.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_vector.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_sfp_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_sfp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ras.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_precode.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_pcgen.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_pcfifo_if.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_lbuf_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_lbuf.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_l1_refill.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_l0_btb_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_l0_btb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ipdp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ipdecode.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ipctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ipb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ind_btb_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ind_btb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ifdp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ifctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_icache_tag_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_icache_predecd_array1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_icache_predecd_array0.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_icache_if.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_icache_data_array1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_icache_data_array0.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ibuf_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ibuf.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ibdp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_ibctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_decd_normal.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_debug.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_btb_tag_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_btb_data_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_btb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_bht_sel_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_bht_pre_array.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_bht.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ifu/rtl/ct_ifu_addrgen.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_vregfile.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_pregfile.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_gated_vreg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_gated_preg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_gated_ereg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_fregfile.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_prf_eregfile.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe7_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe6_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe4_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe3_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe2_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe1_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_pipe0_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_fwd_vreg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_fwd_preg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_fwd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_rf_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_viq1_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_viq1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_viq0_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_viq0.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_sdiq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_sdiq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_pipe_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_lsiq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_lsiq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_biq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_biq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq_lch_rdy_3.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq_lch_rdy_2.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq_lch_rdy_1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq1_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq0_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_is_aiq0.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_ir_vrt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_ir_rt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_ir_frt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_ir_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_ir_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_ir_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_split_short.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_split_long.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_fence.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_decd_special.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_decd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_id_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_dep_vreg_srcv2_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_dep_vreg_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_dep_reg_src2_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/idu/rtl/ct_idu_dep_reg_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmu/rtl/ct_hpcp_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmu/rtl/ct_hpcp_event.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmu/rtl/ct_hpcp_cntof_reg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmu/rtl/ct_hpcp_cntinten_reg.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmu/rtl/ct_hpcp_cnt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/pmu/rtl/ct_hpcp_adder_sel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_trace.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_sync_3flop.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_sm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_serial.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_regs.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_private_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_private_ir.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_pcfifo.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_nirv_bkpt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_ir.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_io.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_event.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_etm_if.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_etm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_ddc_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_ddc_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_dbg_info.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_common_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_common_regs.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_common_dbg_info.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/had/rtl/ct_had_bkpt.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fspu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fspu_single.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fspu_half.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fspu_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fspu_double.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fspu_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_fifo.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_stoh_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_stod_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_scalar_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_itof_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_htos_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_ftoi_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_dtos_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_dtoh_sh.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_double_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fcnvt_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_scalar_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_onehot_sel_h.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_onehot_sel_d.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_half_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_double_dp.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_ctrl.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_close_s1_h.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_close_s1_d.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_close_s0_h.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/vfalu/rtl/ct_fadd_close_s0_d.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_8192x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_8192x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_65536x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_64x108.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x96.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x7.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x54.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x52.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x44.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x22.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_512x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x84.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_4096x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_32768x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x84.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x7.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x54.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x52.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x23.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x196.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_256x100.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x88.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_2048x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_16384x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_128x16.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_128x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_128x104.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x92.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x64.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x59.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x144.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/fpga/rtl/ct_f_spsram_1024x128.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_write_channel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_snoop_channel_dummy.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_read_channel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_ncwt_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_lowpower.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ebiu_cawt_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cp0/rtl/ct_cp0_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cp0/rtl/ct_cp0_regs.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cp0/rtl/ct_cp0_lpmd.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cp0/rtl/ct_cp0_iui.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/ct_core.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/clk/rtl/ct_clk_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/clint/rtl/ct_clint_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/clint/rtl/ct_clint_func.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_vb_aw_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_vb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb_sab_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb_sab.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb_dp_sel_8.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb_dp_sel_16.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb_dp_sel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb_arb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_snb.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_regs_kid.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_regs.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_ncq_gm.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_ncq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_l2cif.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_ebiuif.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_ctcq_respq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_ctcq_reqq_entry.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_ctcq.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_bmbif_kid.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_bmbif.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/ciu/rtl/ct_ciu_apbif.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_write_channel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_top.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_snoop_channel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_req_arbiter.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_read_channel.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_other_io_sync.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_lowpower.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/biu/rtl/ct_biu_csr_req_arbiter.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/plic/rtl/csky_apb_1tox_matrix.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/BUFGCE.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/compressor_42.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/compressor_32.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/booth_code_v1.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/common/rtl/booth_code.v
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/mmu/rtl/sysmap.h
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/cpu/rtl/cpu_cfig.h
+1732245577 ../logical/filelists/tb.fl
+1732245577 ../logical/filelists/smart.fl
+1732245577 /home/master/xuantie/openc910/C910_RTL_FACTORY/gen_rtl/filelists/C910_asic_rtl.fl
+1732245577 ../logical/filelists/ip.fl
+1732245577 ../logical/filelists/sim.fl
+1653825972 /export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+1654052745 /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
+4
+1654054205 /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so
+1654053585 /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so
+1654053489 /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvfs.so
+1742602520 simv.daidir
+-1 partitionlib

@@ -1,0 +1,173 @@
+Command Line: /export/SoftWare/Synopsys/verdi/T-2022.06/platform/LINUXAMD64/bin/Novas -dbdir ./simv.daidir/ -ssf novas.fsdb
+uname(Linux icpc 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+type= DS_SIGNAL element= 8 field= 2
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_req
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_id
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_len[1:0]
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_prot[2:0]
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_req_gate
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_size[2:0]
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_snoop[3:0]
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_biu_rd_user[1:0]
+-----
+second field= signal
+type= DS_STRING
+ifu_biu_rd_req ifu_biu_rd_id ifu_biu_rd_len[1:0] ifu_biu_rd_prot[2:0] ifu_biu_rd_req_gate ifu_biu_rd_size[2:0] ifu_biu_rd_snoop[3:0] ifu_biu_rd_user[1:0]
+type= DS_SIGNAL element= 7 field= 2
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_hpcp_icache_access
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_cp0_icache_read_data_vld
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_cp0_icache_read_data[127:0]
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_hpcp_icache_miss
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_lsu_icache_inv_done
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_hpcp_icache_miss_pre
+-----
+second field= signal
+VERILOG tb
+VERILOG x_soc
+VERILOG x_cpu_sub_system_axi
+VERILOG x_rv_integration_platform
+VERILOG x_cpu_top
+VERILOG x_ct_top_0
+VERILOG x_ct_core
+VERILOG x_ct_ifu_top
+VERILOG ifu_cp0_icache_inv_done
+-----
+second field= signal
+type= DS_STRING
+ifu_hpcp_icache_access ifu_cp0_icache_read_data_vld ifu_cp0_icache_read_data[127:0] ifu_hpcp_icache_miss ifu_lsu_icache_inv_done ifu_hpcp_icache_miss_pre ifu_cp0_icache_inv_done
