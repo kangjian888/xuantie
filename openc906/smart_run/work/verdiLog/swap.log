@@ -1,0 +1,102 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 2M bytes [need 2M bytes if disable swap]
+
+used block: 87 [memory(87) file(0)]
+                 [ 8K(73) 64K(14) { total 2M bytes } ]
+overhead: (16194) bytes for (87) blocks [Average: (186) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 14(times) 463K(bytes) [69K bytes compressed data from file]
+access => 5099818(times) 40046M(bytes)
+          [hit ratio: 99.9997%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/master/xuantie/openc906/smart_run/work/verdiLog)
+used swap file number: (23)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (24)
+closeHead: (17)
+closeTail: (2)
+openCnt: (10)
+fid(23): fd(1073741825) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/aq_mp_clk_top.v.tdc)
+	size(4107) lastModTime(1742548969) curModTime(1742548969)
+	mode(rb)	hot(2) cool(22) pos(0)
+fid(22): fd(1073741833) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/gated_clk_cell.v.tdc)
+	size(2264) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(23) cool(21) pos(0)
+fid(21): fd(1073741824) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/BUFGCE.v.tdc)
+	size(1883) lastModTime(1742548967) curModTime(1742548967)
+	mode(rb)	hot(22) cool(20) pos(0)
+fid(20): fd(1073741832) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/mem_ctrl.v.tdc)
+	size(19314) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(21) cool(19) pos(0)
+fid(19): fd(1073741831) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/ram.v.tdc)
+	size(2213) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(20) cool(18) pos(0)
+fid(18): fd(1073741830) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/ahb.v.tdc)
+	size(10016) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(19) cool(10) pos(0)
+fid(17): fd(1073741827) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/fpga_clk_gen.v.tdc)
+	size(3526) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(5) cool(4) pos(0)
+fid(16): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/gpio.v.tdc)
+	size(6482) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(15): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/timer.v.tdc)
+	size(14986) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(14): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/uart.v.tdc)
+	size(9317) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(13): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/f_spsram_32768x128.v.tdc)
+	size(9625) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(12): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/f_spsram_524288x128.v.tdc)
+	size(9617) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(11): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/tr_axi_interconnect.v.tdc)
+	size(28154) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(10): fd(1073741829) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/apb.v.tdc)
+	size(12849) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(18) cool(5) pos(0)
+fid(9): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/axi_err128.v.tdc)
+	size(14908) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/axi_slave128.v.tdc)
+	size(16954) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/axi_fifo.v.tdc)
+	size(14278) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/cpu_sub_system_axi.v.tdc)
+	size(8705) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(5): fd(1073741828) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/tb.v.tdc)
+	size(14658) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(10) cool(17) pos(0)
+fid(4): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/soc.v.tdc)
+	size(23063) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(17) cool(3) pos(23063)
+fid(3): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/openC906.v.tdc)
+	size(36000) lastModTime(1742548969) curModTime(1742548969)
+	mode(rb)	hot(4) cool(1) pos(36000)
+fid(2): fd(24) fileName(/home/master/xuantie/openc906/smart_run/work/verdiLog/_swap_0001#-1771385089#43347)
+	size(0) lastModTime(0) curModTime(1742549083)
+	mode(r+b)	hot(3) cool(23) pos(0)
+fid(1): fd(0) fileName(/home/master/xuantie/openc906/smart_run/work/simv.daidir/kdb.elab++/work.lib++/mp_top_golden_port.v.tdc)
+	size(12437) lastModTime(1742548970) curModTime(1742548970)
+	mode(rb)	hot(3) cool(0) pos(12437)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x1b216d30) pre(0x1b208660) next((nil))
+version(200506)
+date(Apr 25 2022 02:34:42)
