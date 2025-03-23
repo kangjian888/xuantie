@@ -38,6 +38,42 @@ limitations under the License.
 
 
 module soc(
+  `ifdef FPGA
+  m_axi_araddr,
+  m_axi_arburst,
+  m_axi_arcache,
+  m_axi_arid,
+  m_axi_arlen,
+  m_axi_arprot,
+  m_axi_arready,
+  m_axi_arsize,
+  m_axi_arvalid,
+  m_axi_awaddr,
+  m_axi_awburst,
+  m_axi_awcache,
+  m_axi_awid,
+  m_axi_awlen,
+  m_axi_awprot,
+  m_axi_awready,
+  m_axi_awsize,
+  m_axi_awvalid,
+  m_axi_bid,
+  m_axi_bready,
+  m_axi_bresp,
+  m_axi_bvalid,
+  m_axi_rdata,
+  m_axi_rid,
+  m_axi_rlast,
+  m_axi_rready,
+  m_axi_rresp,
+  m_axi_rvalid,
+  m_axi_wdata,
+  m_axi_wid,
+  m_axi_wlast,
+  m_axi_wready,
+  m_axi_wstrb,
+  m_axi_wvalid,
+  `endif
   b_pad_gpio_porta,
   i_pad_clk,
   i_pad_jtg_tclk,
@@ -63,7 +99,42 @@ input            i_pad_uart0_sin;
 output           o_pad_jtg_tdo;        
 output           o_pad_uart0_sout;     
 inout   [7  :0]  b_pad_gpio_porta;     
-
+`ifdef FPGA
+output   [39 :0]  m_axi_araddr;      
+output   [1  :0]  m_axi_arburst;     
+output   [3  :0]  m_axi_arcache;     
+output   [7  :0]  m_axi_arid;        
+output   [7  :0]  m_axi_arlen;       
+output   [2  :0]  m_axi_arprot;      
+output   [2  :0]  m_axi_arsize;      
+output            m_axi_arvalid;     
+output   [39 :0]  m_axi_awaddr;      
+output   [1  :0]  m_axi_awburst;     
+output   [3  :0]  m_axi_awcache;     
+output   [7  :0]  m_axi_awid;        
+output   [7  :0]  m_axi_awlen;       
+output   [2  :0]  m_axi_awprot;      
+output   [2  :0]  m_axi_awsize;      
+output            m_axi_awvalid;     
+output            m_axi_bready;      
+output            m_axi_rready;      
+output   [127:0]  m_axi_wdata;       
+output   [7  :0]  m_axi_wid;         
+output            m_axi_wlast;       
+output   [15 :0]  m_axi_wstrb;       
+output            m_axi_wvalid;      
+input             m_axi_arready;     
+input             m_axi_awready;     
+input    [7  :0]  m_axi_bid;         
+input    [1  :0]  m_axi_bresp;       
+input             m_axi_bvalid;      
+input    [127:0]  m_axi_rdata;       
+input    [7  :0]  m_axi_rid;         
+input             m_axi_rlast;       
+input    [1  :0]  m_axi_rresp;       
+input             m_axi_rvalid;      
+input             m_axi_wready;    
+`endif
 
 
 
@@ -571,7 +642,7 @@ axi_fifo  x_axi_fifo (
 
 
 
-
+`ifndef FPGA
 axi_slave128  x_axi_slave128 (
   .araddr_s0        (fifo_pad_araddr ),
   .arburst_s0       (fifo_pad_arburst),
@@ -610,7 +681,78 @@ axi_slave128  x_axi_slave128 (
   .wstrb_s0         (biu_pad_wstrb   ),
   .wvalid_s0        (wvalid_s0       )
 );
-
+`else
+axi_slave128  x_axi_slave128 (
+  .araddr_s0        (fifo_pad_araddr ),
+  .arburst_s0       (fifo_pad_arburst),
+  .arcache_s0       (fifo_pad_arcache),
+  .arid_s0          (fifo_pad_arid   ),
+  .arlen_s0         (fifo_pad_arlen  ),
+  .arprot_s0        (fifo_pad_arprot ),
+  .arready_s0       (arready_s0      ),
+  .arsize_s0        (fifo_pad_arsize ),
+  .arvalid_s0       (arvalid_s0      ),
+  .awaddr_s0        (biu_pad_awaddr  ),
+  .awburst_s0       (biu_pad_awburst ),
+  .awcache_s0       (biu_pad_awcache ),
+  .awid_s0          (biu_pad_awid    ),
+  .awlen_s0         (biu_pad_awlen   ),
+  .awprot_s0        (biu_pad_awprot  ),
+  .awready_s0       (awready_s0      ),
+  .awsize_s0        (biu_pad_awsize  ),
+  .awvalid_s0       (awvalid_s0      ),
+  .bid_s0           (bid_s0          ),
+  .bready_s0        (bready_s0       ),
+  .bresp_s0         (bresp_s0        ),
+  .bvalid_s0        (bvalid_s0       ),
+  .rdata_s0         (rdata_s0        ),
+  .rid_s0           (rid_s0          ),
+  .rlast_s0         (rlast_s0        ),
+  .rready_s0        (rready_s0       ),
+  .rresp_s0         (rresp_s0        ),
+  .rvalid_s0        (rvalid_s0       ),
+  .wdata_s0         (biu_pad_wdata   ),
+  .wid_s0           (biu_pad_wid     ),
+  .wlast_s0         (biu_pad_wlast   ),
+  .wready_s0        (wready_s0       ),
+  .wstrb_s0         (biu_pad_wstrb   ),
+  .wvalid_s0        (wvalid_s0       ),
+  .m_axi_araddr     (araddr_s0       ),    
+  .m_axi_arburst    (arburst_s0      ),    
+  .m_axi_arcache    (arcache_s0      ),    
+  .m_axi_arid       (arid_s0         ),    
+  .m_axi_arlen      (arlen_s0        ),    
+  .m_axi_arprot     (arprot_s0       ),    
+  .m_axi_arsize     (arsize_s0       ),    
+  .m_axi_arvalid    (arvalid_s0      ),    
+  .m_axi_awaddr     (awaddr_s0       ),    
+  .m_axi_awburst    (awburst_s0      ),    
+  .m_axi_awcache    (awcache_s0      ),    
+  .m_axi_awid       (awid_s0         ),    
+  .m_axi_awlen      (awlen_s0        ),    
+  .m_axi_awprot     (awprot_s0       ),    
+  .m_axi_awsize     (awsize_s0       ),    
+  .m_axi_awvalid    (awvalid_s0      ),    
+  .m_axi_bready     (bready_s0       ),    
+  .m_axi_rready     (rready_s0       ),     
+  .m_axi_wdata      (wdata_s0        ),     
+  .m_axi_wid        (wid_s0          ),     
+  .m_axi_wlast      (wlast_s0        ),     
+  .m_axi_wstrb      (wstrb_s0        ),     
+  .m_axi_wvalid     (wvalid_s0       ),     
+  .m_axi_arready    (arready_s0      ),             
+  .m_axi_awready    (awready_s0      ),             
+  .m_axi_bid        (bid_s0          ),             
+  .m_axi_bresp      (bresp_s0        ),             
+  .m_axi_bvalid     (bvalid_s0       ),             
+  .m_axi_rdata      (rdata_s0        ),               
+  .m_axi_rid        (rid_s0          ),               
+  .m_axi_rlast      (rlast_s0        ),               
+  .m_axi_rresp      (rresp_s0        ),               
+  .m_axi_rvalid     (rvalid_s0       ),               
+  .m_axi_wready     (wready_s0       )   
+);
+`endif
 
 
 

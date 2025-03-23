@@ -76,11 +76,21 @@ assign apb_clk_en = pad_yy_scan_mode ? 1'b1 : apb_clk_en_f;
 
 // &Force("output","apb_clk"); @54
 
-BUFGCE apb_clk_buf
+`ifdef FPGA
+BUFGCE #(
+  .SIM_DEVICE("7SERIES")
+) apb_clk_buf
 (.O   (apb_clk),
  .I   (forever_cpuclk),
  .CE  (apb_clk_en_f)
 );
+`else
+BUFGCE  apb_clk_buf
+(.O   (apb_clk),
+ .I   (forever_cpuclk),
+ .CE  (apb_clk_en_f)
+);
+`endif
 // &Instance("gated_clk_cell", "x_apb_gated_clk"); @62
 // &Connect(.clk_in      (forever_cpuclk), @63
 //          .external_en (1'b0          ), @64

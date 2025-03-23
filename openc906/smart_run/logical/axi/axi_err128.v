@@ -508,7 +508,7 @@ begin
 end
 
 
-
+`ifndef FPGA
 f_spsram_32768x128  x_f_spsram_32768x128_L (
   .A               (mem_addr[18:4] ),
   .CEN             (1'b1           ),
@@ -517,7 +517,16 @@ f_spsram_32768x128  x_f_spsram_32768x128_L (
   .Q               (mem_dout[127:0]),
   .WEN             (mem_wen[15:0]  )
 );
-
+`else
+f_spsram_32768x128  x_f_spsram_32768x128_L (
+  .A               (mem_addr[7:4] ),
+  .CEN             (1'b1           ),
+  .CLK             (pll_core_cpuclk),
+  .D               (mem_din[127:0] ),
+  .Q               (mem_dout[127:0]),
+  .WEN             (mem_wen[15:0]  )
+);
+`endif
 
 
 

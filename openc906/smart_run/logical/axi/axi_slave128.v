@@ -30,6 +30,42 @@ limitations under the License.
 
 
 module axi_slave128(
+`ifdef FPGA
+  m_axi_araddr,
+  m_axi_arburst,
+  m_axi_arcache,
+  m_axi_arid,
+  m_axi_arlen,
+  m_axi_arprot,
+  m_axi_arready,
+  m_axi_arsize,
+  m_axi_arvalid,
+  m_axi_awaddr,
+  m_axi_awburst,
+  m_axi_awcache,
+  m_axi_awid,
+  m_axi_awlen,
+  m_axi_awprot,
+  m_axi_awready,
+  m_axi_awsize,
+  m_axi_awvalid,
+  m_axi_bid,
+  m_axi_bready,
+  m_axi_bresp,
+  m_axi_bvalid,
+  m_axi_rdata,
+  m_axi_rid,
+  m_axi_rlast,
+  m_axi_rready,
+  m_axi_rresp,
+  m_axi_rvalid,
+  m_axi_wdata,
+  m_axi_wid,
+  m_axi_wlast,
+  m_axi_wready,
+  m_axi_wstrb,
+  m_axi_wvalid,
+`endif
   araddr_s0,
   arburst_s0,
   arcache_s0,
@@ -52,8 +88,10 @@ module axi_slave128(
   bready_s0,
   bresp_s0,
   bvalid_s0,
+  `ifndef FPGA
   pad_cpu_rst_b,
   pll_core_cpuclk,
+  `endif
   rdata_s0,
   rid_s0,
   rlast_s0,
@@ -67,6 +105,43 @@ module axi_slave128(
   wstrb_s0,
   wvalid_s0
 );
+
+`ifdef FPGA
+output   [39 :0]  m_axi_araddr;      
+output   [1  :0]  m_axi_arburst;     
+output   [3  :0]  m_axi_arcache;     
+output   [7  :0]  m_axi_arid;        
+output   [7  :0]  m_axi_arlen;       
+output   [2  :0]  m_axi_arprot;      
+output   [2  :0]  m_axi_arsize;      
+output            m_axi_arvalid;     
+output   [39 :0]  m_axi_awaddr;      
+output   [1  :0]  m_axi_awburst;     
+output   [3  :0]  m_axi_awcache;     
+output   [7  :0]  m_axi_awid;        
+output   [7  :0]  m_axi_awlen;       
+output   [2  :0]  m_axi_awprot;      
+output   [2  :0]  m_axi_awsize;      
+output            m_axi_awvalid;     
+output            m_axi_bready;      
+output            m_axi_rready;      
+output   [127:0]  m_axi_wdata;       
+output   [7  :0]  m_axi_wid;         
+output            m_axi_wlast;       
+output   [15 :0]  m_axi_wstrb;       
+output            m_axi_wvalid;      
+input             m_axi_arready;     
+input             m_axi_awready;     
+input    [7  :0]  m_axi_bid;         
+input    [1  :0]  m_axi_bresp;       
+input             m_axi_bvalid;      
+input    [127:0]  m_axi_rdata;       
+input    [7  :0]  m_axi_rid;         
+input             m_axi_rlast;       
+input    [1  :0]  m_axi_rresp;       
+input             m_axi_rvalid;      
+input             m_axi_wready;    
+`endif
 
 
 input   [39 :0]  araddr_s0;      
@@ -85,9 +160,11 @@ input   [7  :0]  awlen_s0;
 input   [2  :0]  awprot_s0;      
 input   [2  :0]  awsize_s0;      
 input            awvalid_s0;     
-input            bready_s0;      
+input            bready_s0;    
+`ifndef FPGA  
 input            pad_cpu_rst_b;  
 input            pll_core_cpuclk; 
+`endif
 input            rready_s0;      
 input   [127:0]  wdata_s0;       
 input   [7  :0]  wid_s0;         
@@ -106,7 +183,7 @@ output  [1  :0]  rresp_s0;
 output           rvalid_s0;      
 output           wready_s0;      
 
-
+`ifndef FPGA
 reg     [7  :0]  arid;           
 reg     [7  :0]  arlen;          
 reg              arready;        
@@ -589,7 +666,43 @@ f_spsram_524288x128  x_f_spsram_524288x128_H (
 
 
 
+`else
+assign  m_axi_araddr     =  araddr_s0;         
+assign  m_axi_arburst    =  arburst_s0;        
+assign  m_axi_arcache    =  arcache_s0;        
+assign  m_axi_arid       =  arid_s0;           
+assign  m_axi_arlen      =  arlen_s0;          
+assign  m_axi_arprot     =  arprot_s0;         
+assign  m_axi_arsize     =  arsize_s0;         
+assign  m_axi_arvalid    =  arvalid_s0;        
+assign  m_axi_awaddr     =  awaddr_s0;         
+assign  m_axi_awburst    =  awburst_s0;        
+assign  m_axi_awcache    =  awcache_s0;        
+assign  m_axi_awid       =  awid_s0;           
+assign  m_axi_awlen      =  awlen_s0;          
+assign  m_axi_awprot     =  awprot_s0;         
+assign  m_axi_awsize     =  awsize_s0;         
+assign  m_axi_awvalid    =  awvalid_s0;        
+assign  m_axi_bready     =  bready_s0;         
+assign  m_axi_rready     =  rready_s0;          
+assign  m_axi_wdata      =  wdata_s0;           
+assign  m_axi_wid        =  wid_s0;             
+assign  m_axi_wlast      =  wlast_s0;           
+assign  m_axi_wstrb      =  wstrb_s0;           
+assign  m_axi_wvalid     =  wvalid_s0;          
+assign  arready_s0       =  m_axi_arready;             
+assign  awready_s0       =  m_axi_awready;             
+assign  bid_s0           =  m_axi_bid    ;             
+assign  bresp_s0         =  m_axi_bresp  ;             
+assign  bvalid_s0        =  m_axi_bvalid ;             
+assign  rdata_s0         =  m_axi_rdata  ;               
+assign  rid_s0           =  m_axi_rid    ;               
+assign  rlast_s0         =  m_axi_rlast  ;               
+assign  rresp_s0         =  m_axi_rresp  ;               
+assign  rvalid_s0        =  m_axi_rvalid ;               
+assign  wready_s0        =  m_axi_wready ;                 
 
+`endif
 
 
 
