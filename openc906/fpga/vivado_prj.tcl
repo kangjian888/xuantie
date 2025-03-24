@@ -1,8 +1,24 @@
 # 获取当前执行的脚本绝对路径
 set script_path [file normalize [info script]]
-set part_number "xc7k410tfbg676-3"
-set part_number "xc7k410tfbg676-3"
 # 提取脚本所在目录
+set script_dir [file dirname $script_path]
+# 切换到脚本所在目录
+cd $script_dir
+
+#setting the env
+set USER_PROJ_PATH "G:/test_project"
+set proj_root [file normalize $USER_PROJ_PATH]
+file mkdir $proj_root
+
+set CODE_BASE_PATH "G:/xuantie/openc906/C906_RTL_FACTORY"
+set CODE_BASE_PATH [file normalize $CODE_BASE_PATH]
+
+set SIM_BASE_PATH "G:/xuantie/openc906/smart_run"
+set SIM_BASE_PATH [file normalize $SIM_BASE_PATH]
+
+# ******************** 工程创建 ***************************
+set proj_name   "C906_mini_SOC_Design"
+set part_number "xc7k410tfbg676-3"
 set output_dir  [file join $proj_root $proj_name]
 
 puts "\n工程创建信息："
