@@ -1,1 +1,2 @@
 ./constraint/soc_cons.xdc
+./fpga_define/fpga_define.h

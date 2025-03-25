@@ -18,7 +18,7 @@ set SIM_BASE_PATH [file normalize $SIM_BASE_PATH]
 
 # ******************** 工程创建 ***************************
 set proj_name   "C906_mini_SOC_Design"
-set part_number "xc7k410tfbg676-3"
+set part_number "xc7k480tffg1156-2"
 set output_dir  [file join $proj_root $proj_name]
 
 puts "\n工程创建信息："
