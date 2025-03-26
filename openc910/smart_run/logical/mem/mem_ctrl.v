@@ -183,8 +183,11 @@ reg              raw_data_vld;
 
 
 
-
+`ifndef FPGA
 parameter MEM_ADDR_WIDTH = 17;
+`else
+parameter MEM_ADDR_WIDTH = 6;
+`endif
 
 assign hclk             = pll_core_cpuclk;
 assign hrst_b           = pad_cpu_rst_b;

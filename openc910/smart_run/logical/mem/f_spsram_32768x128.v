@@ -45,7 +45,11 @@ module f_spsram_32768x128(
 );
 
 
-input   [14:0]  A;           
+`ifndef FPGA
+input   [14:0]  A;   
+`else     
+input [3:0] A;
+`endif        
 input           CEN;         
 input           CLK;         
 input   [127:0] D;           
@@ -112,7 +116,11 @@ wire    [7 :0]  ram15_din;
 wire    [7 :0]  ram15_dout;   
 wire            ram15_wen;    
 
+`ifndef FPGA
 parameter ADDR_WIDTH = 15;
+`else
+parameter ADDR_WIDTH = 4;
+`endif
 parameter WRAP_WIDTH = 8;
 
 
